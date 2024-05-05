@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} h-screen w-screen`}>
+      <body className={`${inter.className} h-full w-screen`}>
         <a href="#" className="top-0 right-0 block relative w-screen">
           <button className="p-2 bg-slate-400 rounded-r-xl text-center text-xs">
             Resident and Owner
