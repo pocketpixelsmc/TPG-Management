@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,11 +13,24 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  body::-webkit-scrollbar {
+    width: 10px; /* Adjust scrollbar width */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #888; /* Change scrollbar thumb color */
+    border-radius: 20px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change scrollbar thumb color when hovering */
   }
 }
