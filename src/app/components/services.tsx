@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { plusJakartaSans } from "./fonts";
 
 export default function Services() {
@@ -11,6 +12,41 @@ export default function Services() {
                 Debitis impedit laboriosam, hic, unde atque reiciendis quibusdam quaerat, placeat quos esse cumque dolorem voluptatem libero quia ullam magnam at magni veritatis soluta! Accusantium voluptate ipsam amet. Consequatur, nulla maxime!
                 Quaerat est eaque ab atque! Officiis quae ipsum suscipit tempore facilis laudantium vitae cupiditate tempora dicta, aperiam reprehenderit praesentium corporis eveniet voluptatum non est harum, aliquid corrupti et tenetur sapiente.
             </p>
+            <div className="grid grid-cols-auto-fill-300 gap-2 mt-4 w-[85%] place-items-center">
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki2.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki3.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki4.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki1.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki2.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki3.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki4.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki1.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki2.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki3.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+                <div className="max-w-[300px] max-h-[300px]  overflow-hidden">
+                    <Image src='/stocki4.jpg' alt="img1" width={300} height={300} className="h-[300px] transition-all duration-500 ease-linear hover:scale-125 " />
+                </div>
+            </div>
         </section>
     )
 }
