@@ -1,7 +1,7 @@
 'use client'
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import {Pagination,Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -21,8 +21,10 @@ export default function Home() {
         <Swiper
           spaceBetween={50}
           slidesPerView={1}
+          speed={1200}
           pagination={{ clickable: true, dynamicBullets: true }}
-          modules={[Pagination]}
+          modules={[Pagination, Autoplay]}
+          autoplay={{ delay: 2000 }}
           className=" max-w-[320px] sm:max-w-[640px] lg:max-w-[40vw] rounded-xl lg:grow"
         >
           <SwiperSlide>
