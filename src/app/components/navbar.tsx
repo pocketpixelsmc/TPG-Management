@@ -17,22 +17,22 @@ export default function Navbar() {
                 </Link>
                 <div className={`flex flex-row gap-3 justify-center center items-start px-2 ${plusJakartaSans.className}`}>
                     <Link href="/">
-                        <button className="m-2 lg:text-4xl md:text-2xl sm:text-xl ">
+                        <button className="m-2 lg:text-3xl md:text-2xl sm:text-xl text-xs">
                             <p className="navControl">Home</p>
                         </button>
                     </Link>
                     <Link href="/about">
-                        <button className="m-2 lg:text-4xl md:text-2xl sm:text-xl">
+                        <button className="m-2 lg:text-3xl md:text-2xl  sm:text-xl text-xs">
                             <p className="navControl">About</p>
                         </button>
                     </Link>
                     <a href="#">
-                        <button className="m-2 lg:text-4xl md:text-2xl sm:text-xl">
+                        <button className="m-2 lg:text-3xl md:text-2xl sm:text-xl text-xs">
                             <p className="navControl">Available Properties</p>
                         </button>
                     </a>
                     <Link href="/contact">
-                        <button className="m-2 lg:text-4xl md:text-2xl sm:text-xl">
+                        <button className="m-2 lg:text-3xl md:text-2xl sm:text-xl text-xs">
                             <p className="navControl">Contact Us</p>
                         </button>
                     </Link>
