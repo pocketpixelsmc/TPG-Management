@@ -11,10 +11,7 @@ export default function Introduction() {
                 Debitis impedit laboriosam, hic, unde atque reiciendis quibusdam quaerat, placeat quos esse cumque dolorem voluptatem libero quia ullam magnam at magni veritatis soluta! Accusantium voluptate ipsam amet. Consequatur, nulla maxime!
                 Quaerat est eaque ab atque! Officiis quae ipsum suscipit tempore facilis laudantium vitae cupiditate tempora dicta, aperiam reprehenderit praesentium corporis eveniet voluptatum non est harum, aliquid corrupti et tenetur sapiente.
             </p>
-            <video src="/stockv1.mp4" width="340px" autoPlay muted loop className="block sm:hidden" />
-            <video src="/stockv1.mp4" width="520px" autoPlay muted loop className="hidden sm:block md:hidden" />
-            <video src="/stockv1.mp4" width="840px" autoPlay muted loop className="hidden md:block lg:hidden" />
-            <video src="/stockv1.mp4" width="1080px" autoPlay muted loop className="hidden lg:block" />
+            <video src="/stockv1.mp4" width="340px" autoPlay muted loop className="block sm:w-[520px] md:w-[840px] lg:w-[1080px]" />
         </section>
     )
 }
