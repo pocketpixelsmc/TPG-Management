@@ -50,7 +50,7 @@ export default function Services() {
             </div>
             <hr className="w-[45%] border-1 border-blue-900 my-4" />
             <div className="flex flex-col items-center justify-center gap-4 mt-4 sm:flex-row max-w-[60%]">
-                <div className="flex text-left flex-col justify-center items-start gap-4">
+                <div className="flex text-left flex-col justify-center items-start gap-4 max-sm:items-center max-sm:text-center">
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold">Property Management</h2>
                     <p className="text-sm lg:text-lg max-w-[60%]">kjhvkjxhcvkjhxcbjkvh bmkxhjkvbhxjkchv xcjkvhgjhvgdf jvckxghvjhxcbvjkhxc</p>
                     <Link href={'/contact'}>
@@ -66,7 +66,7 @@ export default function Services() {
                 <div className="max-w-[300px] max-h-[300px]  overflow-hidden drop-shadow-lg  rounded-sm">
                     <Image src='/stocki4.jpg' alt="img1" width={300} height={300} className="h-[320px] w-[320px] transition-all duration-500 ease-linear hover:scale-125 " />
                 </div>
-                <div className="flex text-right flex-col justify-center items-end gap-4">
+                <div className="flex text-right flex-col justify-center items-end gap-4 max-sm:items-center max-sm:text-center">
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold">Property Management</h2>
                     <p className="text-sm lg:text-lg max-w-[60%]">kjhvkjxhcvkjhxcbjkvh bmkxhjkvbhxjkchv xcjkvhgjhvgdf jvckxghvjhxcbvjkhxc</p>
                     <Link href={'/contact'}>
@@ -75,6 +75,12 @@ export default function Services() {
                 </div>
             </div>
             <hr className="w-[45%] border-1 border-blue-900 my-4" />
+            <div className="flex flex-col items-center justify-center gap-4 mt-4 w-screen p-4 bg-slate-300">
+                <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">&quot;Property Management Made Seemless&quot;</h1>
+                <Link href={'/contact'}>
+                    <button className="bg-blue-900 text-white p-2 self-end rounded-lg">Get Started</button>
+                </Link>
+            </div>
         </section>
     )
 }

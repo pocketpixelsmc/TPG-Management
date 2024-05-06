@@ -20,6 +20,9 @@ const config: Config = {
         'auto-fill-300': 'repeat(auto-fill, minmax(300px, 1fr))',
         'auto-fit-300': 'repeat(auto-fit, minmax(300px, 1fr))',
       },
+      screens: {
+        'max-sm' : {'max': '639px'},
+      },
     },
   },
   plugins: [],
