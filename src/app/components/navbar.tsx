@@ -6,10 +6,11 @@ import './navbar.css';
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
-    const TOP_OFFSET = 50;
+    const TOP_OFFSET = 10;
     const [showBackground, setShowBackground] = useState(false)
 
     useEffect(() => {
+        if(window.scrollY >= TOP_OFFSET) setShowBackground(true)
         const handleScroll = () => {
             if (window.scrollY >= TOP_OFFSET) {
                 setShowBackground(true)
@@ -17,7 +18,6 @@ export default function Navbar() {
                 setShowBackground(false)
             }
         }
-
         window.addEventListener('scroll', handleScroll);
 
         return () => {
@@ -26,7 +26,7 @@ export default function Navbar() {
     }, []);
     return (
         <>
-            <nav className={`text-blue-900 py-1 flex flex-col gap-2 ${plusJakartaSans} text-xs sm:text-sm sticky top-0 z-10 transition-all duration-500 pb-4`} style={{ backgroundColor: showBackground ? "#e2e8f0" : undefined }}>
+            <nav className={`text-blue-900 py-1 mt-[40px] flex flex-col gap-2 ${plusJakartaSans} text-xs sm:text-sm sticky top-0 z-10 transition-all duration-300 pb-4`} style={{ backgroundColor: showBackground ? "#e2e8f0" : undefined }}>
                 <div className="flex flex-row justify-around items-center">
                     <Link href="/" className="hidden sm:inline-block ">
                         <Image src="/next.svg" alt="TPG Management" width={100} height={100} className=" md:w-[150px] lg:w-[200px]" />
