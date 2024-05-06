@@ -102,28 +102,3 @@ export default function Footer() {
         </footer>
     )
 }
-
-
-// //User
-// MONMOUTH        MIDDLESEX        UNION
-
-// Aberdeen        Carteret        Clark
-// Asbury Park        Dunellen        Cranford
-// Eatontown        East Brunswick        Fanwood
-// Freehold        Edison        Garwood
-// Freehold        Iselin        Kenilworth
-// Hazlet        Metuchen        Mountainside
-// Holmdel        Monroe        Plainfield
-// Howell        New Brunswick        Scotch Plains
-// Keansburg        North Brunswick        Union
-// Keyport        Old Bridge        Westfield
-// Long Branch        Perth Amboy
-// Manalapan        Piscataway
-// Marlboro        Plainsboro
-// Matawan        Sayerville
-// Middletown        South Amboy
-// Neptune        South Brunswick
-// Ocean         South Plainfield
-// Red Bank        Spotswood
-// Tinton Falls        Woodbridge
-// Wall Township
