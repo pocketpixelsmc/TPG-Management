@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import { inter } from "./components/fonts";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "TPG Management",
@@ -23,6 +24,7 @@ export default function RootLayout({
         </a>
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
