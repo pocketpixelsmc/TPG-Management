@@ -4,7 +4,7 @@ import { plusJakartaSans } from "./fonts";
 
 export default function Footer() {
     return (
-        <footer className="bg-slate-400 text-slate-800 text-sm text-center p-4 pt-16 ">
+        <footer className={`bg-slate-400 text-slate-800 text-sm text-center p-4 pt-16 ${plusJakartaSans.className}`}>
             <div className="grid grid-cols-auto-fit-150 place-items-start gap-4 items-center">
                 <Link href="/" className="order-last lg:order-first">
                     <Image src={'/next.svg'} width={100} height={100} alt="Logo" />
@@ -36,14 +36,94 @@ export default function Footer() {
             </div>
             <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
             <div className="flex flex-col items-center justify-center gap-4 mt-4">
-                <h3 className={`lg:text-3xl md:text-2xl sm:text-xl text-xs text-black ${plusJakartaSans.className}`} >Areas We Serve</h3>
-                {/* TODO: Add a list of areas here */}
-            </div>
-            <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
-            <div className="flex flex-col items-center justify-center gap-4 mt-4">
-                <h3 className={`lg:text-3xl md:text-2xl sm:text-xl text-xs text-black ${plusJakartaSans.className}`} >List of Towns</h3>
-                {/* TODO: Add a list of towns here */}
+                <h3 className={`lg:text-3xl md:text-2xl sm:text-xl text-xs text-black font-bold`} >Areas We Serve</h3>
+                <hr className="w-[20%] border-1 border-slate-800 mx-auto my-4" />
+                <div className="grid grid-cols-auto-fit-150 gap-8 w-full items-start justify-items-center">
+                    <div className="flex flex-col items-center justify-center gap-4">
+                        <h4 className=" font-bold text-lg " >Monmouth</h4>
+                        <p>Aberdeen</p>
+                        <p>Asbury Park</p>
+                        <p>Eatontown</p>
+                        <p>Freehold</p>
+                        <p>Freehold</p>
+                        <p>Hazlet</p>
+                        <p>Holmdel</p>
+                        <p>Howell</p>
+                        <p>Keansburg</p>
+                        <p>Keyport</p>
+                        <p>Long Branch</p>
+                        <p>Manalapan</p>
+                        <p>Marlboro</p>
+                        <p>Matawan</p>
+                        <p>Middletown</p>
+                        <p>Neptune</p>
+                        <p>Ocean</p>
+                        <p>Red Bank</p>
+                        <p>Tinton Falls</p>
+                        <p>Wall Township</p>
+                    </div>
+                    <div className="flex flex-col items-center justify-center gap-4">
+                        <h4 className=" font-bold text-lg ">Middlesex</h4>
+                        <p>Carteret</p>
+                        <p>Dunellen</p>
+                        <p>East Brunswick</p>
+                        <p>Edison</p>
+                        <p>Iselin</p>
+                        <p>Metuchen</p>
+                        <p>Monroe</p>
+                        <p>New Brunswick</p>
+                        <p>North Brunswick</p>
+                        <p>Old Bridge</p>
+                        <p>Perth Amboy</p>
+                        <p>Piscataway</p>
+                        <p>Plainsboro</p>
+                        <p>Sayerville</p>
+                        <p>South Amboy</p>
+                        <p>South Brunswick</p>
+                        <p>South Plainfield</p>
+                        <p>Spotswood</p>
+                        <p>Woodbridge</p>
+                    </div>
+                    <div className="flex flex-col items-center justify-center gap-4">
+                        <h4 className=" font-bold text-lg ">Union</h4>
+                        <p>Clark</p>
+                        <p>Cranford</p>
+                        <p>Fanwood</p>
+                        <p>Garwood</p>
+                        <p>Kenilworth</p>
+                        <p>Mountainside</p>
+                        <p>Plainfield</p>
+                        <p>Scotch Plains</p>
+                        <p>Union</p>
+                        <p>Westfield</p>
+                    </div>
+                </div>
             </div>
         </footer>
     )
 }
+
+
+// //User
+// MONMOUTH        MIDDLESEX        UNION
+
+// Aberdeen        Carteret        Clark
+// Asbury Park        Dunellen        Cranford
+// Eatontown        East Brunswick        Fanwood
+// Freehold        Edison        Garwood
+// Freehold        Iselin        Kenilworth
+// Hazlet        Metuchen        Mountainside
+// Holmdel        Monroe        Plainfield
+// Howell        New Brunswick        Scotch Plains
+// Keansburg        North Brunswick        Union
+// Keyport        Old Bridge        Westfield
+// Long Branch        Perth Amboy
+// Manalapan        Piscataway
+// Marlboro        Plainsboro
+// Matawan        Sayerville
+// Middletown        South Amboy
+// Neptune        South Brunswick
+// Ocean         South Plainfield
+// Red Bank        Spotswood
+// Tinton Falls        Woodbridge
+// Wall Township
