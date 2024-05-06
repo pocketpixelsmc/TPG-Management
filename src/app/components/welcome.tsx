@@ -13,7 +13,7 @@ export default function Welcome() {
                 <p className="text-sm lg:text-lg  max-w-[75%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis, iste dolore animi tempora repudiandae sit optio, libero minima amet hic quia modi. Libero laborum quasi facilis omnis nulla sint.</p>
             </div>
             <Swiper
-                spaceBetween={50}
+                spaceBetween={0}
                 slidesPerView={1}
                 speed={1200}
                 pagination={{ clickable: true, dynamicBullets: true }}
