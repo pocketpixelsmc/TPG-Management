@@ -39,7 +39,7 @@ export default function Footer() {
                 <h3 className={`lg:text-3xl text-2xl text-black font-bold`} >Areas We Serve</h3>
                 <hr className="w-[20%] border-1 border-slate-800 mx-auto my-4" />
                 <div className="grid grid-cols-auto-fit-150 gap-8 w-full items-start justify-items-center">
-                    <div className="flex flex-col items-center justify-center gap-1">
+                    <div className="flex flex-col items-center justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg " >Monmouth</h4>
                         <p>Aberdeen</p>
                         <p>Asbury Park</p>
@@ -62,7 +62,7 @@ export default function Footer() {
                         <p>Tinton Falls</p>
                         <p>Wall Township</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center gap-1">
+                    <div className="flex flex-col items-center justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Middlesex</h4>
                         <p>Carteret</p>
                         <p>Dunellen</p>
@@ -84,7 +84,7 @@ export default function Footer() {
                         <p>Spotswood</p>
                         <p>Woodbridge</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center gap-1">
+                    <div className="flex flex-col items-center justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Union</h4>
                         <p>Clark</p>
                         <p>Cranford</p>
