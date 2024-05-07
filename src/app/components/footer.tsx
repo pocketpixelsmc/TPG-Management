@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className={`bg-slate-400 text-slate-800 text-sm text-center p-4 pt-16 ${plusJakartaSans.className}`}>
             <div className="grid grid-cols-auto-fit-150 place-items-start gap-4 items-center">
                 <Link href="/" className="order-last lg:order-first">
-                    <Image src={'/next.svg'} width={100} height={100} alt="Logo" />
+                    <Image src={'/logo.png'} width={100} height={100} alt="Logo" />
                 </Link>
                 <Link href="/contact" className="flex flex-row justify-start items-center gap-4">
                     <Image src="contact.svg" width={25} height={25} alt="Contact" />

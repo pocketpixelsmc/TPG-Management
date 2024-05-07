@@ -9,7 +9,7 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <main className=" flex flex-col items-center justify-center gap-8 mt-4 sm:mt-16 p-4 pb-0">
-      <Image src={'/next.svg'} width={100} height={100} alt="Logo"  className="block sm:hidden"/>
+      <Image src={'/logo.png'} width={100} height={100} alt="Logo"  className="block sm:hidden"/>
       <Welcome/>
       <Introduction/>
       <Services/>
