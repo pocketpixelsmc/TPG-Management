@@ -10,7 +10,9 @@ export default function Welcome() {
         <section className="flex flex-col content-center justify-center max-w-full sm:flex-row gap-4 lg:gap-16 text-blue-900">
             <div className={` flex flex-col items-center justify-center ${plusJakartaSans.className} sm:max-w-[500px] lg:max-w-[600px] text-center`}>
                 <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Welcome to TPG Management</h1>
-                <p className="text-sm lg:text-lg  max-w-[75%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis, iste dolore animi tempora repudiandae sit optio, libero minima amet hic quia modi. Libero laborum quasi facilis omnis nulla sint.</p>
+                <p className="text-sm lg:text-lg  max-w-[75%]">
+                    Welcome to TPG Management, your premier property management solution. Specializing in single-family homes, multi-family units, and apartment complexes. We handle every facet of the property lifecycle. – from leasing and maintenance to compliance and enhancements – ensuring optimal returns while you enjoy hassle-free ownership, allowing you to sit back, collect rent, and watch your investment thrive.
+                </p>
             </div>
             <Swiper
                 spaceBetween={0}
@@ -22,24 +24,19 @@ export default function Welcome() {
                 className=" max-w-[320px] sm:max-w-[640px] lg:max-w-[40vw] rounded-xl lg:grow"
             >
                 <SwiperSlide>
-                    <Image src='/stocki1.jpg' alt="img1" width={1000} height={500} className="hidden sm:hidden lg:block h-[500px]" />
-                    <Image src='/stocki1.jpg' alt="img1" width={320} height={320} className="block sm:hidden h-[320px]" />
-                    <Image src='/stocki1.jpg' alt="img1" width={640} height={320} className="hidden sm:block lg:hidden h-[320px]" />
+                    <Image src='/carousel/img1.jpg' alt="img1" width={1000} height={500} className="hidden sm:hidden lg:block h-[500px]" />
+                    <Image src='/carousel/img1.jpg' alt="img1" width={320} height={320} className="block sm:hidden h-[320px]" />
+                    <Image src='/carousel/img1.jpg' alt="img1" width={640} height={320} className="hidden sm:block lg:hidden h-[320px]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src='/stocki2.jpg' alt="img1" width={1000} height={500} className="hidden sm:hidden lg:block h-[500px]" />
-                    <Image src='/stocki2.jpg' alt="img1" width={320} height={320} className="block sm:hidden h-[320px]" />
-                    <Image src='/stocki2.jpg' alt="img1" width={640} height={320} className="hidden sm:block lg:hidden h-[320px]" />
+                    <Image src='/carousel/img2.jpg' alt="img2" width={1000} height={500} className="hidden sm:hidden lg:block h-[500px]" />
+                    <Image src='/carousel/img2.jpg' alt="img2" width={320} height={320} className="block sm:hidden h-[320px]" />
+                    <Image src='/carousel/img2.jpg' alt="img2" width={640} height={320} className="hidden sm:block lg:hidden h-[320px]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src='/stocki3.jpg' alt="img1" width={1000} height={500} className="hidden sm:hidden lg:block h-[500px]" />
-                    <Image src='/stocki3.jpg' alt="img1" width={320} height={320} className="block sm:hidden h-[320px]" />
-                    <Image src='/stocki3.jpg' alt="img1" width={640} height={320} className="hidden sm:block lg:hidden h-[320px]" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image src='/stocki4.jpg' alt="img1" width={1000} height={500} className="hidden sm:hidden lg:block h-[500px]" />
-                    <Image src='/stocki4.jpg' alt="img1" width={320} height={320} className="block sm:hidden h-[320px]" />
-                    <Image src='/stocki4.jpg' alt="img1" width={640} height={320} className="hidden sm:block lg:hidden h-[320px]" />
+                    <Image src='/carousel/img3.jpg' alt="img3" width={1000} height={500} className="hidden sm:hidden lg:block h-[500px]" />
+                    <Image src='/carousel/img3.jpg' alt="img3" width={320} height={320} className="block sm:hidden h-[320px]" />
+                    <Image src='/carousel/img3.jpg' alt="img3" width={640} height={320} className="hidden sm:block lg:hidden h-[320px]" />
                 </SwiperSlide>
             </Swiper>
         </section>
