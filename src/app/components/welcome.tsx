@@ -8,9 +8,9 @@ import 'swiper/css/bundle';
 export default function Welcome() {
     return (
         <section className="flex flex-col content-center justify-center max-w-full sm:flex-row gap-4 lg:gap-16 text-blue-900">
-            <div className={` flex flex-col items-center justify-center ${plusJakartaSans.className} sm:max-w-[500px] lg:max-w-[600px] text-center`}>
+            <div className={` flex flex-col items-center justify-center sm:max-w-[300px] lg:max-w-[500px] text-center text-wrap`}>
                 <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Welcome to TPG Management</h1>
-                <p className="text-sm lg:text-lg  max-w-[75%]">
+                <p className="text-sm lg:text-lg ">
                     Welcome to TPG Management, your premier property management solution. Specializing in single-family homes, multi-family units, and apartment complexes. We handle every facet of the property lifecycle. – from leasing and maintenance to compliance and enhancements – ensuring optimal returns while you enjoy hassle-free ownership, allowing you to sit back, collect rent, and watch your investment thrive.
                 </p>
             </div>

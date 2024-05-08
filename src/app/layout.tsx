@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/navbar";
-import { inter } from "./components/fonts";
+import { inter, lexendDeca } from "./components/fonts";
 import Footer from "./components/footer";
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} h-full w-screen`}>
+      <body className={`${lexendDeca.className} h-full w-screen`}>
         <a href="#" className="top-0 right-0 block absolute">
           <button className="p-2 bg-blue-900 text-white rounded-l-xl text-center text-xs">
             Resident Login

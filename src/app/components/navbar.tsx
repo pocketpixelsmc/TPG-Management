@@ -26,12 +26,12 @@ export default function Navbar() {
     }, []);
     return (
         <>
-            <nav className={`text-blue-900 py-1 mt-[40px] flex flex-col gap-2 ${plusJakartaSans} text-xs sm:text-sm sticky top-0 z-10 transition-all duration-300 pb-4`} style={{ backgroundColor: showBackground ? "#e2e8f0" : undefined }}>
+            <nav className={`text-blue-900 py-1 mt-[40px] flex flex-col gap-2 text-xs sm:text-sm sticky top-0 z-10 transition-all duration-300 pb-4`} style={{ backgroundColor: showBackground ? "#e2e8f0" : undefined }}>
                 <div className="flex flex-row justify-around items-center">
                     <Link href="/" className="hidden sm:inline-block ">
                         <Image src="/logo.png" alt="TPG Management" width={200} height={200} className=" md:w-[150px] lg:w-[200px]" />
                     </Link>
-                    <div className={`flex flex-row gap-3 justify-center items-center px-2 ${plusJakartaSans.className}`}>
+                    <div className={`flex flex-row gap-3 justify-center items-center px-2 font-normal`}>
                         <Link href="/">
                             <button className="m-2 lg:text-3xl md:text-2xl sm:text-xl text-xs">
                                 <p className="navControl">Home</p>
