@@ -21,17 +21,14 @@ export default function Services() {
       </p>
       <ServiceGrid />
       <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
+      <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900 mb-4 text-wrap">Solutions for all types of residential properties</h1>
       <Subservices />
       <div className="m-0 mx-auto">
-        <div className="flex flex-row items-center justify-center gap-8 md:gap-12 lg:gap-16 mt-4 w-screen p-4 bg-slate-300 h-[300px]">
-          <Link href={"/contact"}>
-            <button className="bg-blue-900 text-white p-4 px-8 self-end rounded-lg transition-all hover:bg-blue-700">
-              Get Started
-            </button>
+        <div className="flex flex-col items-center justify-center gap-4 mt-4 w-screen p-4 bg-slate-300">
+          <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">&quot;Property Management Made Seemless&quot;</h1>
+          <Link href={'/contact'}>
+            <button className="bg-blue-900 text-white p-2 self-end rounded-lg">Get Started</button>
           </Link>
-          <h1 className=" text-2xl sm:text-4xl font-bold max-w-[250px] text-wrap text-left">
-            Property Management Made Seemless
-          </h1>
         </div>
       </div>
     </section>

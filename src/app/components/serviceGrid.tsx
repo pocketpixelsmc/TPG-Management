@@ -4,7 +4,7 @@ export default function ServiceGrid() {
     return (
         <div className="max-w-[1080px] m-0 mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col justify-start gap-4 max-w-[320px] text-left">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/pom.png" alt="Peace Of Mind" width={50} height={50} />
                         <h2 className="text-lg font-bold">Peace of Mind</h2>
@@ -15,7 +15,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/ts.png" alt="Expert Tenant Screening" width={50} height={50} />
                         <h2 className="text-lg font-bold">Expert Tenant Screening</h2>
@@ -26,7 +26,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/rc.png" alt="Efficient Rent Collection" width={50} height={50} />
                         <h2 className="text-lg font-bold">Efficient Rent Collection</h2>
@@ -37,7 +37,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/mnt.png" alt="Timely Maintenance" width={50} height={50} />
                         <h2 className="text-lg font-bold">Timely Maintenance</h2>
@@ -48,7 +48,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/lc.png" alt="Legal Compliance Assurance" width={50} height={50} />
                         <h2 className="text-lg font-bold">Legal Compliance Assurance</h2>
@@ -59,7 +59,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/fr.png" alt="Transparent Financial Reporting" width={50} height={50} />
                         <h2 className="text-lg font-bold">Transparent Financial Reporting</h2>
@@ -70,7 +70,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/trm.png" alt="Tenant Relations Management" width={50} height={50} />
                         <h2 className="text-lg font-bold">Tenant Relations Management</h2>
@@ -81,7 +81,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/lm.png" alt="Optimized Lease Management" width={50} height={50} />
                         <h2 className="text-lg font-bold">Optimized Lease Management</h2>
@@ -92,7 +92,7 @@ export default function ServiceGrid() {
                         </p>
                     </div>
                 </div>
-                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-between">
+                <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/mr.png" alt="Maximized Returns" width={50} height={50} />
                         <h2 className="text-lg font-bold">Maximized Returns</h2>
