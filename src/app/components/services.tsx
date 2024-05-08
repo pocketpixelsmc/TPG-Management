@@ -14,7 +14,7 @@ export default function Services() {
           What we offer
         </h1>
       </div>
-      <p className="text-sm lg:text-lg max-w-[60%]">
+      <p className="text-sm lg:text-lg max-w-[60%] text-left leading-8">
         Unlock the true potential of your investment property with our expert
         property management services, providing peace of mind, optimal returns,
         and hassle-free ownership.
