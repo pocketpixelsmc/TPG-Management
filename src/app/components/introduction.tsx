@@ -5,7 +5,7 @@ export default function Introduction() {
     return (
         <section className={`mt-4 sm:mt-8 text-center max-w-[1300px]`}>
             <div className="flex flex-col md:flex-row text-left items-center justify-center gap-8 p-4">
-                <video src="/introVid.mp4" width="1920px" controls className="w-[400px] sm:w-[600px] md:w-[400px] lg:w-[680px] block" />
+                <video src="/introVid.mp4" width="1920px" controls playsInline preload="metadata" className="w-[400px] sm:w-[600px] md:w-[400px] lg:w-[680px] block" />
                 <div className="flex flex-col gap-4">
                     <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900">Your All-In-One Property Management Company</h1>
                     <p className="text-sm leading-8">
