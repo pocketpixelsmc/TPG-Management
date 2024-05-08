@@ -27,7 +27,7 @@ export default function Services() {
         <div className="flex flex-col items-center justify-center gap-4 mt-4 w-screen p-4 bg-slate-300">
           <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">&quot;Property Management Made Seemless&quot;</h1>
           <Link href={'/contact'}>
-            <button className="bg-blue-900 text-white p-4 px-8 self-end rounded-lg">Get Started</button>
+            <button className="bg-blue-900 text-white p-4 px-8 self-end rounded-lg transition-all hover:bg-blue-700">Get Started</button>
           </Link>
         </div>
       </div>
