@@ -36,15 +36,3 @@ export default function Missions() {
         </div>
     );
 }
-
-// Integrity
-// Driving success through integrity, professionalism, and a relentless focus on enhancing property values and resident experiences.
-
-// Responsiveness
-// Providing unparalleled responsiveness to our clients' needs, ensuring swift resolution and peace of mind in property management.
-
-// Giving Back
-// Dedicated to giving back to the communities we serve, enriching lives beyond property management through philanthropy and community involvement.
-
-// Transparent
-// Ensuring transparency in every aspect of property management, fostering trust and accountability among our clients and residents alike.

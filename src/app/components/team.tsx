@@ -55,24 +55,3 @@ export default function Team() {
         </div>
     )
 }
-
-// Michael
-// VP of Development
-
-// Alex
-// VP of Operations 
-
-// Julian 
-// Director 
-
-// Fred
-// VP of Finance 
-
-// Laurie
-// Vice President
-
-// Karen
-// Director
-
-// Zoey 
-// Administrative Assistant
