@@ -1,18 +1,37 @@
 "use client";
 
-import { useState } from "react";
+import React, { FormEvent, useState } from "react";
 
 export default function EmailForm() {
     const [name, setName] = useState<string>("");
-    const [phoneNumber, setPhoneNumber] = useState<number | "">("");
+    const [phoneNumber, setPhoneNumber] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [propertyAddress, setPropertyAddress] = useState<string>("");
-    const [numberOfUnits, setNumberOfUnits] = useState<number>(1);
-    const [additionalPropertyInformation, setAdditionalPropertyInformation] =
-        useState<string>("");
+    const [numberOfUnits, setNumberOfUnits] = useState<string>("1");
+    const [additionalPropertyInformation, setAdditionalPropertyInformation] = useState<string>("");
+    const [error , setError] = useState<boolean>(false);
+    const [success, setSuccess] = useState<boolean>(false);
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault()
+    async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+
+        event.preventDefault();
+        const formData = new FormData(event.currentTarget)
+        try {
+
+            const response = await fetch('/api/contact', {
+                method: 'post',
+                body: formData,
+            });
+
+            if (!response.ok) {
+                console.log("falling over")
+                throw new Error(`response status: ${response.status}`);
+            }
+            const responseData = await response.json();
+            setSuccess(true);
+        } catch (err) {
+            setError(true);
+        }
     };
     return (
         <form
@@ -25,7 +44,7 @@ export default function EmailForm() {
             <input
                 type="text"
                 id="Name"
-                name="Name"
+                name="name"
                 className="p-2 w-full rounded-lg"
                 required
                 value={name}
@@ -37,11 +56,11 @@ export default function EmailForm() {
             <input
                 type="number"
                 id="phoneNumber"
-                name="phoneNumber"
+                name="p_no"
                 className="p-2 w-full rounded-lg"
                 required
                 value={phoneNumber}
-                onChange={(e) => setPhoneNumber(parseInt(e.target.value))}
+                onChange={(e) => setPhoneNumber(e.target.value)}
             />
             <label htmlFor="email" className="text-lg text-blue-900">
                 Email
@@ -61,7 +80,7 @@ export default function EmailForm() {
             <input
                 type="text"
                 id="propertyAddress"
-                name="propertyAddress"
+                name="address"
                 className="p-2 w-full rounded-lg"
                 required
                 value={propertyAddress}
@@ -73,11 +92,11 @@ export default function EmailForm() {
             <input
                 type="number"
                 id="numberOfUnits"
-                name="numberOfUnits"
+                name="no_units"
                 className="p-2 w-full rounded-lg"
                 required
                 value={numberOfUnits}
-                onChange={(e) => setNumberOfUnits(parseInt(e.target.value))}
+                onChange={(e) => setNumberOfUnits(e.target.value)}
                 min={1}
             />
             <label
@@ -88,7 +107,7 @@ export default function EmailForm() {
             </label>
             <textarea
                 id="additionalPropertyInformation"
-                name="additionalPropertyInformation"
+                name="more_info"
                 className="p-2 w-full rounded-lg"
                 required
                 value={additionalPropertyInformation}
@@ -102,6 +121,16 @@ export default function EmailForm() {
             >
                 Submit
             </button>
+            {error && (
+                <p className="text-red-500 text-lg">
+                    There was an error submitting the form. Please try again.
+                </p>
+            )}
+            {success && (
+                <p className="text-green-500 text-lg">
+                    Your form has been submitted successfully.
+                </p>
+            )}
         </form>
     );
 }

@@ -1,10 +1,9 @@
 'use client'
 import Image from "next/image";
-// Import Swiper styles
 import Introduction from "../components/introduction";
 import Welcome from "../components/welcome";
 import Services from "../components/services";
-import Footer from "../components/footer";
+
 
 export default function Home() {
   return (

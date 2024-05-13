@@ -3,6 +3,7 @@ import { plusJakartaSans } from "./fonts";
 import Link from "next/link";
 import ServiceGrid from "./serviceGrid";
 import Subservices from "./subservices";
+import Testimonial from "./testimonial";
 
 export default function Services() {
   return (
@@ -23,6 +24,8 @@ export default function Services() {
       <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
       <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900 mb-4 text-wrap">Solutions for all types of residential properties</h1>
       <Subservices />
+      <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
+      <Testimonial/>
       <div className="m-0 mx-auto">
         <div className="flex flex-col items-center justify-center gap-4 mt-4 w-screen p-4 bg-slate-300">
           <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">&quot;Property Management Made Seemless&quot;</h1>
