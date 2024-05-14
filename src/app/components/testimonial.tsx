@@ -8,7 +8,7 @@ export default function Testimonial() {
   return (
     <div className="flex flex-col items-center justify-center gap-4 text-blue-900 m-4">
       <h1 className=" text-2xl">
-        What does our valuable customers have to say about us?
+        Change the word does to do
       </h1>
       <Swiper
         spaceBetween={0}
