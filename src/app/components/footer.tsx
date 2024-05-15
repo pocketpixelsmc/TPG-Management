@@ -35,11 +35,20 @@ export default function Footer() {
                 </a>
             </div>
             <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
+            <div className="m-0 mx-auto">
+                <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center w-screen gap-4">
+                    <p>Monday-Friday 9am-5pm </p>
+                    <p>732-222-2222 </p>
+                    <a href="mailto:info@tpgcompanies.net" className="text-blue-950">
+                        <p>info@tpgcompanies.net</p>
+                    </a>
+                </div>
+            </div>
             <div className="flex flex-col items-center justify-center gap-4 mt-4">
                 <h3 className={`lg:text-3xl text-2xl text-black font-bold`} >Areas We Serve</h3>
                 <hr className="w-[20%] border-1 border-slate-800 mx-auto my-4" />
-                <div className="grid grid-cols-auto-fit-150 gap-8 w-full items-start justify-items-center">
-                    <div className="flex flex-col items-center justify-center gap-1 text-xs">
+                <div className="grid grid-cols-auto-fit-150 gap-8 w-full items-start justify-items-center text-left">
+                    <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg " >Monmouth</h4>
                         <p>Aberdeen</p>
                         <p>Asbury Park</p>
@@ -62,7 +71,7 @@ export default function Footer() {
                         <p>Tinton Falls</p>
                         <p>Wall Township</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center gap-1 text-xs">
+                    <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Middlesex</h4>
                         <p>Carteret</p>
                         <p>Dunellen</p>
@@ -84,18 +93,68 @@ export default function Footer() {
                         <p>Spotswood</p>
                         <p>Woodbridge</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center gap-1 text-xs">
+                    <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Union</h4>
+                        <p>Berkeley Heights</p>
                         <p>Clark</p>
                         <p>Cranford</p>
+                        <p>Elizabeth</p>
                         <p>Fanwood</p>
                         <p>Garwood</p>
+                        <p>Hillside</p>
                         <p>Kenilworth</p>
+                        <p>Linden</p>
                         <p>Mountainside</p>
+                        <p>New Providence</p>
                         <p>Plainfield</p>
+                        <p>Rahway</p>
+                        <p>Roselle</p>
+                        <p>Roselle Park</p>
                         <p>Scotch Plains</p>
+                        <p>Springfield</p>
+                        <p>Summit</p>
                         <p>Union</p>
                         <p>Westfield</p>
+                        <p>Winfield</p>
+                    </div>
+                    <div className="flex flex-col justify-center gap-1 text-xs">
+                        <h4 className=" font-bold text-lg ">Somerset</h4>
+                        <p>Bedminster Township</p>
+                        <p>Bernards Township</p>
+                        <p>Bernardsville</p>
+                        <p>Bound Brook</p>
+                        <p>Branchburg Township</p>
+                        <p>Bridgewater Township</p>
+                        <p>Far Hills</p>
+                        <p>Franklin Township</p>
+                        <p>Green Brook Township</p>
+                        <p>Hillsborough Township</p>
+                        <p>Manville</p>
+                        <p>Millstone</p>
+                        <p>Montgomery Township</p>
+                        <p>North Plainfield</p>
+                        <p>Peapack-Gladstone</p>
+                        <p>Raritan</p>
+                        <p>Rocky Hill</p>
+                        <p>Somerville</p>
+                        <p>South Bound Brook</p>
+                        <p>Warren Township</p>
+                        <p>Watchung</p>
+                    </div>
+                    <div className="flex flex-col justify-center gap-1 text-xs">
+                        <h4 className=" font-bold text-lg ">Hudson</h4>
+                        <p>Bayonne</p>
+                        <p>East Newark</p>
+                        <p>Guttenberg</p>
+                        <p>Harrison</p>
+                        <p>Hoboken</p>
+                        <p>Jersey City</p>
+                        <p>Kearny</p>
+                        <p>North Bergen</p>
+                        <p>Secaucus</p>
+                        <p>Union City</p>
+                        <p>Weehawken</p>
+                        <p>West New York</p>
                     </div>
                 </div>
             </div>

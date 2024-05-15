@@ -26,7 +26,7 @@ export default function Navbar() {
     }, []);
     return (
         <>
-            <nav className={`text-blue-900 py-1 mt-[75px] flex flex-col gap-2 text-xs sm:text-sm sticky top-0 z-10 transition-all duration-300 pb-4`} style={{ backgroundColor: showBackground ? "#e2e8f0" : undefined }}>
+            <nav className={`text-blue-900 py-1 mt-[10px] flex flex-col gap-2 text-xs sm:text-sm sticky top-0 z-10 transition-all duration-300 pb-4`} style={{ backgroundColor: showBackground ? "#e2e8f0" : undefined }}>
                 <div className="flex flex-row justify-around items-center">
                     <Link href="/" className="hidden sm:inline-block ">
                         <Image src="/logo.png" alt="TPG Management" width={200} height={200} className=" md:w-[150px] lg:w-[200px]" />
