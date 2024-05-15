@@ -15,8 +15,10 @@ export default function Welcome() {
           Welcome to TPG Management
         </h1>
         <p className="text-sm lg:text-lg ">
-          We are a premier property management solution serving Monmouth,
-          Middlesex, Union, Somerset and Hudson County in New Jersey.
+          We are a premier property management solution serving <strong>
+            Monmouth,
+            Middlesex, Union, Somerset and Hudson County in New Jersey
+          </strong>.
           Specializing in single-family homes, multi-family units, and apartment
           complexes. We handle every facet of the property lifecycle. – from
           leasing and maintenance to compliance and enhancements – ensuring
