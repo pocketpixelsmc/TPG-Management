@@ -1,4 +1,4 @@
-## Running on the dev enevironment
+## Running on the local machines
 - Open Terminal and make sure you have github installed
 - use the command ```git clone git@github.com:10234567Z/TPG-Management.git``` in any of the directory in which you want to store the cloned project
 - use command ```cd TPG-Management && npm i``` and then let it install packages
