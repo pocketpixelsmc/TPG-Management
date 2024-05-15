@@ -1,5 +1,4 @@
 "use client";
-
 import React, { FormEvent, useState } from "react";
 
 export default function EmailForm() {
@@ -11,27 +10,36 @@ export default function EmailForm() {
     const [additionalPropertyInformation, setAdditionalPropertyInformation] = useState<string>("");
     const [error , setError] = useState<boolean>(false);
     const [success, setSuccess] = useState<boolean>(false);
+    const [pending , setPending] = useState<boolean>(false);
 
     async function handleSubmit(event: FormEvent<HTMLFormElement>) {
 
         event.preventDefault();
-        const formData = new FormData(event.currentTarget)
-        try {
-
-            const response = await fetch('/api/contact', {
-                method: 'post',
-                body: formData,
-            });
-
-            if (!response.ok) {
-                console.log("falling over")
-                throw new Error(`response status: ${response.status}`);
-            }
-            const responseData = await response.json();
+        setPending(true);
+        const response = await fetch("api/email" , {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                name,
+                phoneNumber,
+                email,
+                propertyAddress,
+                numberOfUnits,
+                additionalPropertyInformation,
+            }),
+        })
+        const data = await response.json();
+        if(data.messageSent){
             setSuccess(true);
-        } catch (err) {
-            setError(true);
+            setError(false);
         }
+        else{
+            setError(true);
+            setSuccess(false);
+        }
+        setPending(false);
     };
     return (
         <form
@@ -118,8 +126,9 @@ export default function EmailForm() {
             <button
                 className="bg-blue-900 text-white p-4 px-8 rounded-lg transition-all hover:bg-blue-700"
                 type="submit"
+                disabled={pending}
             >
-                Submit
+                {pending ? "Submitting..." : "Submit"}
             </button>
             {error && (
                 <p className="text-red-500 text-lg">
