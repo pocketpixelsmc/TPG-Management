@@ -12,7 +12,7 @@
 - Make file ```.env.local``` in the project directory (if you cloned it should be just TPG-Management folder)
 - Now go [here](https://myaccount.google.com/apppasswords) and make a new app and copy the app password you get also note down the gmail-id through which you accessed that page
 - Then copy-paste the following code in ```env.local```  
-  ```js
+  ```
     NEXT_SMTP_PASSWORD =<your app password here>
     NEXT_SMTP_EMAIL =<your email here>
   ```
