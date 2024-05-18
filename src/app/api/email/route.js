@@ -22,7 +22,7 @@ export async function POST(request) {
 
     const mailOption = {
       from: process.env.NEXT_SMTP_EMAIL,
-      to: process.env.NEXT_SMTP_EMAIL,
+      to: process.env.NEXT_RECEIVER_EMAIL,
       subject: "Email from website",
       html: `
       <p>Name : ${name}</p> 
