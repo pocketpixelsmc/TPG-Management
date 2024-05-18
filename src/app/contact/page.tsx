@@ -16,13 +16,13 @@ export default function Home() {
             </h1>
             <h1 className="text-2xl text-black font-bold self-center max-w-[400px]">
                 If you are interested in our property management services, please fill
-                out the form below or call <u>732-222-2222</u>
+                out the form below or call <u>(732) 978-9390</u>
             </h1>
             <EmailForm />
             <div className="m-0 mx-auto">
                 <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center max-w-[1200px] gap-4">
                     <p>Monday-Friday 9am-5pm, </p>
-                    <p>732-222-2222, </p>
+                    <p>(732) 978-9390, </p>
                     <a href="mailto:info@tpgcompanies.net" className="text-blue-950">
                         <p>info@tpgcompanies.net</p>
                     </a>
