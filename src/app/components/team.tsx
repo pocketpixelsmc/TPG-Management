@@ -21,7 +21,7 @@ export default function Team() {
                 <Image src="/team/julian.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Julian</h1>
-                    <p className="text-lg text-blue-950">Director</p>
+                    <p className="text-lg text-blue-950">Director of Property Management</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
@@ -35,14 +35,14 @@ export default function Team() {
                 <Image src="/team/laurie.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Laurie</h1>
-                    <p className="text-lg text-blue-950">Vice President</p>
+                    <p className="text-lg text-blue-950">VP of Accounting</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
                 <Image src="/team/karen.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Karen</h1>
-                    <p className="text-lg text-blue-950">Director</p>
+                    <p className="text-lg text-blue-950">Director of Leasing</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">

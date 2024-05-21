@@ -39,8 +39,8 @@ export default function Footer() {
                 <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center w-screen gap-4">
                     <p>Monday-Friday 9am-5pm </p>
                     <p>(732) 978-9390 </p>
-                    <a href="mailto:info@tpgcompanies.net" className="text-blue-950">
-                        <p>info@tpgcompanies.net</p>
+                    <a href="mailto:mike@tpgmanagement.net" className="text-blue-950">
+                        <p>mike@tpgmanagement.net</p>
                     </a>
                 </div>
             </div>
