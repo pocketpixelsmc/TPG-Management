@@ -21,13 +21,13 @@ export default function Footer() {
                         <p className="navControl">About</p>
                     </button>
                 </Link>
-                <a href="#" className="flex flex-row justify-start items-center gap-4">
+                <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" rel="noopener" target="_blank"  className="flex flex-row justify-start items-center gap-4">
                     <Image src='services.svg' width={25} height={25} alt="Services" />
                     <button className="m-2">
                         <p className="navControl">Available Properties</p>
                     </button>
                 </a>
-                <a href="#" className="flex flex-row justify-start items-center gap-4">
+                <a href="https://tpgcompanies.managebuilding.com/Resident/portal/login" rel="noopener" target="_blank" className="flex flex-row justify-start items-center gap-4">
                     <Image src="rLogin.svg" width={25} height={25} alt="Resident Login" />
                     <button className="m-2">
                         <p className="navControl">Resident Login</p>

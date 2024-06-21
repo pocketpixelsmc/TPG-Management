@@ -42,7 +42,7 @@ export default function Navbar() {
                                 <p className="navControl">About</p>
                             </button>
                         </Link>
-                        <a href="#">
+                        <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" rel="noopener" target="_blank" >
                             <button className="m-2 lg:text-3xl md:text-2xl sm:text-xl text-xs">
                                 <p className="navControl">Available Properties</p>
                             </button>
