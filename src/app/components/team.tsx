@@ -7,42 +7,42 @@ export default function Team() {
                 <Image src="/team/mike.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Michael</h1>
-                    <p className="text-lg text-blue-950">VP of Development</p>
+                    <p className="text-lg text-blue-950">Director of Development</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
                 <Image src="/team/alex.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Alex</h1>
-                    <p className="text-lg text-blue-950">VP of Operations</p>
+                    <p className="text-lg text-blue-950">Director of Property Management</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
                 <Image src="/team/julian.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Julian</h1>
-                    <p className="text-lg text-blue-950">Director of Property Management</p>
+                    <p className="text-lg text-blue-950">Property Manager</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
                 <Image src="/team/fred.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Fred</h1>
-                    <p className="text-lg text-blue-950">VP of Finance</p>
+                    <p className="text-lg text-blue-950">Finance Administrator</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
                 <Image src="/team/laurie.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Laurie</h1>
-                    <p className="text-lg text-blue-950">VP of Accounting</p>
+                    <p className="text-lg text-blue-950">Accounting Administrator</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
                 <Image src="/team/karen.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
                 <div className="flex flex-col justify-center content-center gap-4">
                     <h1 className="text-xl font-bold text-blue-900">Karen</h1>
-                    <p className="text-lg text-blue-950">Director of Leasing</p>
+                    <p className="text-lg text-blue-950">Lease Administrator</p>
                 </div>
             </div>
             <div className="flex flex-row justify-center content-center gap-4">
