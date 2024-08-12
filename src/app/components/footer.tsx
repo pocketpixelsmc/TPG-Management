@@ -39,8 +39,8 @@ export default function Footer() {
                 <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center w-screen gap-4">
                     <p>Monday-Friday 9am-5pm </p>
                     <p>(732) 978-9390 </p>
-                    <a href="mailto:mike@tpgmanagement.net" className="text-blue-950">
-                        <p>mike@tpgmanagement.net</p>
+                    <a href="mailto:info@tpgmanagement.net" className="text-blue-950">
+                        <p>info@tpgmanagement.net</p>
                     </a>
                 </div>
             </div>
@@ -50,111 +50,27 @@ export default function Footer() {
                 <div className="grid grid-cols-auto-fit-150 gap-8 w-full items-start justify-items-center text-left">
                     <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg " >Monmouth</h4>
-                        <p>Aberdeen</p>
-                        <p>Asbury Park</p>
-                        <p>Eatontown</p>
-                        <p>Freehold</p>
-                        <p>Freehold</p>
-                        <p>Hazlet</p>
-                        <p>Holmdel</p>
-                        <p>Howell</p>
-                        <p>Keansburg</p>
-                        <p>Keyport</p>
-                        <p>Long Branch</p>
-                        <p>Manalapan</p>
-                        <p>Marlboro</p>
-                        <p>Matawan</p>
-                        <p>Middletown</p>
-                        <p>Neptune</p>
-                        <p>Ocean</p>
-                        <p>Red Bank</p>
-                        <p>Tinton Falls</p>
-                        <p>Wall Township</p>
                     </div>
                     <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Middlesex</h4>
-                        <p>Carteret</p>
-                        <p>Dunellen</p>
-                        <p>East Brunswick</p>
-                        <p>Edison</p>
-                        <p>Iselin</p>
-                        <p>Metuchen</p>
-                        <p>Monroe</p>
-                        <p>New Brunswick</p>
-                        <p>North Brunswick</p>
-                        <p>Old Bridge</p>
-                        <p>Perth Amboy</p>
-                        <p>Piscataway</p>
-                        <p>Plainsboro</p>
-                        <p>Sayerville</p>
-                        <p>South Amboy</p>
-                        <p>South Brunswick</p>
-                        <p>South Plainfield</p>
-                        <p>Spotswood</p>
-                        <p>Woodbridge</p>
                     </div>
                     <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Union</h4>
-                        <p>Berkeley Heights</p>
-                        <p>Clark</p>
-                        <p>Cranford</p>
-                        <p>Elizabeth</p>
-                        <p>Fanwood</p>
-                        <p>Garwood</p>
-                        <p>Hillside</p>
-                        <p>Kenilworth</p>
-                        <p>Linden</p>
-                        <p>Mountainside</p>
-                        <p>New Providence</p>
-                        <p>Plainfield</p>
-                        <p>Rahway</p>
-                        <p>Roselle</p>
-                        <p>Roselle Park</p>
-                        <p>Scotch Plains</p>
-                        <p>Springfield</p>
-                        <p>Summit</p>
-                        <p>Union</p>
-                        <p>Westfield</p>
-                        <p>Winfield</p>
                     </div>
                     <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Somerset</h4>
-                        <p>Bedminster Township</p>
-                        <p>Bernards Township</p>
-                        <p>Bernardsville</p>
-                        <p>Bound Brook</p>
-                        <p>Branchburg Township</p>
-                        <p>Bridgewater Township</p>
-                        <p>Far Hills</p>
-                        <p>Franklin Township</p>
-                        <p>Green Brook Township</p>
-                        <p>Hillsborough Township</p>
-                        <p>Manville</p>
-                        <p>Millstone</p>
-                        <p>Montgomery Township</p>
-                        <p>North Plainfield</p>
-                        <p>Peapack-Gladstone</p>
-                        <p>Raritan</p>
-                        <p>Rocky Hill</p>
-                        <p>Somerville</p>
-                        <p>South Bound Brook</p>
-                        <p>Warren Township</p>
-                        <p>Watchung</p>
+                    </div>
+                    <div className="flex flex-col justify-center gap-1 text-xs">
+                        <h4 className=" font-bold text-lg ">Essex</h4>
+                    </div>
+                    <div className="flex flex-col justify-center gap-1 text-xs">
+                        <h4 className=" font-bold text-lg ">Passaic</h4>
+                    </div>
+                    <div className="flex flex-col justify-center gap-1 text-xs">
+                        <h4 className=" font-bold text-lg ">Ocean</h4>
                     </div>
                     <div className="flex flex-col justify-center gap-1 text-xs">
                         <h4 className=" font-bold text-lg ">Hudson</h4>
-                        <p>Bayonne</p>
-                        <p>East Newark</p>
-                        <p>Guttenberg</p>
-                        <p>Harrison</p>
-                        <p>Hoboken</p>
-                        <p>Jersey City</p>
-                        <p>Kearny</p>
-                        <p>North Bergen</p>
-                        <p>Secaucus</p>
-                        <p>Union City</p>
-                        <p>Weehawken</p>
-                        <p>West New York</p>
                     </div>
                 </div>
             </div>
