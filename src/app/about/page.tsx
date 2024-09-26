@@ -15,7 +15,7 @@ export default function Home() {
             <h1 className="text-3xl text-blue-900 font-bold">
                 Managing Property is hard - We make it easy
             </h1>
-            <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 bg-slate-300 max-w-[320px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
+            <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 bg-slate-300 max-w-[500px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
                 <h1 className="text-2xl font-bold text-blue-900">How we started?</h1>
                 <p className="text-xl text-blue-950 text-left leading-loose">
                     Our journey into property management began with residential investment
