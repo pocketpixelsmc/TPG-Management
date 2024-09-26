@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import PricingPlan from "../components/pricingPlans";
 import Testimonial from "../components/testimonial";
@@ -14,6 +15,7 @@ export default function Home() {
         </p>
       </div>
       <PricingPlan/>
+      <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
       <Testimonial/>
     </main>
   );
