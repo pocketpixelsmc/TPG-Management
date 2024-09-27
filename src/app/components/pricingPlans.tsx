@@ -32,7 +32,7 @@ export default function PricingPlan() {
             <div className="w-full h-full flex justify-center items-center">
               <p className="text-4xl font-bold ppControl text-center max-w-[200px]">Property Management</p>
             </div>
-            <h2 className="text-4xl">1 Month's Rent</h2>
+            <h2 className="text-4xl">1 Month&apos;s Rent</h2>
             <h2 className="text-xl">Fee</h2>
           </div>
           <div className="p-8 flex flex-col text-center justify-evenly items-center h-full gap-4">
