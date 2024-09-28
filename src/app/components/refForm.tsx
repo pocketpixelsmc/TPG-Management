@@ -80,7 +80,7 @@ export default function RefEmailForm() {
       <h2 className="text-2xl font-bold text-blue-950 underline">Lead Info</h2>
 
       <label htmlFor="lFullName" className="text-lg text-blue-900">
-        Lead's Full Name
+        Lead&apos;s Full Name
       </label>
       <input
         type="text"
@@ -92,7 +92,7 @@ export default function RefEmailForm() {
         onChange={(e) => setLFullName(e.target.value)}
       />
       <label htmlFor="lEmail" className="text-lg text-blue-900">
-        Lead's Email Address
+        Lead&apos;s Email Address
       </label>
       <input
         type="email"
@@ -105,7 +105,7 @@ export default function RefEmailForm() {
         min={1}
       />
       <label htmlFor="lPhone" className="text-lg text-blue-900">
-        Lead's Phone No.
+        Lead&apos;s Phone No.
       </label>
       <input
         type="number"

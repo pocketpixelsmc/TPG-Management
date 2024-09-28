@@ -16,7 +16,7 @@ export default function Home() {
             </div>
             <div className="text-left">
               <p className="text-sm leading-7">
-                Fill out the form below to send us a referral. Be sure to let your client know we'll be contacting them.
+                Fill out the form below to send us a referral. Be sure to let your client know we&apos;ll be contacting them.
               </p>
             </div>
           </div>
