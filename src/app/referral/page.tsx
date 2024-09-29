@@ -46,16 +46,7 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-2  place-content-center gap-4">
         <div className="m-0 mx-auto">
           <div className="flex flex-col items-start text-left justify-center max-w-[1600px] gap-4 flex-wrap">
-            <p className="text-5xl text-blue-900 font-bold mb-6 mt-6 self-start text-wrap">Are You a Realtor Referring Rental Property Owners?</p>
-            <p className="text-base leading-7 max-w-[700px] text-wrap">
-              You have come to the right place. At Lone Eagle Management, we offer the best realtor referral program in New Jersey. We&apos;ve been in
-              the property management business for over 40 years, serving the entire state of NJ.
-            </p>
-            <p className="text-base leading-7 max-w-[700px] text-wrap">
-              Partnering with us is a win-win situation! Our #1 desire is to build and maintain professional partnerships with other professionals in
-              the real estate business.
-            </p>
-            <p className="text-3xl text-blue-900 font-bold mb-6 mt-6 self-start">Why Work With Us?</p>
+            <p className="text-5xl text-blue-900 font-bold mb-6 mt-6 self-start">Why Work With Us?</p>
 
             <p className="text-2xl text-blue-900 font-bold mb-2 mt-6 self-start">1. Realtors Earn $555 per Referral</p>
             <p className="text-base leading-7 max-w-[700px] text-wrap">We pay you $555 for every referred unit!</p>
