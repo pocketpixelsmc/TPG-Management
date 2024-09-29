@@ -41,6 +41,7 @@ export default function Navbar() {
           sx: {
             color: "#1e3a8a",
             padding: "1rem",
+            fontSize: "1.5rem",
           },
         }}
       >
@@ -81,7 +82,7 @@ export default function Navbar() {
       >
         <div className="flex flex-row justify-between px-4 xl:px-0 xl:justify-around items-center mt-4">
           <Link href="/">
-            <Image src="/logo.png" alt="TPG Management" width={200} height={200} className=" md:w-[150px] lg:w-[200px]" />
+            <Image src="/logo.png" alt="TPG Management" width={200} height={200} className=" w-[100px] md:w-[150px] lg:w-[200px]" />
           </Link>
           <Image onClick={toggleDrawer(true)} className="inline-block xl:hidden self-end cursor-pointer" src="/menu.svg" alt="Menu" width={50} height={50} />
           <div className={` flex-row gap-3 justify-center items-center px-2 font-normal hidden xl:flex`}>
