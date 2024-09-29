@@ -37,7 +37,7 @@ export default function Home() {
               <p className="text-lg font-bold">We Pay You</p>
             </div>
             <div className="text-left">
-              <p className="text-sm leading-7">Every client who signs a contract with us will net you a referral fee of $555</p>
+              <p className="text-sm leading-7">Every client who signs a contract with us will net you a referral fee of $750</p>
             </div>
           </div>
         </div>
@@ -48,8 +48,8 @@ export default function Home() {
           <div className="flex flex-col items-start text-left justify-center max-w-[1600px] gap-4 flex-wrap">
             <p className="text-5xl text-blue-900 font-bold mb-6 mt-6 self-start">Why Work With Us?</p>
 
-            <p className="text-2xl text-blue-900 font-bold mb-2 mt-6 self-start">1. Realtors Earn $555 per Referral</p>
-            <p className="text-base leading-7 max-w-[700px] text-wrap">We pay you $555 for every referred unit!</p>
+            <p className="text-2xl text-blue-900 font-bold mb-2 mt-6 self-start">1. Realtors Earn $750 per Referral</p>
+            <p className="text-base leading-7 max-w-[700px] text-wrap">We pay you $750 for every referred unit!</p>
 
             <p className="text-2xl text-blue-900 font-bold mb-2 mt-6 self-start">2. Keep Working With Your Client</p>
             <p className="text-base leading-7 max-w-[700px] text-wrap">
