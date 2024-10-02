@@ -49,7 +49,7 @@ export default function Home() {
             <p className="text-5xl text-blue-900 font-bold mb-6 mt-6 self-start">Why Work With Us?</p>
 
             <p className="text-2xl text-blue-900 font-bold mb-2 mt-6 self-start">1. Realtors Earn $750 per Referral</p>
-            <p className="text-base leading-7 max-w-[700px] text-wrap">We pay you $750 for every referred unit!</p>
+            <p className="text-base leading-7 max-w-[700px] text-wrap">We pay you $750 for every referred client!</p>
 
             <p className="text-2xl text-blue-900 font-bold mb-2 mt-6 self-start">2. Keep Working With Your Client</p>
             <p className="text-base leading-7 max-w-[700px] text-wrap">
