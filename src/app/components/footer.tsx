@@ -21,18 +21,6 @@ export default function Footer() {
                         <p className="navControl">About</p>
                     </button>
                 </Link>
-                {/* <Link href="/pricing" className="flex flex-row justify-start items-center gap-4">
-                    <Image src="about.svg" width={25} height={25} alt="Pricing" />
-                    <button className="m-2">
-                        <p className="navControl">Pricing</p>
-                    </button>
-                </Link> */}
-                <Link href="/referral" className="flex flex-row justify-start items-center gap-4">
-                    <Image src="about.svg" width={25} height={25} alt="Referral" />
-                    <button className="m-2">
-                        <p className="navControl">Referral</p>
-                    </button>
-                </Link>
                 <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" rel="noopener" target="_blank"  className="flex flex-row justify-start items-center gap-4">
                     <Image src='services.svg' width={25} height={25} alt="Services" />
                     <button className="m-2">

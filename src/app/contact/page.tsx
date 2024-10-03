@@ -29,7 +29,7 @@ export default function Home() {
                 </div>
             </div>
             <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
-            <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 bg-slate-300 max-w-[5000px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
+            <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 bg-slate-300 max-w-[320px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
                 <p className="text-xl text-blue-950 text-left leading-loose">
                     At TPG Management, we leverage our seasoned expertise and innovative
                     solutions to anticipate the unique needs of every property under our
