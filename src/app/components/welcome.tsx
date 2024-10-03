@@ -37,21 +37,21 @@ export default function Welcome() {
       >
         <SwiperSlide>
           <Image
-            src="/carousel/img1.jpg"
+            src="/carousel/img1.png"
             alt="img1"
             width={1000}
             height={500}
             className="hidden sm:hidden lg:block h-[500px]"
           />
           <Image
-            src="/carousel/img1.jpg"
+            src="/carousel/img1.png"
             alt="img1"
             width={320}
             height={320}
             className="block sm:hidden h-[320px]"
           />
           <Image
-            src="/carousel/img1.jpg"
+            src="/carousel/img1.png"
             alt="img1"
             width={640}
             height={320}
@@ -60,21 +60,21 @@ export default function Welcome() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/carousel/img2.jpg"
+            src="/carousel/img2.png"
             alt="img2"
             width={1000}
             height={500}
             className="hidden sm:hidden lg:block h-[500px]"
           />
           <Image
-            src="/carousel/img2.jpg"
+            src="/carousel/img2.png"
             alt="img2"
             width={320}
             height={320}
             className="block sm:hidden h-[320px]"
           />
           <Image
-            src="/carousel/img2.jpg"
+            src="/carousel/img2.png"
             alt="img2"
             width={640}
             height={320}
@@ -83,21 +83,21 @@ export default function Welcome() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/carousel/img3.jpg"
+            src="/carousel/img3.png"
             alt="img3"
             width={1000}
             height={500}
             className="hidden sm:hidden lg:block h-[500px]"
           />
           <Image
-            src="/carousel/img3.jpg"
+            src="/carousel/img3.png"
             alt="img3"
             width={320}
             height={320}
             className="block sm:hidden h-[320px]"
           />
           <Image
-            src="/carousel/img3.jpg"
+            src="/carousel/img3.png"
             alt="img3"
             width={640}
             height={320}
