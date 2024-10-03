@@ -17,7 +17,7 @@ export default function Welcome() {
         <p className="text-sm lg:text-lg ">
           We are a premier property management solution serving <strong>
             Monmouth,
-            Middlesex, Union, Ocean, Passaic, Essex, Bergan, Somerset and Hudson County in New Jersey
+            Middlesex, Union, Ocean, Passaic, Essex, Bergen, Somerset and Hudson County in New Jersey
           </strong>.
           Specializing in single-family homes, multi-family units, garden apartments, and apartment
           complexes. We handle every facet of the property lifecycle. – from
