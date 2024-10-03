@@ -25,7 +25,7 @@ export default function Welcome() {
         pagination={{ clickable: true, dynamicBullets: true }}
         modules={[Pagination, Autoplay, FreeMode, Scrollbar]}
         autoplay={{ delay: 2000 }}
-        className="rounded-xl max-w-[320px] md:max-w-[500px] xl:max-w-[50vw]"
+        className="rounded-xl max-w-[320px] md:max-w-[500px] xl:max-w-[1000px]"
       >
         <SwiperSlide>
           <Image src="/carousel/img1.png" alt="img1" layout="responsive" width={1000} height={500} />
