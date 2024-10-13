@@ -10,7 +10,9 @@ export default function Welcome() {
   return (
     <section className="flex flex-col content-center justify-center max-w-full lg:flex-row gap-4 lg:gap-16 text-blue-900 m-4">
       <div className="flex flex-col items-start justify-center lg:max-w-[500px] text-left">
-        <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">Hassle-Free Property Management in New Jersey – Maximize Your Rental Income, Minimize Your Stress</h1>
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">
+          Hassle-Free Property Management in New Jersey – Maximize Your Rental Income, Minimize Your Stress
+        </h1>
         <p className="text-sm xl:text-lg mt-6 mb-2">
           <strong>Welcome to TPG Management</strong>
         </p>
@@ -21,7 +23,7 @@ export default function Welcome() {
         </p>
         <Link href={"/contact"} className="flex w-full flex-col justify-center items-center">
           <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-start rounded-lg transition-all hover:bg-blue-700">
-            See How We Can Help You
+            Learn More About Our Services
           </button>
         </Link>
       </div>

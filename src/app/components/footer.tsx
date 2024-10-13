@@ -11,25 +11,25 @@ export default function Footer() {
         </Link>
         <Link href="/contact" className="flex flex-row justify-start items-center gap-2">
           <Image src="contact.svg" width={25} height={25} alt="Contact" />
-          <button>
+          <button className="flex items-center">
             <p className="navControl">Contact Us</p>
           </button>
         </Link>
         <Link href="/about" className="flex flex-row justify-start items-center gap-2">
           <Image src="about.svg" width={25} height={25} alt="About" />
-          <button>
+          <button className="flex items-center">
             <p className="navControl">About</p>
           </button>
         </Link>
-        {/* <Link href="/pricing" className="flex flex-row justify-start items-center gap-2">
+        <Link href="/pricing" className="flex flex-row justify-start items-center gap-2">
           <Image src="about.svg" width={25} height={25} alt="Pricing" />
-          <button className="m-2">
+          <button className="flex items-center">
             <p className="navControl">Pricing</p>
           </button>
-        </Link> */}
+        </Link>
         <Link href="/referral" className="flex flex-row justify-start items-center gap-2">
           <Image src="about.svg" width={25} height={25} alt="Referral" />
-          <button>
+          <button className="flex items-center">
             <p className="navControl">Referral</p>
           </button>
         </Link>
@@ -40,7 +40,7 @@ export default function Footer() {
           className="flex flex-row justify-start items-center gap-2"
         >
           <Image src="services.svg" width={25} height={25} alt="Services" />
-          <button>
+          <button className="flex items-center">
             <p className="navControl">Available Properties</p>
           </button>
         </a>
@@ -51,7 +51,7 @@ export default function Footer() {
           className="flex flex-row justify-start items-center gap-2"
         >
           <Image src="rLogin.svg" width={25} height={25} alt="Resident Login" />
-          <button>
+          <button className="flex items-center">
             <p className="navControl">Resident Login</p>
           </button>
         </a>

@@ -1,23 +1,30 @@
-"use client"
+"use client";
 import Image from "next/image";
 import PricingPlan from "../components/pricingPlans";
 import Testimonial from "../components/testimonial";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className=" flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
-      <>UNDER DEVELOPMENT, DONT PEEK!</>
-      {/* <h1 className="text-4xl text-blue-900 font-bold self-center">Pricing and Packages</h1>
-      <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 bg-slate-300 max-w-[500px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
-        <p className="text-xl text-blue-950 text-left leading-loose">
-          We keep our pricing Simple. We typically require 8% of the monthly rent with a minimum of $110. Keep in mind, that every property is
-          different. Pricing may be discounted for larger properties or other special situations. Some companies charge extra for some additional
-          services. We don&apos;t. We provide high quality, complete service without add-ons or special fees.
+      <div className="flex gap-4 flex-col">
+        <h1 className="text-4xl text-blue-900 font-bold">Services & Pricing</h1>
+        <h1 className="text-3xl text-blue-900 font-bold max-w-[450px]">Discover how we make property management easy and stress-free.</h1>
+        <p className="text-xl text-black max-w-[800px]">
+          Whether you own a single-family home, an apartment unit, or a combination of several properties, we&apos;re here to make your life easier.
+          We offer a wide range of property management services to fit your needs as a landlord and rental property owner. From day one, you&apos;ll
+          have a friendly property manager by your side, dedicated to ensuring your happiness and satisfaction in the rental journey.
         </p>
       </div>
-      <PricingPlan/>
       <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
-      <Testimonial/> */}
+      <PricingPlan />
+      <Link href={"/contact"} className="flex w-full flex-col justify-center items-center">
+        <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-center rounded-lg transition-all hover:bg-blue-700">
+          Contact Us
+        </button>
+      </Link>
+      <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
+      <Testimonial />
     </main>
   );
 }
