@@ -8,7 +8,7 @@ export default function Introduction() {
         <div className="flex flex-col items-center justify-center gap-8">
           <h1 className={`text-2xl sm:text-4xl lg:text-5xl font-bold text-blue-900 leading-loose`}>Comprehensive Property Management Solutions</h1>
           <h1 className={`text-2xl sm:text-4xl lg:text-5xl font-bold text-blue-900 leading-loose`}>Your Property, Our Priority</h1>
-          <p className="text-xl leading-8">We cover every detail of managing your rental property, so you don't have to</p>
+          <p className="text-xl leading-8">We cover every detail of managing your rental property, so you don&apos;t have to</p>
             <div className="flex flex-col sm:flex-row gap-8">
               <div className="flex flex-col gap-2">
                 <p className="text-lg font-bold">✓ Expert Tenant Placement</p>
