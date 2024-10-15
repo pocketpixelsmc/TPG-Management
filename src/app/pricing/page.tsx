@@ -11,12 +11,13 @@ export default function Home() {
         <h1 className="text-4xl text-blue-900 font-bold">Services & Pricing</h1>
         <h1 className="text-3xl text-blue-900 font-bold max-w-[450px]">Discover how we make property management easy and stress-free.</h1>
         <p className="text-xl text-black max-w-[800px]">
-          Whether you own a single-family home, an apartment unit, or a combination of several properties, we&apos;re here to make your life easier.
-          We offer a wide range of property management services to fit your needs as a landlord and rental property owner. From day one, you&apos;ll
-          have a friendly property manager by your side, dedicated to ensuring your happiness and satisfaction in the rental journey.
+          No matter the size or type of property you own, our goal is to handle the details, so you don&apos;t have to. At TPG Management, we tailor
+          our services to meet your specific needs, offering comprehensive solutions that cover everything from tenant placement to ongoing
+          maintenance. From the start, we are committed to maximizing the value of your investment and ensuring seamless management every step of the
+          way.
         </p>
       </div>
-      <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
+      <hr className=" hidden md:block w-[90%] border-1 border-slate-800 mx-auto my-8" />
       <PricingPlan />
       <Link href={"/contact"} className="flex w-full flex-col justify-center items-center">
         <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-center rounded-lg transition-all hover:bg-blue-700">
