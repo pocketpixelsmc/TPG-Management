@@ -40,15 +40,15 @@ export default function PricingPlan() {
         })}
         <div></div>
         <div className="flex flex-row items-center justify-around w-full gap-8 p-6 text-black col-span-3">
-          <div className="flex flex-col flex-wrap items-center justify-center">
-            <p className="text-base max-w-[200px]">$595 Leasing fee</p>
-            <p className="text-base max-w-[200px]">$150 annual inspection</p>
-            <p className="text-base max-w-[200px]">$195 Lease Renewal Fee</p>
+        <div className="flex flex-col flex-wrap items-center justify-center">
+            <p className="text-base max-w-[200px]">50% leasing fee</p>
+            <p className="text-base max-w-[200px]">(6 month guarntee)</p>
+            <p className="text-base max-w-[200px]">$195 renewal fee</p>
           </div>
           <div className="flex flex-col flex-wrap items-center justify-center">
-            <p className="text-base max-w-[200px]">$595 Leasing fee</p>
-            <p className="text-base max-w-[200px]">$150 annual inspection</p>
-            <p className="text-base max-w-[200px]">$99 Lease Renewal Fee</p>
+            <p className="text-base max-w-[200px]">50% leasing fee</p>
+            <p className="text-base max-w-[200px]">(6 month guarntee)</p>
+            <p className="text-base max-w-[200px]">$195 renewal fee</p>
           </div>
           <div className="flex flex-col flex-wrap items-center justify-center">
             <p className="text-base max-w-[200px]">50% leasing fee</p>
