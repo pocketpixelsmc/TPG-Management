@@ -55,11 +55,11 @@ export default function Navbar() {
             <p className="navControl">About</p>
           </button>
         </Link>
-        {/* <Link href="/pricing">
+        <Link href="/pricing">
           <button className="m-2 xl:text-2xl">
             <p className="navControl">Pricing</p>
           </button>
-        </Link> */}
+        </Link>
         <Link href="/referral">
           <button className="m-2 xl:text-2xl">
             <p className="navControl">Referral</p>
@@ -96,11 +96,11 @@ export default function Navbar() {
                 <p className="navControl">About</p>
               </button>
             </Link>
-            {/* <Link href="/pricing">
+            <Link href="/pricing">
               <button className="m-2 xl:text-2xl">
                 <p className="navControl">Pricing</p>
               </button>
-            </Link> */}
+            </Link>
             <Link href="/referral">
               <button className="m-2 xl:text-2xl">
                 <p className="navControl">Referral</p>

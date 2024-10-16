@@ -6,14 +6,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select: none;
-  -webkit-user-drag: none;
+}
+*:not(html, input, textarea, select, button, .swiper-wrapper) {
+  overflow: hidden;
 }
 
-body {
+body:not(.fjsdjfsdf){
   color: rgb(var(--foreground-rgb));
   background: white;
-  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 @layer utilities {
