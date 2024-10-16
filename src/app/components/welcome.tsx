@@ -5,6 +5,7 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/bundle";
 import Link from "next/link";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function Welcome() {
   return (
@@ -22,7 +23,7 @@ export default function Welcome() {
           you can enjoy peace of mind and steady income.
         </p>
         <Link href={"/contact"} className="flex w-full flex-col justify-center items-center">
-          <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-start rounded-lg transition-all hover:bg-blue-700">
+          <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-start rounded-lg transition-all hover:bg-blue-700" onClick={() => sendGAEvent({ event: "Home Page B1 Clicked", value: "Learn More About Our Services"})}>
             Learn More About Our Services
           </button>
         </Link>
