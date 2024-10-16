@@ -1,7 +1,5 @@
-'use client'
 import Image from "next/image";
 import EmailForm from "../components/form";
-import Testimonial from "../components/testimonial";
 
 export default function Home() {
     return (
@@ -39,8 +37,6 @@ export default function Home() {
                     ensures that we persist until complexity transforms into simplicity.
                 </p>
             </div>
-            <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
-            <Testimonial/>
         </main>
     );
 }
