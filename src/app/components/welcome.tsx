@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Autoplay, FreeMode, Pagination, Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -22,8 +22,12 @@ export default function Welcome() {
           Specializing in single-family homes, multi-family properties, and apartment complexes, we handle every aspect of managing your property so
           you can enjoy peace of mind and steady income.
         </p>
-        <Link href={"/contact"} className="flex w-full flex-col justify-center items-center">
-          <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-start rounded-lg transition-all hover:bg-blue-700" onClick={() => sendGAEvent({ event: "button_click", value: "Button clicked"})}>
+        <Link
+          href={"/contact"}
+          className="flex w-full flex-col justify-center items-center"
+          onClick={() => sendGAEvent({ event: "click", value: "Button clicked" })}
+        >
+          <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-start rounded-lg transition-all hover:bg-blue-700">
             Learn More About Our Services
           </button>
         </Link>
