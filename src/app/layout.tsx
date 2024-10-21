@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import { inter, lexendDeca } from "./components/fonts";
 import Footer from "./components/footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "TPG Management",
@@ -16,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full w-screen">
+      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
       <body className={`${lexendDeca.className}`}>
         <div className="flex flex-row items-start justify-end gap-4 w-full">
           <a href="https://tpgcompanies.managebuilding.com/Resident/portal/login" rel="noopener" target="_blank">
