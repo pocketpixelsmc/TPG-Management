@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/navbar";
-import { inter, lexendDeca } from "./components/fonts";
+import { lexendDeca } from "./components/fonts";
 import Footer from "./components/footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 

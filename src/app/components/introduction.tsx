@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { lilita_one, plusJakartaSans } from "./fonts";
 
 export default function Introduction() {
   return (

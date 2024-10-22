@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import PricingPlan from "../components/pricingPlans";
 import Testimonial from "../components/testimonial";
 import Link from "next/link";

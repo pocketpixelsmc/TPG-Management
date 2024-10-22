@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import { pricingColumn, pricingData } from "./pricingData.js";
 
 export default function PricingPlan() {
