@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import { pricingColumn, pricingData } from "./pricingData.js";
 
 export default function PricingPlan() {
@@ -84,7 +82,7 @@ export default function PricingPlan() {
               <p className="text-base max-w-[200px]">
                 Additional Fees: <br />{" "}
                 {column.additional_fees.map((fee, index) => (
-                  <p key={index}>{fee}</p>
+                  <>{fee}</>
                 ))}
               </p>
             </div>

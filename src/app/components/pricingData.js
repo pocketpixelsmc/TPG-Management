@@ -1,5 +1,3 @@
-import { title } from "process";
-
 const pricingData = [
   "7 Days of Showing Access & Support for Prospective Tenants",
   "Thorough Tenant Screening",

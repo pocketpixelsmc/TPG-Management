@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { plusJakartaSans } from "./fonts";
-
 export default function Footer() {
   return (
     <footer className={`bg-slate-400 text-slate-800 text-sm text-center p-4 pt-16`}>
@@ -59,7 +57,7 @@ export default function Footer() {
       <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
       <div className="m-0 mx-auto">
         <div className="flex flex-col text-lg sm:flex-row sm:items-center items-start text-left justify-center w-screen gap-4">
-          <p>Monday-Friday 9am-5pm </p>
+          <p>Monday-Friday 8am-4pm </p>
           <p>(732) 978-9390 </p>
           <a href="mailto:info@tpgmanagement.net" className="text-blue-950">
             <p>info@tpgmanagement.net</p>

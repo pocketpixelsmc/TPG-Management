@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Team from "../components/team";
 import Missions from "../components/missions";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "NJ Property Management Leaders | TPG Management",
+  description:
+    "TPG Management was founded by experienced investors with hands-on property expertise, delivering tailored solutions to maximize value and streamline operations. ",
+};
 
 export default function Home() {
   return (
