@@ -6,8 +6,10 @@ import Footer from "./components/footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
-  title: "TPG Management",
-  description: "All you need for your Property Management",
+  title: "Trusted Property & Condo Management Companies in New Jersey",
+  description:
+    "Professional property management companies in New Jersey specializing in condo management. Offering comprehensive property services across New Jersey. Visit us today!",
+  keywords: [ "property management companies new jersey" , "condo management companies nj", "property in new jersey" ]
 };
 
 export default function RootLayout({
@@ -25,6 +27,12 @@ export default function RootLayout({
               Resident Login
             </button>
           </a>
+          <a href="#" rel="noopener" target="_blank">
+            <button className="p-4 px-6 bg-blue-900 text-white rounded-xl rounded-t-none text-center text-xs md:text-sm transition-all hover:bg-blue-700">
+              Owner Login
+            </button>
+          </a>
+          <p className="p-4 px-6 rounded-xl rounded-t-none text-center text-xs md:text-sm">Call at (732) 978-9390</p>
         </div>
         <Navbar />
         {children}

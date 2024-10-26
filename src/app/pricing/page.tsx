@@ -1,7 +1,13 @@
-"use client";
+import { Metadata } from "next";
 import PricingPlan from "../components/pricingPlans";
 import Testimonial from "../components/testimonial";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "TPG Management: Stress-Free Property Services & Pricing ",
+  description:
+    "TPG Management makes property management simple with customized services for all property types in NJ. From tenant placement to maintenance, we’ve got you covered.",
+};
 
 export default function Home() {
   return (

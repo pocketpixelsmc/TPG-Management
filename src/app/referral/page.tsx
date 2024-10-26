@@ -1,5 +1,12 @@
 import Image from "next/image";
 import RefEmailForm from "../components/refForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Refer a Friend to TPG Management | Earn $750 | Property Management Referral Program NJ",
+  description:
+    "Refer property owners to TPG Management and help them experience top-notch property management in New Jersey. Earn $750 for every successful referral while helping friends and clients find trusted management for their single-family and multi-family rental properties.",
+};
 
 export default function Home() {
   return (

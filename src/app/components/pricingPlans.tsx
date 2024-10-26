@@ -82,7 +82,7 @@ export default function PricingPlan() {
               <p className="text-base max-w-[200px]">
                 Additional Fees: <br />{" "}
                 {column.additional_fees.map((fee, index) => (
-                  <p key={index}>{fee}</p>
+                  <>{fee}</>
                 ))}
               </p>
             </div>
