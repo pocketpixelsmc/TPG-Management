@@ -28,7 +28,7 @@ export default function RootLayout({
               Resident Login
             </button>
           </a>
-          <a href="#" rel="noopener" target="_blank">
+          <a href="https://tpgcompanies.managebuilding.com/manager" rel="noopener" target="_blank">
             <button className="p-4 px-6 bg-blue-900 text-white rounded-xl rounded-t-none text-center text-xs md:text-sm transition-all hover:bg-blue-700">
               Owner Login
             </button>
