@@ -9,7 +9,11 @@ export const metadata: Metadata = {
   title: "Trusted Property & Condo Management Companies in New Jersey",
   description:
     "Professional property management companies in New Jersey specializing in condo management. Offering comprehensive property services across New Jersey. Visit us today!",
-  keywords: [ "property management companies new jersey" , "condo management companies nj", "property in new jersey" ]
+  keywords: ["property management companies new jersey", "condo management companies nj", "property in new jersey"],
+  openGraph: {
+    images:
+      "https://cdn.discordapp.com/attachments/1226052805970624553/1299628115273715732/image.png?ex=671de480&is=671c9300&hm=566fc2bfc965e6a4016f59eee9a950e27ebdff153a5533d310626b92acba595b&",
+  },
 };
 
 export default function RootLayout({
