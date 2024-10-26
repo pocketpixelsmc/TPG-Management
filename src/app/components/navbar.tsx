@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { plusJakartaSans } from "./fonts";
 import Image from "next/image";
 import "./underline.css";
 import { useEffect, useState } from "react";

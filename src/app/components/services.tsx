@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { plusJakartaSans } from "./fonts";
 import Link from "next/link";
 import ServiceGrid from "./serviceGrid";
 import Subservices from "./subservices";
