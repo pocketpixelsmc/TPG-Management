@@ -1,18 +1,11 @@
-import Image from "next/image";
-import RefEmailForm from "../components/refForm";
-import { Metadata } from "next";
+
 
 export default function Home() {
   return (
     <main className=" flex flex-col items-center justify-center gap-2 mt-4 mb-8 sm:mt-16 p-4 pb-0">
-      <p className="text-5xl text-blue-900 font-bold mb-3">Vendor Information</p>
-      <p className="text-4xl text-blue-900 font-bold self-center">Submit an Invoice</p>
-      <p className="text-xl max-w-[838px] mb-6 text-center mt-6">
-        At TPG Management, we value referrals. Know someone who could benefit from our professional property management services in New Jersey? When
-        you refer a property owner to us, you&apos;ll earn $750 once they sign up for our services.
-      </p>
+      <p className="text-5xl text-blue-900 font-bold mb-6">Vendor Information</p>
       <a href={"https://forms.gle/AqpyBjTTTWyq46j29"} className="flex w-full flex-col justify-center items-center">
-        <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 rounded-lg transition-all hover:bg-blue-700">Submit an Invoice</button>
+        <button className="bg-blue-900 text-white p-2 px-6 md:px-10 md:p-6 md:text-xl rounded-lg transition-all hover:bg-blue-700">Submit an Invoice</button>
       </a>
       <hr className="w-[80%] border-1 border-slate-800 mx-auto my-8" />
       <p className="text-5xl text-blue-900 font-bold mb-3">Required Additional Insured Information</p>

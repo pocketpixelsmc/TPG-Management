@@ -31,12 +31,6 @@ export default function Footer() {
             <p className="navControl">Referral</p>
           </button>
         </Link>
-        <Link href="/vendor" className="flex flex-row justify-start items-center gap-2">
-          <Image src="about.svg" width={25} height={25} alt="Vendor" />
-          <button className="flex items-center">
-            <p className="navControl">Vendor</p>
-          </button>
-        </Link>
         <a
           href="https://tpgcompanies.managebuilding.com/Resident/public/rentals"
           rel="noopener"

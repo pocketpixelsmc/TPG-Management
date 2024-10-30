@@ -64,11 +64,6 @@ export default function Navbar() {
             <p className="navControl">Referral</p>
           </button>
         </Link>
-        <Link href="/vendor">
-          <button className="m-2 xl:text-2xl">
-            <p className="navControl">Vendor</p>
-          </button>
-        </Link>
         <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" rel="noopener" target="_blank">
           <button className="m-2 xl:text-2xl">
             <p className="navControl">Available Properties</p>
@@ -115,11 +110,6 @@ export default function Navbar() {
             <Link href="/referral">
               <button className="m-2 xl:text-2xl">
                 <p className="navControl">Referral</p>
-              </button>
-            </Link>
-            <Link href="/vendor">
-              <button className="m-2 xl:text-2xl">
-                <p className="navControl">Vendor</p>
               </button>
             </Link>
             <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" rel="noopener" target="_blank">
