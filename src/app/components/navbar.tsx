@@ -83,7 +83,14 @@ export default function Navbar() {
           <Link href="/">
             <Image src="/logo.png" alt="TPG Management" width={200} height={200} className=" w-[100px] md:w-[150px] lg:w-[200px]" />
           </Link>
-          <Image onClick={toggleDrawer(true)} className="inline-block xl:hidden self-end cursor-pointer" src="/menu.svg" alt="Menu" width={50} height={50} />
+          <Image
+            onClick={toggleDrawer(true)}
+            className="inline-block xl:hidden self-end cursor-pointer"
+            src="/menu.svg"
+            alt="Menu"
+            width={50}
+            height={50}
+          />
           <div className={` flex-row gap-3 justify-center items-center px-2 font-normal hidden xl:flex`}>
             <Link href="/">
               <button className="m-2 xl:text-2xl">
