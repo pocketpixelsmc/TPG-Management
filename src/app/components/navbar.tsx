@@ -23,7 +23,7 @@ export default function Navbar() {
         setShowBackground(false);
       }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);    
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
