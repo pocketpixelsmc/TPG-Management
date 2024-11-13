@@ -7,18 +7,18 @@ export default function PricingPlan() {
         <div></div>
         <div className="flex flex-row items-center justify-around gap-8 p-6 bg-blue-900 text-white col-span-3 w-full">
           <h1 className="text-lg font-bold">Houses, Condos & 2-4 units</h1>
-          <h1 className="text-lg font-bold">Multifamily (5-15 units)</h1>
+          <h1 className="text-lg font-bold">Multifamily (5-15 units) & Commerical </h1>
           <h1 className="text-lg font-bold">Multifamily (20+ units)</h1>
         </div>
         <div></div>
         <div className="flex flex-row items-center justify-around gap-8 p-6 text-black col-span-3 w-full">
           <div className="flex flex-col flex-wrap items-center justify-center">
             <h1 className="text-2xl">8%</h1>
-            <p className="text-base max-w-[200px]">Monthly management fee Min $189 per unit/mo</p>
+            <p className="text-base max-w-[200px]">Monthly management fee</p>
           </div>
           <div className="flex flex-col flex-wrap items-center justify-center">
             <h1 className="text-2xl">6%</h1>
-            <p className="text-base max-w-[200px]">Monthly management fee Min $150 per unit/mo</p>
+            <p className="text-base max-w-[200px]">Monthly management fee</p>
           </div>
           <div className="flex flex-col flex-wrap items-center justify-center">
             <p className="text-base max-w-[200px]">Contact us for pricing</p>

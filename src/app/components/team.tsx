@@ -55,7 +55,7 @@ export default function Team() {
       <div className="flex flex-row justify-center content-center gap-4">
         <Image src="/team/harsh.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
         <div className="flex flex-col justify-center content-center gap-4">
-          <a href="https://harsh-suthar.vercel.app/" target="_blank" className="text-xl font-bold text-blue-900">Harsh</a>
+          <a href="https://www.harshsuthar.me" target="_blank" className="text-xl font-bold text-blue-900">Harsh</a>
           <p className="text-lg text-blue-950">Development Administrator</p>
         </div>
       </div>
