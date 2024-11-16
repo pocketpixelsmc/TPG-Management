@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full w-screen">
       <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
+      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
       <body className={`${lexendDeca.className}`}>
         <div className="flex flex-row items-start justify-end gap-4 w-full">
           <p className="p-4 px-6 text-center left-0 static sm:absolute text-sm md:text-lg"> 📞732-978-9390 </p>
