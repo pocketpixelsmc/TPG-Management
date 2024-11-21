@@ -16,7 +16,7 @@ export default function Welcome() {
         <p className="text-sm xl:text-lg mt-6 mb-2">
           <strong>Welcome to TPG Management</strong>
         </p>
-        <p className="text-sm xl:text-lg mb-6">
+        <p className="text-sm xl:text-lg mb-6 text-black">
           We provide premier property management services across Monmouth, Middlesex, Union, Ocean, Essex, Somerset, and Hudson counties. Specializing
           in single-family homes, multi-family properties, and apartment complexes, we handle every aspect of managing your property so you can enjoy
           peace of mind and steady income. 

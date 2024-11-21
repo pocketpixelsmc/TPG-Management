@@ -28,6 +28,9 @@ const config: Config = {
       screens: {
         'max-sm' : {'max': '639px'},
       },
+      gridTemplateRows: {
+        '3r': "195px 200px 60px"
+      },
     },
   },
   plugins: [],

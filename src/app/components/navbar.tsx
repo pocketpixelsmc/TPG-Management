@@ -76,7 +76,7 @@ export default function Navbar() {
         </Link>
       </Drawer>
       <nav
-        className={`text-blue-900 py-1 mt-[10px] flex flex-col gap-2 w-full text-xs sm:text-sm sticky top-0 z-10 transition-all duration-300 pb-2`}
+        className={`text-blue-900  mt-[5px] flex flex-col gap-2 w-full text-xs sm:text-sm sticky top-0 z-10 transition-all duration-300`}
         style={{ backgroundColor: showBackground ? "#e2e8f0" : undefined }}
       >
         <div className="flex flex-row justify-between px-4 xl:px-0 xl:justify-around items-center mt-4">
