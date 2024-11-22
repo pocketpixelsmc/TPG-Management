@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <main className=" flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
       <div className="flex gap-4 flex-col">
-        <h1 className="text-4xl text-blue-900 font-bold">Services & Pricing</h1>
-        <h1 className="text-3xl text-blue-900 font-bold max-w-[450px]">Discover how we make property management easy and stress-free.</h1>
+        <h1 className="text-4xl text-blue-900 font-bold self-center">Services & Pricing</h1>
+        <h1 className="text-3xl text-blue-900 font-bold max-w-[450px] self-center text-center">Discover how we make property management easy and stress-free.</h1>
         <p className="text-xl text-black max-w-[800px]">
           No matter the size or type of property you own, our goal is to handle the details, so you don&apos;t have to. At TPG Management, we tailor
           our services to meet your specific needs, offering comprehensive solutions that cover everything from tenant placement to ongoing
