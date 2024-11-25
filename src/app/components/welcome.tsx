@@ -17,9 +17,8 @@ export default function Welcome() {
           <strong>Welcome to TPG Management</strong>
         </p>
         <p className="text-sm xl:text-lg mb-6 text-black">
-          We provide premier property management services across Monmouth, Middlesex, Union, Ocean, Essex, Somerset, and Hudson counties. Specializing
-          in single-family homes, multi-family properties, and apartment complexes, we handle every aspect of managing your property so you can enjoy
-          peace of mind and steady income. 
+          Specializing in single-family homes, multi-family properties, apartment complexes, commercial properties (retail, office, mixed-use) we
+          handle every aspect of managing your property so you can enjoy peace of mind and steady income.
         </p>
         <Link href={"/contact"} className="flex w-full flex-col justify-center items-center">
           <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 md:self-start rounded-lg transition-all hover:bg-blue-700">
