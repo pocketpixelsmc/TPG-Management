@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import { lexendDeca } from "./components/fonts";
 import Footer from "./components/footer";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Trusted Property & Condo Management Companies in New Jersey",
@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full w-screen">
+      <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
       <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
       <body className={`${lexendDeca.className}`}>
         <div className="flex flex-row items-start justify-end gap-4 w-full">

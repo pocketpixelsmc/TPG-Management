@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-*:not(html, input, textarea, select, button, .swiper-wrapper) {
+*:not(html, input, textarea, select, button, .swiper-wrapper,h1,h2) {
   overflow: hidden;
 }
 
