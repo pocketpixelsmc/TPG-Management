@@ -14,7 +14,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
       <div className="flex gap-4 flex-col items-center">
         <h1 className="text-5xl text-blue-900 font-bold">We provide full-service property management.</h1>
-        <h2 className="text-2xl text-blue-900 font-bold max-w-[350px] text-center">We’re hands-on, so you don’t have to be.</h2>
+        <h2 className="text-2xl text-blue-900 font-bold max-w-[450px] text-center">We’re hands-on, so you don’t have to be.</h2>
         <p className="text-xl text-black max-w-[800px] text-center">
          Our people make the difference. Our backgrounds. Our strategies. Our action plans. Our execution. 
          We strive to deliver a top-tier level service to both residents and property owners by simplifying the complicated. Easy to understand terms, simple fee structures, honesty and transparency are all part of the core values that Augusta Rental Homes strives to deliver everyday.
