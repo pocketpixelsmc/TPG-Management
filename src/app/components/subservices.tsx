@@ -13,7 +13,7 @@ export default function Subservices() {
             <h2 className="text-xl font-bold">Single-Family Homes</h2>
             <p className="text-sm leading-7">Professional Property Managers that allow you to enjoy being a property owner, not a landlord.</p>
           </div>
-          <Link href={"/contact"} className="self-end bg-blue-900 text-white p-4 px-6 rounded-lg transition-all hover:bg-blue-700">
+          <Link href={"/contact/sfh"} className="self-end bg-blue-900 text-white p-4 px-6 rounded-lg transition-all hover:bg-blue-700">
             <button>Contact Us</button>
           </Link>
         </div>
@@ -25,7 +25,7 @@ export default function Subservices() {
             <h2 className="text-xl font-bold">Multi-Family Houses & Apartment Buildings</h2>
             <p className="text-sm leading-7">A complete team to handle the day to day operations of your multi family and apartment building real estate investments.</p>
           </div>
-          <Link href={"/contact"} className="bg-blue-900 text-white p-4 px-6 self-end rounded-lg transition-all hover:bg-blue-700">
+          <Link href={"/contact/mf"} className="bg-blue-900 text-white p-4 px-6 self-end rounded-lg transition-all hover:bg-blue-700">
             <button>Contact Us</button>
           </Link>
         </div>
@@ -37,7 +37,7 @@ export default function Subservices() {
             <h2 className="text-xl font-bold">Commercial Properties</h2>
             <p className="text-sm leading-7">A management team specialized in handling Retail, Office, and Mixed Use Properties.</p>
           </div>
-          <Link href={"/contact"} className="bg-blue-900 text-white p-4 px-6 self-end rounded-lg transition-all hover:bg-blue-700">
+          <Link href={"/contact/co"} className="bg-blue-900 text-white p-4 px-6 self-end rounded-lg transition-all hover:bg-blue-700">
             <button>Contact Us</button>
           </Link>
         </div>

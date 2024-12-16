@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import PricingPlan from "../components/pricingPlans";
 import Testimonial from "../components/testimonial";
 import Link from "next/link";
+import OurProcess from "../components/ourProcess";
+import FeesAtGlance from "../components/feesAtGlance";
 
 export const metadata: Metadata = {
   title: "TPG Management: Stress-Free Property Services & Pricing ",
@@ -11,23 +13,28 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
+    <main className="flex flex-col items-center justify-center gap-8 mt-4 mb-8 p-4 pb-0">
       <div className="flex gap-4 flex-col items-center">
-        <h1 className="text-5xl text-blue-900 font-bold">We provide full-service property management.</h1>
-        <h2 className="text-2xl text-blue-900 font-bold max-w-[450px] text-center">We’re hands-on, so you don’t have to be.</h2>
+        <h1 className="text-5xl text-blue-900 font-bold text-center">Property Management You Can Trust</h1>
+        <h2 className="text-2xl text-blue-900 font-bold max-w-[450px] text-center">No Hidden Fees, Just Results</h2>
+        <OurProcess />
+        <h1 className="text-5xl text-blue-900 font-bold text-center">Maximize your Investment</h1>
+        <h2 className="text-2xl text-blue-900 font-bold max-w-[450px] text-center">Property management can be overwhelming.</h2>
+        <h2 className="text-2xl text-blue-900 font-bold max-w-[450px] text-center">We’re here to help.</h2>
         <p className="text-xl text-black max-w-[800px] text-center">
-         Our people make the difference. Our backgrounds. Our strategies. Our action plans. Our execution. We strive to deliver a top-tier level service to both residents and property owners by simplifying the complicated. Easy to understand terms, simple fee structures, honesty and transparency are all part of the core values that Augusta Rental Homes strives to deliver everyday.
+          Having a successful rental property requires a lot of time, effort, and knowledge. At TPG Management you have an entire team working
+          collectively to manage all aspects of your property to make sure it continues to be a solid investment.
         </p>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/services" className="inline-block bg-[#14294F] px-8 py-3 text-white font-medium hover:bg-opacity-90 transition-colors">
+            WORK WITH US
+          </Link>
+          <Link href="/owner-faqs" className="inline-block bg-[#14294F] px-8 py-3 text-white font-medium hover:bg-opacity-90 transition-colors">
+            Owner FAQs
+          </Link>
+        </div>
       </div>
-      <hr className="hidden md:block w-[90%] border-1 border-slate-800 mx-auto my-8" />
-      <PricingPlan />
-      <Link href="/contact" className="flex w-full flex-col justify-center items-center">
-        <button className="bg-blue-900 text-white p-2 px-6 md:px-8 md:p-4 rounded-lg transition-all hover:bg-blue-700">
-          Contact Us
-        </button>
-      </Link>
-      <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
-      <Testimonial />
+      <FeesAtGlance />
     </main>
   );
 }
