@@ -7,7 +7,6 @@ import { Drawer } from "@mui/material"
 import { X, Menu, Phone, ChevronDown } from 'lucide-react'
 import { motion, AnimatePresence } from "framer-motion"
 import * as NavigationMenu from '@radix-ui/react-navigation-menu'
-import { cn } from "@/lib/utils"
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -23,6 +22,24 @@ const navItems = [
   { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact Us" },
+]
+
+const drawerItems = [
+  { href: "/", label: "Home" },
+  {
+    label: "Property Management",
+    items: [
+      { href: "/services", label: "Services" },
+      { href: "/pricing", label: "Pricing" },
+      { href: "/referral", label: "Referral" },
+      { href: "/owner-faqs", label: "Owner FAQs" },
+    ],
+  },
+  { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact Us" },
+  { href: "https://tpgcompanies.managebuilding.com/Resident/portal/login", label: "Resident Login", external: true },
+  { href: "https://tpgcompanies.managebuilding.com/manager", label: "Owner Login", external: true },
 ]
 
 export default function Navbar() {
@@ -67,7 +84,7 @@ export default function Navbar() {
             <X className="h-6 w-6 text-white hover:text-blue-300 transition-colors duration-200" />
           </button>
           <div className="flex flex-col space-y-6">
-            {navItems.map((item, index) => (
+            {drawerItems.map((item, index) => (
               <motion.div
                 key={item.label}
                 initial={{ opacity: 0, y: 20 }}
@@ -103,8 +120,8 @@ export default function Navbar() {
         </motion.div>
       </Drawer>
       <motion.nav
-        className={`text-blue-900 flex flex-col w-full text-sm sticky top-0 z-10 transition-all duration-300 ${
-          showBackground ? "bg-white shadow-lg" : "bg-transparent"
+        className={`text-blue-900 flex flex-col w-full text-sm top-0 z-10 transition-all duration-500 ${
+          showBackground ? "bg-white shadow-lg fixed" : "bg-transparent sticky"
         }`}
         initial={{ y: -100 }}
         animate={{ y: 0 }}

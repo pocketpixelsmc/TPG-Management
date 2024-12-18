@@ -3,7 +3,7 @@ export default function ServicesSection() {
       <section className="bg-gradient-to-b from-[#f8faff] to-white w-[90%]">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-[#14294F] text-white py-8">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-blue-900 text-white py-8">
               OUR SERVICES
             </h2>
             <p className="text-[#14294F] text-xl md:text-2xl max-w-4xl mx-auto">

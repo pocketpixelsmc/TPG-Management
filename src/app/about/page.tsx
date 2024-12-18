@@ -2,6 +2,7 @@ import Image from "next/image";
 import Team from "../components/team";
 import Missions from "../components/missions";
 import { Metadata } from "next";
+import RentalCTA from "../components/rentalCTA";
 
 export const metadata: Metadata = {
   title: "NJ Property Management Leaders | TPG Management",
@@ -28,6 +29,7 @@ export default function Home() {
       <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
       <h1 className="text-4xl text-blue-900 font-bold self-center">Mission and Core Values</h1>
       <Missions />
+      <RentalCTA />
     </main>
   );
 }
