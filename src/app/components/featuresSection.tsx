@@ -11,7 +11,7 @@ export default function FeaturesSection() {
     },
     {
       icon: <Users className="w-8 h-8 text-[#003366]" />,
-      title: "Our interest are aligned.",
+      title: "Our interests are aligned.",
       description:
         "Our management fees are structured to align with your success – we only make money when you make money. Your goals are our goals, and we work tirelessly to maximize your property's performance.",
     },

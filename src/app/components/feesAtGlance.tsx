@@ -97,7 +97,7 @@ export default function FeesAtGlance() {
                   )
                   :
                   (
-                    <p className="ml-6">{fee.description}</p>
+                    <p>{fee.description}</p>
                   )
                 }
               </div>

@@ -9,7 +9,7 @@ export default function Introduction() {
           <WhatWeDo />
           <Link href={"/contact"}>
             <button className="bg-blue-900 text-white p-4 px-8 self-end rounded-lg transition-all hover:bg-blue-700">
-              Discord Stress-Free Management Today!
+              Discover Stress-Free Management Today!
             </button>
           </Link>
         </div>
