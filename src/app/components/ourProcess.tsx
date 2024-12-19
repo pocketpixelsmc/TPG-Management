@@ -10,7 +10,7 @@ export default function OurProcess() {
 
       {/* Process image section */}
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <Image src="/process.png" alt="Our Process" width={1200} height={400} layout="responsive" />
+        <Image src="/process.png" alt="Our Process" width={1600} height={100} />
       </div>
     </div>
   );

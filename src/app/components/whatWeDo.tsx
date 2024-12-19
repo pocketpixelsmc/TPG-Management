@@ -3,30 +3,30 @@ import Image from "next/image";
 export default function WhatWeDo() {
   const services = [
     {
-      title: "MARKETING",
-      description: "We strategically list your property to find the right residents quickly.",
-      image: "/logo.png",
-    },
-    {
-      title: "RESIDENT SCREENING",
+      title: "RESIDENT SCREENING ",
       description: "Applicants are qualified through our rigorous screening process.",
-      image: "/logo.png",
+      image: "/wwd/resident_screening.png",
     },
     {
       title: "RENT COLLECTION",
       description: "We make sure rent is collected on time, every time.",
-      image: "/logo.png",
+      image: "/wwd/rent_collection.png",
     },
     {
       title: "MAINTENANCE",
-      description: "With our full-time maintenance staff, issues are addressed quickly & efficiently.",
-      image: "/logo.png",
+      description: "With our dedicated maintenance support team, issues are addressed quickly & efficiently.",
+      image: "/wwd/maintenance.png",
+    },
+    {
+      title: "RESIDENT COMMUNICATION",
+      description: "We work hard to maintain positive resident relationships and satisfaction.",
+      image: "/wwd/resident_communication.png",
     },
   ];
 
   return (
     <div className="flex flex-col items-center justify-center gap-4 text-center w-screen">
-      <div className="bg-blue-900 py-8 px-4 w-[80%] mt-8">
+      <div className="bg-blue-900 py-8 px-4 w-[80%] my-8">
         <h1 className="text-white text-4xl text-center font-bold">What We Do</h1>
       </div>
 
