@@ -13,7 +13,7 @@ export default function Home() {
         </p>
         <p className="text-xl text-black max-w-[800px] text-center">
           We strive to deliver a top-tier level service to both residents and property owners by simplifying the complicated. Easy to understand
-          terms, simple fee structures, honesty and transparency are all part of the core values that Augusta Rental Homes strives to deliver
+          terms, simple fee structures, honesty and transparency are all part of the core values that TPG Management strives to deliver
           everyday.
         </p>
       </div>

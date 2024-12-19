@@ -10,7 +10,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className=" flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
+    <main className=" flex flex-col items-center justify-center gap-6 mt-4 mb-8 sm:mt-16 p-4 pb-0">
+      <h1 className="text-4xl text-blue-900 font-bold self-center">Didn't find the answers you are looking for?</h1>
       <h1 className="text-2xl text-black font-bold self-center max-w-[675px]">
         Resident or Property Owner, we are always happy to answer your questions or address your concerns. , please fill out the form below or call
         <u>

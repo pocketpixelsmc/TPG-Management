@@ -36,7 +36,7 @@ export default function WhatWeDo() {
             <div className="relative w-full h-64 mb-6">
               <Image src={service.image} alt={service.title} fill className="object-cover rounded-lg" priority />
             </div>
-            <h3 className="text-blue-900 text-xl font-semibold mb-4">{service.title}</h3>
+            <h3 className="text-blue-900 text-xl font-semibold mb-2">{service.title}</h3>
             <p className="text-gray-700">{service.description}</p>
           </div>
         ))}
