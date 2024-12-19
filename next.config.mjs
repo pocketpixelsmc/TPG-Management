@@ -6,7 +6,7 @@ const nextConfig = {
                 source: '/intake',
                 destination: 'https://form.jotform.com/242945872522059',
                 permanent: false,
-            }
+            },
         ]
     }
 };

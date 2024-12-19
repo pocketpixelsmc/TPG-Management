@@ -11,7 +11,7 @@ export default function Welcome() {
     <section className="flex flex-col content-center justify-center max-w-full lg:flex-row gap-4 lg:gap-16 text-blue-900 m-4">
       <div className="flex flex-col items-start justify-center lg:max-w-[500px] xl:max-w-[700px] text-left">
         <h1 className="text-xl sm:text-2xl xl:text-3xl font-bold">
-          Hassle-Free Property Management in New Jersey – Maximize Your Rental Income, Minimize Your Stress
+          Reliable Property Management in New Jersey – Helping Owners Succeed and Residents Thrive
         </h1>
         <p className="text-sm xl:text-lg mt-6 mb-2">
           <strong>Welcome to TPG Management</strong>

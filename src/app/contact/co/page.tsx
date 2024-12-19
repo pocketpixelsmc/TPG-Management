@@ -1,6 +1,6 @@
 import Image from "next/image";
-import EmailForm from "../components/form";
-import Testimonial from "../components/testimonial";
+import EmailForm from "../../components/form";
+import Testimonial from "../../components/testimonial";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -1,47 +1,75 @@
 .navControl {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 .navControl::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #0D47A1;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0d47a1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
-.navControl:hover{
-    color: #1565C0;
+.navControl:hover {
+  color: #1565c0;
 }
 .navControl:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .ppControl {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 .ppControl::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
-.ppControl:hover{
-    color: white;
+.ppControl:hover {
+  color: white;
 }
 .ppControl:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@keyframes underline {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3b82f6;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  animation: underline 0.3s forwards;
 }
