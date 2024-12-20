@@ -21,8 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full w-screen">
-      <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
-      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
+      <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_MID_GTM}`} />
+      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MID_GA}`} />
       <body className={`${lexendDeca.className}`}>
         <div className="flex-row items-start justify-end gap-4 w-full hidden lg:flex">
           <a href="https://tpgcompanies.managebuilding.com/Resident/portal/login" rel="noopener" target="_blank">
