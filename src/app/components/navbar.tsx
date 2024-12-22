@@ -54,6 +54,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       setShowBackground(window.scrollY >= TOP_OFFSET)
+      console.log(window.scrollY)
     }
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
@@ -123,9 +124,6 @@ export default function Navbar() {
         className={`text-blue-900 flex flex-col w-full text-sm top-0 z-10 transition-all duration-500 ${
           showBackground ? "bg-white shadow-lg fixed" : "bg-transparent sticky"
         }`}
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        transition={{ type: "spring", stiffness: 300, damping: 30 }}
       >
         <div className="flex flex-row justify-between px-4 py-2 items-center max-w-7xl mx-auto w-full">
           <div className="flex flex-row gap-4 items-center">
