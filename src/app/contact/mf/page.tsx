@@ -19,7 +19,7 @@ export default function Home() {
       <EmailForm />
       <div className="m-0 mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center max-w-[1200px] gap-4">
-          <p>Monday-Friday 9am-5pm, </p>
+          <p>Monday-Friday 8am-4pm, </p>
           <p>(732) 978-9390, </p>
           <a href="mailto:info@tpgmanagement.net" className="text-blue-950">
             <p>info@tpgmanagement.net</p>
