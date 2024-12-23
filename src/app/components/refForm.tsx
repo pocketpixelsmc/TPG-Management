@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { FormEvent, useState } from "react";
 
 export default function RefEmailForm() {
@@ -12,6 +13,7 @@ export default function RefEmailForm() {
   const [error, setError] = useState<boolean>(false);
   const [success, setSuccess] = useState<boolean>(false);
   const [pending, setPending] = useState<boolean>(false);
+  const { push } = useRouter();
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -35,6 +37,7 @@ export default function RefEmailForm() {
     if (data.messageSent) {
       setSuccess(true);
       setError(false);
+      push("/thanks");
     } else {
       setError(true);
       setSuccess(false);
