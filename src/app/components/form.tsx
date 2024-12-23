@@ -1,4 +1,5 @@
 "use client";
+import { redirect, useRouter } from "next/navigation";
 import React, { FormEvent, useState } from "react";
 
 export default function EmailForm() {
@@ -11,9 +12,9 @@ export default function EmailForm() {
     const [error , setError] = useState<boolean>(false);
     const [success, setSuccess] = useState<boolean>(false);
     const [pending , setPending] = useState<boolean>(false);
+    const { push } = useRouter();
 
     async function handleSubmit(event: FormEvent<HTMLFormElement>) {
-
         event.preventDefault();
         setPending(true);
         const response = await fetch("api/email" , {
@@ -34,6 +35,7 @@ export default function EmailForm() {
         if(data.messageSent){
             setSuccess(true);
             setError(false);
+            push("/thanks")
         }
         else{
             setError(true);
