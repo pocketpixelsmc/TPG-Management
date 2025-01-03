@@ -19,10 +19,11 @@ export default function Home() {
       <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 bg-slate-300 max-w-[500px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
         <h1 className="text-2xl font-bold text-blue-900">How we started?</h1>
         <p className="text-xl text-blue-950 text-left leading-loose">
-          TPG Management was started by experienced investors in both multi-family and retail properties. Using the knowledge and infrastructure we
-          developed while managing our own portfolio, we recognized an opportunity to assist other investors and property owners. By leveraging our
-          hands-on property ownership experience, we offer comprehensive management solutions tailored to maximize property performance and streamline
-          operations for our clients.
+          TPG Management was born out of necessity and experience. As property investors ourselves, we started with managing our own multi-family and retail properties, learning firsthand the challenges
+          and opportunities that come with ownership. Over time, we saw a growing need among fellow investors for a management company that truly understood the intricacies of property ownership from an owner’s perspective.
+
+          With this in mind, we decided to turn our hands-on expertise into a business. In doing so, we’ve been able to help other property owners maximize their investments, 
+          streamline operations, and remove the stress of day-to-day management. Today, TPG Management continues to grow, serving New Jersey’s rental property market with a focus on personalized, results-driven solutions for our clients.
         </p>
       </div>
       <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
