@@ -28,20 +28,27 @@ export default function Team() {
         <Image src="/team/fred.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
         <div className="flex flex-col justify-center content-center gap-4">
           <h1 className="text-xl font-bold text-blue-900">Fred</h1>
-          <p className="text-lg text-blue-950">Finance Division</p>
+          <p className="text-lg text-blue-950">Accounting Division</p>
         </div>
       </div>
       <div className="flex flex-row justify-center content-center gap-4">
         <Image src="/team/laurie.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
         <div className="flex flex-col justify-center content-center gap-4">
           <h1 className="text-xl font-bold text-blue-900">Laurie</h1>
-          <p className="text-lg text-blue-950">Finance Division</p>
+          <p className="text-lg text-blue-950">Accounting Division</p>
         </div>
       </div>
       <div className="flex flex-row justify-center content-center gap-4">
         <Image src="/team/karen.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
         <div className="flex flex-col justify-center content-center gap-4">
           <h1 className="text-xl font-bold text-blue-900">Karen</h1>
+          <p className="text-lg text-blue-950">Property Management Division</p>
+        </div>
+      </div>
+      <div className="flex flex-row justify-center content-center gap-4">
+        <Image src="/team/zoey.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
+        <div className="flex flex-col justify-center content-center gap-4">
+          <h1 className="text-xl font-bold text-blue-900">Zoey</h1>
           <p className="text-lg text-blue-950">Property Management Division</p>
         </div>
       </div>
