@@ -53,13 +53,6 @@ export default function Team() {
         </div>
       </div>
       <div className="flex flex-row justify-center content-center gap-4">
-        <Image src="/team/zoey.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
-        <div className="flex flex-col justify-center content-center gap-4">
-          <h1 className="text-xl font-bold text-blue-900">Zoey</h1>
-          <p className="text-lg text-blue-950">Property Management Division</p>
-        </div>
-      </div>
-      <div className="flex flex-row justify-center content-center gap-4">
         <Image src="/team/harsh.png" width={75} height={75} alt="Michael" className="rounded-full w-[75px] h-[75px]" />
         <div className="flex flex-col justify-center content-center gap-4">
           <a href="https://www.harshsuthar.me" target="_blank" className="text-xl font-bold text-blue-900">Harsh</a>
