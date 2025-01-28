@@ -136,7 +136,7 @@ export default function Navbar() {
           position: showBackground ? "fixed" : "sticky",
         }}
       >
-        <div className={`flex flex-row px-4 py-2 items-center  xl:max-w-[80%] justify-between mx-auto w-full`}>
+        <div className={`flex flex-row px-4 py-2 items-center   ${!showBackground && "xl:max-w-[80%]"} justify-between mx-auto w-full`}>
           <div className="flex flex-row gap-4 items-center justify-between">
             <Link href="/">
               <motion.div initial={{ opacity: 1 }} animate={{ opacity: showBackground ? 0.8 : 1 }} transition={{ duration: 0.5 }}>
