@@ -153,7 +153,7 @@ export default function Navbar() {
               {navItems.map((item) => (
                 <NavigationMenu.Item key={item.label} className="relative">
                   {item.items ? (
-                    <NavigationMenu.Trigger className="group inline-flex items-center justify-center rounded-md bg-transparent px-3 py-2 text-md font-medium text-blue-900 hover:bg-blue-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    <NavigationMenu.Trigger className="group inline-flex items-center justify-center rounded-md bg-transparent px-3 py-2 text-lg font-medium text-blue-900 hover:bg-blue-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                       {item.label}
                       <ChevronDown
                         className="relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180"
@@ -162,7 +162,7 @@ export default function Navbar() {
                     </NavigationMenu.Trigger>
                   ) : (
                     <Link href={item.href} passHref legacyBehavior>
-                      <NavigationMenu.Link className="inline-flex items-center justify-center rounded-md bg-transparent px-3 py-2 text-md font-medium text-blue-900 hover:bg-blue-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                      <NavigationMenu.Link className="inline-flex items-center justify-center rounded-md bg-transparent px-3 py-2 text-lg font-medium text-blue-900 hover:bg-blue-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                         {item.label}
                       </NavigationMenu.Link>
                     </Link>
