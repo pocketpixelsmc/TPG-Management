@@ -12,17 +12,15 @@ export default function Home() {
           Owners Portal: https://tpgcompanies.managebuilding.com/manager
           Property Intake Form: https://tpgmanagement.net/intake
           Owner ACH Form: https://ach.tpgcompanies.net/
-          
         </p>
       </div>
-      <ServicesSection />
       <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-blue-900 text-white py-8 w-[80%] text-center">Additional Add-Ons</h2>
       <p className="text-xl text-black max-w-[800px] text-center">
         At TPG Management, we go beyond standard management by offering curated add-on services that bring unmatched value to property owners. Elevate your investment with benefits you won’t find elsewhere.
       </p>
       <p className="text-xl text-black max-w-[800px] text-center">
       </p>
-      <ValuesSection />
+      <owners />
       <RentalCTA />
     </main>
   );
