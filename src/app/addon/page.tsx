@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-8 mt-4 sm:mt-16 p-4 pb-0">
       <div className="flex gap-6 flex-col items-center">
-        <h1 className="text-5xl text-blue-900 text-center font-bold">We provide full-service property management.</h1>
-        <h2 className="text-2xl text-blue-900 font-bold max-w-[650px] text-center">We’re hands-on, so you don’t have to be.</h2>
+        <h1 className="text-5xl text-blue-900 text-center font-bold">Owners Resource Center</h1>
+        <h2 className="text-2xl text-blue-900 font-bold max-w-[650px] text-center">Important Links:</h2>
         <p className="text-xl text-black max-w-[800px] text-center">
           Our people make the difference. Our backgrounds. Our strategies. Our action plans. Our execution.
         </p>
