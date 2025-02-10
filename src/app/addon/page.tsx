@@ -9,22 +9,18 @@ export default function Home() {
         <h1 className="text-5xl text-blue-900 text-center font-bold">Owners Resource Center</h1>
         <h2 className="text-2xl text-blue-900 font-bold max-w-[650px] text-center">Important Links:</h2>
         <p className="text-xl text-black max-w-[800px] text-center">
-          Our people make the difference. Our backgrounds. Our strategies. Our action plans. Our execution.
-        </p>
-        <p className="text-xl text-black max-w-[800px] text-center">
-          We strive to deliver a top-tier level service to both residents and property owners by simplifying the complicated. Easy to understand
-          terms, simple fee structures, honesty and transparency are all part of the core values that TPG Management strives to deliver
-          everyday.
+          Owners Portal: https://tpgcompanies.managebuilding.com/manager
+          Property Intake Form: https://tpgmanagement.net/intake
+          Owner ACH Form: https://ach.tpgcompanies.net/
+          
         </p>
       </div>
       <ServicesSection />
-      <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-blue-900 text-white py-8 w-[80%] text-center">We Bring Value</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-blue-900 text-white py-8 w-[80%] text-center">Additional Add-Ons</h2>
       <p className="text-xl text-black max-w-[800px] text-center">
-        At TPG Management we realize that we need to bring true value to both owners and residents.
+        At TPG Management, we go beyond standard management by offering curated add-on services that bring unmatched value to property owners. Elevate your investment with benefits you won’t find elsewhere.
       </p>
       <p className="text-xl text-black max-w-[800px] text-center">
-        We do this is by leveraging technology in multiple ways—from showing houses to providing owner and resident online portals; from e-leasing &
-        electronic payments to thorough reports.
       </p>
       <ValuesSection />
       <RentalCTA />
