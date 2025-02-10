@@ -20,7 +20,7 @@ export default function Home() {
       </p>
       <p className="text-xl text-black max-w-[800px] text-center">
       </p>
-      <owners />
+      <Owners />
       <RentalCTA />
     </main>
   );
