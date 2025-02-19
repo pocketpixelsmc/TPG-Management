@@ -57,7 +57,7 @@ export default function Footer() {
       <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
       <div className="m-0 mx-auto">
         <div className="flex flex-col text-lg sm:flex-row sm:items-center items-start text-left justify-center w-screen gap-4">
-          <p>Monday-Friday 8am-4pm </p>
+          <p>Monday-Friday 9am-5pm </p>
           <p>(732) 978-9390 </p>
           <a href="mailto:info@tpgmanagement.net" className="text-blue-950">
             <p>info@tpgmanagement.net</p>
@@ -81,12 +81,6 @@ export default function Footer() {
           </div>
           <div className="flex flex-col justify-center gap-1 text-xs">
             <h4 className=" font-bold text-xl ">Essex</h4>
-          </div>
-          <div className="flex flex-col justify-center gap-1 text-xs">
-            <h4 className=" font-bold text-xl ">Passaic</h4>
-          </div>
-          <div className="flex flex-col justify-center gap-1 text-xs">
-            <h4 className=" font-bold text-xl ">Ocean</h4>
           </div>
           <div className="flex flex-col justify-center gap-1 text-xs">
             <h4 className=" font-bold text-xl ">Hudson</h4>
