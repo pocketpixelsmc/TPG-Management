@@ -12,7 +12,7 @@ export function OwnerReferral() {
             height={400}
             className="h-auto border border-gray-300"
           />
-          <a href="#refer" className="text-blue-600 hover:underline text-left mt-2 text-sm max-w-[500px]">
+          <a href="mailto:mike@tpgcompanies.net" className="text-blue-600 hover:underline text-left mt-2 text-sm max-w-[500px]">
             CLICK HERE TO NOTIFY US OF A REFERRAL
           </a>
         </div>

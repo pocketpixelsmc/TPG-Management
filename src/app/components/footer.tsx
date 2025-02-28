@@ -7,6 +7,7 @@ export default function Footer() {
         <Link href="/" >
           <Image src={"/logo.png"} width={100} height={100} alt="Logo" />
         </Link>
+        <Image src="/narpm.png" width={100} height={100} alt="NARPM" />
         <Link href="/contact" className="flex flex-row justify-start items-center gap-2">
           <Image src="contact.svg" width={25} height={25} alt="Contact" />
           <button className="flex items-center">

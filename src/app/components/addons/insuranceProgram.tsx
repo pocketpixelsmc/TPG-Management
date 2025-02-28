@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function InsuranceProgram() {
   return (
@@ -6,7 +7,7 @@ export function InsuranceProgram() {
       <div className="flex flex-col md:flex-row items-start gap-8 justify-start">
         <div className="md:w-1/2 flex flex-col items-end">
           <Image src="/insurance.png" alt="Sample Owner's Portal Home Screen" width={500} height={400} className="h-auto border border-gray-300" />
-          <a href="#sign-up" className="text-blue-600 hover:underline text-left mt-2 text-xs max-w-[500px]">
+          <a href="mailto:mike@tpgcompanies.net" className="text-blue-600 hover:underline text-left mt-2 text-xs max-w-[500px]">
             CLICK HERE TO SIGN-UP FOR THIS PROTECTION - Protect Your Investment for Just $52/Month
           </a>
         </div>
@@ -58,10 +59,8 @@ export function InsuranceProgram() {
           <div className="bg-gray-100 border border-gray-200 rounded-lg p-4">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Have Questions?</h3>
             <p className="text-gray-700">
-              Check out our{" "}
-              <a href="#faq" className="text-blue-600 hover:underline">
-                FAQ Sheet
-              </a>{" "}
+              Check out our
+              <Link href="/faq">FAQ Sheet</Link>
               for more information about the Landlord Protection Insurance Program.
             </p>
           </div>
