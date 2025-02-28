@@ -9,15 +9,15 @@ export default function EmailForm() {
     const [propertyAddress, setPropertyAddress] = useState<string>("");
     const [numberOfUnits, setNumberOfUnits] = useState<string>("1");
     const [additionalPropertyInformation, setAdditionalPropertyInformation] = useState<string>("");
-    const [error , setError] = useState<boolean>(false);
+    const [error, setError] = useState<boolean>(false);
     const [success, setSuccess] = useState<boolean>(false);
-    const [pending , setPending] = useState<boolean>(false);
+    const [pending, setPending] = useState<boolean>(false);
     const { push } = useRouter();
 
     async function handleSubmit(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
         setPending(true);
-        const response = await fetch("api/email" , {
+        const response = await fetch("api/email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -32,12 +32,12 @@ export default function EmailForm() {
             }),
         })
         const data = await response.json();
-        if(data.messageSent){
+        if (data.messageSent) {
             setSuccess(true);
             setError(false);
             push("/thanks")
         }
-        else{
+        else {
             setError(true);
             setSuccess(false);
         }

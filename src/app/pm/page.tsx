@@ -66,13 +66,18 @@ export default function Home() {
               </div>
               <div className="flex justify-center gap-4">
                 <button className="bg-blue-900 text-white px-8 py-4 hover:bg-blue-700 rounded-md w-full">
-                  <Link href="/contact">Get Started</Link>
+                  <a href="tel:7329789390">Call Now! 732-978-9390</a>
                 </button>
               </div>
             </div>
           </div>
+          <div className="flex flex-col items-center justify-center gap-4">
+            <h1 className="text-2xl text-blue-900 font-bold">
+              Contact Us for a FREE Property Management Quote
+            </h1>
+            <EmailForm />
+          </div>
 
-          <EmailForm />
         </div>
       </div>
       <WhatWeDo />
