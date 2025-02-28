@@ -3,6 +3,14 @@ import EmailForm from "../components/form";
 import Testimonial from "../components/testimonial";
 import WhatWeDo from "../components/whatWeDo";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Reliable Property Management for Multi-Family, Single-Family, and Commercial Properties in New Jersey!",
+  description:
+    "TPG Management makes property management simple with customized services for all property types in NJ. From tenant placement to maintenance, we’ve got you covered.",
+};
+
 export default function Home() {
   return (
     <main className=" flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
