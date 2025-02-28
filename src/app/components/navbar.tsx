@@ -131,7 +131,7 @@ export default function Navbar() {
           backgroundColor: showBackground ? "rgba(255, 255, 255, 1)" : "rgba(255, 255, 255, 0)",
           boxShadow: showBackground ? "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)" : "none",
         }}
-        transition={{ duration: 0.3 }}
+        transition={{ duration: 0.001 }}
         style={{
           position: showBackground ? "fixed" : "sticky",
         }}

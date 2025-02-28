@@ -22,10 +22,10 @@ export default function Home() {
           collectively to manage all aspects of your property to make sure it continues to be a solid investment.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link href="/contact" className="inline-block bg-blue-900 px-8 py-3 text-white font-medium hover:bg-opacity-90 transition-colors rounded-lg">
+          <Link href="/contact" className="inline-block bg-blue-900 px-8 py-3 text-white font-medium hover:bg-blue-700 transition-colors rounded-lg">
             WORK WITH US
           </Link>
-          <Link href="/faq" className="inline-block bg-blue-900 px-8 py-3 text-white font-medium hover:bg-opacity-90 transition-colors rounded-lg">
+          <Link href="/faq" className="inline-block bg-blue-900 px-8 py-3 text-white font-medium hover:bg-blue-700  transition-colors rounded-lg">
             Owner FAQs
           </Link>
         </div>
