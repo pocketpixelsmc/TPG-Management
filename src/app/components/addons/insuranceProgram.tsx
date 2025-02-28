@@ -49,7 +49,7 @@ export function InsuranceProgram() {
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
             <h2 className="text-xl font-bold text-blue-900 mb-4">Why Enroll?</h2>
             <ul className="list-disc pl-5 space-y-2 text-gray-700 mb-6">
-              <li>Peace of mind – Know you're financially protected from common landlord risks</li>
+              <li>Peace of mind – Know you&apos;re financially protected from common landlord risks</li>
               <li>Affordable protection – Just $52/month for extensive coverage</li>
               <li>Hassle-free process – TPG Management handles the details for you</li>
             </ul>

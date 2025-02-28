@@ -14,7 +14,7 @@ const redirLink = [
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-8 mt-4 sm:mt-16 p-4 pb-0">
-      <h1 className="text-5xl text-blue-900 text-center font-bold">Owner's Resources</h1>
+      <h1 className="text-5xl text-blue-900 text-center font-bold">Owner&apos;s Resources</h1>
       {/* Top Right Section */}
       <div className="w-fit p-8">
         <div className="flex flex-wrap gap-4 justify-center items-center">
