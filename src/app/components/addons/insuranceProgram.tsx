@@ -1,5 +1,13 @@
+import { Card } from "@/components/ui/card";
+import { SquareArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+
+
+const redirLink = [
+  { title: "FAQ Sheet", link: "https://drive.google.com/file/d/1QID1YH9nUQfPeu2Hw4iT5YYr-8_V29nt/view?usp=sharing" },
+  { title: "Landlord Protection", link: "https://drive.google.com/file/d/11ddsGRa-SNTr55fRTjbcS4kLG_w-hmNf/view?usp=drive_link" },
+];
 
 export function InsuranceProgram() {
   return (
@@ -10,6 +18,19 @@ export function InsuranceProgram() {
           <a href="mailto:mike@tpgcompanies.net" className="text-blue-600 hover:underline text-left mt-2 text-xs max-w-[500px]">
             CLICK HERE TO SIGN-UP FOR THIS PROTECTION - Protect Your Investment for Just $52/Month
           </a>
+          <div className="flex flex-wrap gap-4 justify-center items-center mt-6">
+          {redirLink.map((link) => (
+            <a href={link.link} target="_blank" rel="noreferrer" key={link.title}>
+              <Card
+                key={link.title}
+                className="w-[240px] h-[240px] p-6 flex flex-col items-center justify-center cursor-pointer hover:bg-gray-50 transition-colors"
+              >
+                <SquareArrowUpRight className="w-12 h-12 text-red-500 mb-2" />
+                <p className="text-center text-sm font-medium">{link.title}</p>
+              </Card>
+            </a>
+          ))}
+        </div>
         </div>
         <div className="md:w-1/2">
           <h1 className="text-2xl font-bold text-blue-900 mb-4">Exclusive Landlord Protection Insurance Program - $52 per-month</h1>
@@ -59,9 +80,7 @@ export function InsuranceProgram() {
           <div className="bg-gray-100 border border-gray-200 rounded-lg p-4">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Have Questions?</h3>
             <p className="text-gray-700">
-              Check out our
-              <Link href="/faq">FAQ Sheet</Link>
-              for more information about the Landlord Protection Insurance Program.
+              Check out our <Link href="/faq" className="text-blue-900 hover:underline">FAQ Sheet</Link> for more information about the Landlord Protection Insurance Program.
             </p>
           </div>
         </div>
