@@ -10,8 +10,8 @@ export default function Subservices() {
             <Image src="/subservice/sfh.png" alt="Single-Family Homes" width={300} height={200} className="rounded-t-md h-[195px]" />
           </div>
           <div className="p-4 pb-2 flex flex-col text-left justify-around gap-4 items-start self-start">
-            <h2 className="text-xl font-bold">Single-Family Homes</h2>
-            <p className="text-sm leading-7">Professional Property Managers that allow you to enjoy being a property owner, not a landlord.</p>
+            <h2 className="text-xl font-bold">Single-Family Homes and Condos</h2>
+            <p className="text-sm leading-7"></p>
           </div>
           <Link href={"/contact/sfh"} className="self-end bg-blue-900 text-white p-4 px-6 rounded-lg transition-all hover:bg-blue-700">
             <button>Contact Us</button>
@@ -22,8 +22,8 @@ export default function Subservices() {
             <Image src="/subservice/mfh.png" alt="Multi-Family Houses" width={300} height={200} className="rounded-t-md h-[195px]" />
           </div>
           <div className="p-4 pb-2 flex flex-col text-left justify-around gap-4 items-start self-start">
-            <h2 className="text-xl font-bold">Multi-Family Houses & Apartment Buildings</h2>
-            <p className="text-sm leading-7">A complete team to handle the day to day operations of your multi family and apartment building real estate investments.</p>
+            <h2 className="text-xl font-bold">Multi-Family Properties & Apartment Buildings</h2>
+            <p className="text-sm leading-7"></p>
           </div>
           <Link href={"/contact/mf"} className="bg-blue-900 text-white p-4 px-6 self-end rounded-lg transition-all hover:bg-blue-700">
             <button>Contact Us</button>
@@ -35,7 +35,7 @@ export default function Subservices() {
           </div>
           <div className="p-4 pb-2 flex flex-col text-left justify-around gap-4 items-start self-start">
             <h2 className="text-xl font-bold">Commercial Properties</h2>
-            <p className="text-sm leading-7">A management team specialized in handling Retail, Office, and Mixed Use Properties.</p>
+            <p className="text-sm leading-7">Retail and Office</p>
           </div>
           <Link href={"/contact/co"} className="bg-blue-900 text-white p-4 px-6 self-end rounded-lg transition-all hover:bg-blue-700">
             <button>Contact Us</button>

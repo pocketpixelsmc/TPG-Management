@@ -40,7 +40,7 @@ export default function ServiceGrid() {
                 <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/mnt.png" alt="Timely Maintenance" width={50} height={50} />
-                        <h2 className="text-lg font-bold">Timely Maintenance</h2>
+                        <h2 className="text-lg font-bold">24/7 Maintenance</h2>
                     </div>
                     <div className="text-left">
                         <p className="text-sm leading-7">
@@ -51,7 +51,7 @@ export default function ServiceGrid() {
                 <div className=" border-solid border-2 border-blue-900 rounded-lg p-8 flex flex-col gap-4 max-w-[320px] text-left justify-start">
                     <div className="flex gap-2 flex-row items-center text-center">
                         <Image src="/grid/lc.png" alt="Legal Compliance Assurance" width={50} height={50} />
-                        <h2 className="text-lg font-bold">Legal Compliance Assurance</h2>
+                        <h2 className="text-lg font-bold">Legal Compliance</h2>
                     </div>
                     <div className="text-left">
                         <p className="text-sm leading-7">
