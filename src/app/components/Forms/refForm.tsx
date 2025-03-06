@@ -105,7 +105,7 @@ export default function RefEmailForm() {
 
       <div className="w-full space-y-3">
         <label htmlFor="lFullName" className="text-lg font-medium text-blue-900">
-          Lead's Full Name
+          Lead&apos;s Full Name
         </label>
         <input
           type="text"
@@ -121,7 +121,7 @@ export default function RefEmailForm() {
 
       <div className="w-full space-y-3">
         <label htmlFor="lEmail" className="text-lg font-medium text-blue-900">
-          Lead's Email Address
+          Lead&apos;s Email Address
         </label>
         <input
           type="email"
@@ -137,7 +137,7 @@ export default function RefEmailForm() {
 
       <div className="w-full space-y-3">
         <label htmlFor="lPhone" className="text-lg font-medium text-blue-900">
-          Lead's Phone No.
+          Lead&apos;s Phone No.
         </label>
         <input
           type="number"
