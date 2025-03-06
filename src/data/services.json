@@ -1,0 +1,58 @@
+{
+    "services": [
+        {
+            "title": "Peace of Mind",
+            "description": "Let us handle the day-to-day hassles of property management, so you can relax knowing your investment is in capable hands.",
+            "icon": "/grid/pom.png",
+            "alt": "Peace Of Mind"
+        },
+        {
+            "title": "Expert Tenant Screening",
+            "description": "Our rigorous screening process ensures you get reliable tenants, minimizing risks and maximizing rental income.",
+            "icon": "/grid/ts.png",
+            "alt": "Expert Tenant Screening"
+        },
+        {
+            "title": "Efficient Rent Collection",
+            "description": "Say goodbye to chasing down payments; we'll ensure your rent is collected promptly and hassle-free.",
+            "icon": "/grid/rc.png",
+            "alt": "Efficient Rent Collection"
+        },
+        {
+            "title": "24/7 Maintenance",
+            "description": "From routine upkeep to emergency repairs, we'll keep your property in top condition, preserving its value and appeal.",
+            "icon": "/grid/mnt.png",
+            "alt": "Timely Maintenance"
+        },
+        {
+            "title": "Legal Compliance",
+            "description": "Stay on the right side of the law with our expert knowledge of landlord-tenant regulations, mitigating legal risks for you.",
+            "icon": "/grid/lc.png",
+            "alt": "Legal Compliance Assurance"
+        },
+        {
+            "title": "Transparent Financial Reporting",
+            "description": "Gain insight into your investment's performance with our detailed financial reports, providing clarity and peace of mind.",
+            "icon": "/grid/fr.png",
+            "alt": "Transparent Financial Reporting"
+        },
+        {
+            "title": "Tenant Relations Management",
+            "description": "Let us handle tenant inquiries, complaints, and conflicts, maintaining positive relationships and tenant satisfaction.",
+            "icon": "/grid/trm.png",
+            "alt": "Tenant Relations Management"
+        },
+        {
+            "title": "Optimized Lease Management",
+            "description": "We'll handle lease agreements, renewals, and terminations, ensuring you get the best terms and minimize vacancy risks.",
+            "icon": "/grid/lm.png",
+            "alt": "Optimized Lease Management"
+        },
+        {
+            "title": "Maximized Returns",
+            "description": "Trust us to maximize your ROI by minimizing vacancies, optimizing rents, and managing expenses efficiently, unlocking the full potential of your property investment.",
+            "icon": "/grid/mr.png",
+            "alt": "Maximized Returns"
+        }
+    ]
+} 

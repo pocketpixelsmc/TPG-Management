@@ -1,0 +1,32 @@
+{
+  "pageTitle": "Reliable Property Management for Multi-Family, Single-Family, and Commercial Properties in New Jersey!",
+  "features": [
+    {
+      "icon": "/pm/rentCollection.svg",
+      "alt": "Rent Collection",
+      "title": "Hassle-Free Rent Collection – Never chase late payments again."
+    },
+    {
+      "icon": "/pm/reliableMaintenance.svg",
+      "alt": "Maintenance",
+      "title": "Reliable Maintenance – Fast and efficient repairs to keep tenants happy."
+    },
+    {
+      "icon": "/pm/maxIncome.png",
+      "alt": "Maximize Income",
+      "title": "Maximize Property Income – Strategic management to boost your ROI."
+    },
+    {
+      "icon": "/pm/fullManagement.png",
+      "alt": "Lease Management",
+      "title": "Full Lease and Rental Management – Tenant screening, lease agreements, and renewals."
+    },
+    {
+      "icon": "/pm/transparentFees.svg",
+      "alt": "Transparent Pricing",
+      "title": "Transparent Pricing – No hidden fees, just straightforward management."
+    }
+  ],
+  "contactHeading": "Contact Us for a FREE Property Management Quote",
+  "phoneNumber": "732-978-9390"
+} 

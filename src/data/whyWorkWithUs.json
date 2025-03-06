@@ -1,0 +1,34 @@
+{
+  "title": "Why Work With Us?",
+  "reasons": [
+    {
+      "number": 1,
+      "title": "Realtors Earn $400 per Referral",
+      "description": "We pay you $400 for every referred client!"
+    },
+    {
+      "number": 2,
+      "title": "Keep Working With Your Client",
+      "description": "Your customers STAY your customers, so when they want to sell down the road we send them right back to you!"
+    },
+    {
+      "number": 3,
+      "title": "Minimize Your Headaches",
+      "description": "Managing a rental property isn't an easy walk in the park, there is a lot of liability and it takes a lot of time. Let us handle the nonsense so you're free to do what you do best - sell property!"
+    },
+    {
+      "number": 4,
+      "title": "We Make You Look Awesome!",
+      "description": "We care for our clients and show it by delivering amazing Property Management Services!"
+    },
+    {
+      "number": 5,
+      "title": "Maximize Your Client's ROI",
+      "description": "We combine cutting edge technology and top-notch customer service with customized property management services to minimize vacancies and maximize rental incomes, protecting their investment until it's time for you to sell it."
+    }
+  ],
+  "nextStep": {
+    "title": "What's The Next Step?",
+    "description": "Tell us about your customer, and once they hire us we deliver your referral fee!"
+  }
+} 

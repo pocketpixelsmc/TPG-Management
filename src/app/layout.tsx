@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/layout/navbar";
 import { lexendDeca } from "./components/fonts";
-import Footer from "./components/footer";
+import Footer from "./components/layout/footer";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import Image from "next/image";
 import Link from "next/link";

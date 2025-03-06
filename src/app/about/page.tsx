@@ -1,11 +1,8 @@
-import Image from "next/image";
-import Team from "../components/team";
-import Missions from "../components/missions";
+import Team from "../components/About/team";
+import Missions from "../components/About/missions";
 import { Metadata } from "next";
-import RentalCTA from "../components/rentalCTA";
-import { Link } from "lucide-react";
-import RentalCTAAbout from "../components/rentalCTAAbout";
-
+import RentalCTAAbout from "../components/CTA/rentalCTAAbout";
+import Header from "../components/ui/Header";
 export const metadata: Metadata = {
   title: "NJ Property Management Leaders | TPG Management",
   description:
@@ -16,7 +13,7 @@ export default function Home() {
   return (
     <main className=" flex flex-col items-center justify-center gap-8 mt-4 sm:mt-16 p-4 pb-0">
       <h1 className="text-3xl text-blue-900 font-bold">Managing rental property is our life</h1>
-      <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 bg-slate-300 max-w-[500px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
+      <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 border-gray-200 border-y-2 max-w-[500px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
         <h1 className="text-2xl font-bold text-blue-900">How we started?</h1>
         <p className="text-xl text-blue-950 text-left leading-loose">
           TPG Management was born out of necessity and experience. As property investors ourselves, we started with managing our own multi-family and retail properties, learning firsthand the challenges
@@ -26,11 +23,9 @@ export default function Home() {
           streamline operations, and remove the stress of day-to-day management. Today, TPG Management continues to grow, serving New Jersey’s rental property market with a focus on personalized, results-driven solutions for our clients.
         </p>
       </div>
-      <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
-      <h1 className="text-4xl text-blue-900 font-bold self-center">Our Team</h1>
+      <Header className="border-t border-gray-200">Our Team</Header>
       <Team />
-      <hr className="w-[90%] border-1 border-slate-800 mx-auto my-8" />
-      <h1 className="text-4xl text-blue-900 font-bold self-center">Mission and Core Values</h1>
+      <Header className="border-t border-gray-200">Mission and Core Values</Header>
       <Missions />
       <RentalCTAAbout />
     </main>

@@ -1,19 +1,16 @@
 import { Card } from "@/components/ui/card";
 import { SquareArrowUpRight } from "lucide-react";
-import OwnerAddons from "../components/ownerAddons";
+import OwnerAddons from "../components/addons/ownerAddons";
+import ownerRedirLinks from "@/data/ownerRedirLinks.json";
+import Header from "../components/ui/Header";
 
-const redirLink = [
-  { title: "Owners Portal", link: "https://tpgcompanies.managebuilding.com/manager" },
-  { title: "Property Intake Form", link: "https://tpgmanagement.net/intake" },
-  { title: "Owner ACH Form", link: "https://ach.tpgcompanies.net/" },
-];
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-8 mt-4 sm:mt-16 p-4 pb-0">
-      <h1 className="text-5xl text-blue-900 text-center font-bold">Owner&apos;s Resources</h1>
+      <Header>Owner&apos;s Resources</Header>
       <div className="w-fit p-8">
         <div className="flex flex-wrap gap-4 justify-center items-center">
-          {redirLink.map((link) => (
+          {ownerRedirLinks.redirLinks.map((link) => (
             <a href={link.link} target="_blank" rel="noreferrer" key={link.title}>
               <Card
                 key={link.title}
@@ -26,7 +23,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-blue-900 text-white py-8 w-[80%] text-center">Additional Owner Benefits</h2>
+      <Header variant="blue">Additional Owner Benefits</Header>
       <OwnerAddons />
     </main>
   );
