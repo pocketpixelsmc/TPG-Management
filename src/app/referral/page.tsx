@@ -6,9 +6,9 @@ import Header from "../components/ui/Header";
 import whyWorkWithUsData from "@/data/whyWorkWithUs.json";
 
 export const metadata: Metadata = {
-  title: "Refer a Friend to TPG Management | Earn $400 | Property Management Referral Program NJ",
-  description:
-    "Refer property owners to TPG Management and help them experience top-notch property management in New Jersey. Earn $400 for every successful referral while helping friends and clients find trusted management for their single-family and multi-family rental properties.",
+  title: 'Referral Program',
+  description: 'Earn $400 through our property management referral program. Refer property owners and get rewarded when they sign up for our services.',
+  keywords: ['property management referral', 'referral program', 'referral bonus', 'property management rewards'],
 };
 
 export default function Home() {

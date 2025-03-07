@@ -3,6 +3,22 @@ import { SquareArrowUpRight } from "lucide-react";
 import OwnerAddons from "../components/addons/ownerAddons";
 import ownerRedirLinks from "@/data/ownerRedirLinks.json";
 import Header from "../components/ui/Header";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'For Property Owners',
+  description: 'Maximize your rental property investment with TPG Management. We offer comprehensive property management services, tenant screening, maintenance coordination, and financial reporting.',
+  keywords: [
+    'property owner services',
+    'rental property management',
+    'landlord services',
+    'property investment management',
+    'New Jersey property owners',
+    'rental property maintenance',
+    'tenant screening services',
+    'property management solutions'
+  ],
+}
 
 export default function Home() {
   return (

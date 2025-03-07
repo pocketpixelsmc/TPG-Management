@@ -4,10 +4,10 @@ import OurProcess from "../components/Pricing/ourProcess";
 import PricingGrid from "../components/Pricing/pricingGrid";
 import Header from "../components/ui/Header";
 import Button from "../components/ui/Button";
+
 export const metadata: Metadata = {
-  title: "TPG Management: Stress-Free Property Services & Pricing ",
-  description:
-    "TPG Management makes property management simple with customized services for all property types in NJ. From tenant placement to maintenance, we’ve got you covered.",
+  title: 'Property Management Pricing & Fees',
+  description: 'Transparent pricing and fee structure for our property management services. View our competitive rates and comprehensive management packages.',
 };
 
 export default function Home() {

@@ -7,10 +7,13 @@ import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import JsonLd from './components/JsonLd';
 
 export const metadata: Metadata = {
-  title: "Trusted Property & Condo Management Companies in New Jersey",
-  description:
-    "Professional property management companies in New Jersey specializing in condo management. Offering comprehensive property services across New Jersey. Visit us today!",
-  keywords: ["property management companies new jersey", "condo management companies nj", "property in new jersey"],
+  title: {
+    default: 'TPG Management | Property Management in New Jersey',
+    template: '%s | TPG Management'
+  },
+  description: 'Professional property management services in New Jersey for single-family homes, condos, multi-family units, and commercial properties.',
+  keywords: ['property management', 'New Jersey property management', 'rental property management', 'TPG Management', 'real estate management'],
+  viewport: 'width=device-width, initial-scale=1',
 };
 
 export default function RootLayout({

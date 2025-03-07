@@ -4,9 +4,11 @@ import Testimonial from "../components/testimonial";
 import { Metadata } from "next";
 import faqData from "@/data/faq.json";
 import Header from "../components/ui/Header";
+
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | TPG Management NJ",
-  description: "Find answers to common questions about TPG Management's property management services in New Jersey, including tenant screening, maintenance, and more.",
+  title: 'Owner FAQs',
+  description: 'Frequently asked questions about our property management services. Learn about our processes, policies, and how we can help manage your property.',
+  keywords: ['property management FAQs', 'owner questions', 'property management help', 'property management information'],
 };
 
 export default function FAQ() {

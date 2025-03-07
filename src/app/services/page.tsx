@@ -2,12 +2,20 @@ import RentalCTA from "../components/CTA/rentalCTA";
 import ServicesSection from "../components/servicesSection";
 import ValuesSection from "../components/valuesSection";
 import Header from "../components/ui/Header";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Property Management Services',
+  description: 'Comprehensive property management services including tenant screening, maintenance, rent collection, and property marketing in New Jersey.',
+  keywords: ['property management services', 'tenant screening', 'property maintenance', 'rent collection', 'property marketing', 'New Jersey'],
+}
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-8 mt-4 sm:mt-16 p-4 pb-0">
       <div className="flex gap-6 flex-col items-center">
         <Header>We provide full-service property management.</Header>
-        <h3 className="text-2xl text-blue-900 font-bold max-w-[650px] text-center">We’re hands-on, so you don’t have to be.</h3>
+        <h3 className="text-2xl text-blue-900 font-bold max-w-[650px] text-center">We&apos;re hands-on, so you don&apos;t have to be.</h3>
         <p className="text-xl text-blue-950 max-w-[800px] text-center">
           Our people make the difference. Our backgrounds. Our strategies. Our action plans. Our execution.
         </p>

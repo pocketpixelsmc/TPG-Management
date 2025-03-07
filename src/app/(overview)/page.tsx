@@ -10,7 +10,7 @@ import Button from "../components/ui/Button";
 
 export default function Home() {
   return (
-    <main className=" flex flex-col items-center justify-center gap-8 mt-4 sm:mt-16 p-4 pb-0">
+    <main className=" flex flex-col items-center justify-center gap-8 mt-4 p-4 pb-0">
       <Welcome />
       <Introduction />
       <FeaturesSection />

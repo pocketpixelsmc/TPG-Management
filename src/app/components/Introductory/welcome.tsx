@@ -16,15 +16,15 @@ export default function Welcome() {
     >
       {/* Dark overlay */}
       <div 
-        className="absolute inset-0 bg-black/40"
+        className="absolute inset-0 bg-gray-200/10"
         aria-hidden="true"
       />
 
       {/* Content */}
       <div className="relative z-10 ">
         <Header 
-          variant="noBg"
-          className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-blue-950"
+          variant="extraBig"
+          className="text-blue-950"
         >
           Reliable Property Management in New Jersey
         </Header>
@@ -35,7 +35,7 @@ export default function Welcome() {
 
         <Link href="/contact">
           <Button 
-            className="px-8 py-4"
+            className="px-10 py-6 text-2xl"
           >
             GET A FREE PROPERTY ANALYSIS
           </Button>
