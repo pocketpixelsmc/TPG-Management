@@ -8,11 +8,11 @@
   box-sizing: border-box;
 }
 
-
-html, body {
+html,
+body {
   overflow-x: hidden;
+  position: relative;
 }
-
 
 body:not(.fjsdjfsdf){
   color: rgb(var(--foreground-rgb));

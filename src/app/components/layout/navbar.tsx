@@ -61,25 +61,46 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Add this handler for link clicks
+  const handleLinkClick = () => {
+    setOpen(false);
+  };
+
+  // Add this effect to handle body scrolling
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = 'hidden';
+      // Add padding to prevent shift (equal to scrollbar width)
+      document.body.style.paddingRight = '15px';
+    } else {
+      document.body.style.overflow = '';
+      document.body.style.paddingRight = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+      document.body.style.paddingRight = '';
+    };
+  }, [open]);
+
   return (
     <header className="w-full" role="banner">
       {/* Top Bar - Static position */}
       <div className="bg-blue-900 text-white w-full">
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-1.5 flex justify-between items-center">
           <a 
             href="tel:732-978-9390" 
-            className="flex items-center gap-2 hover:text-blue-200 transition-colors"
+            className="flex items-center gap-1.5 hover:text-blue-200 transition-colors"
             aria-label="Call us at 732-978-9390"
           >
-            <Phone className="h-4 w-4" />
-            <span className="text-sm">732-978-9390</span>
+            <Phone className="h-3.5 w-3.5" />
+            <span className="text-xs sm:text-sm">732-978-9390</span>
           </a>
-          <div className="flex gap-4">
+          <div className="flex gap-3">
             <a 
               href="https://tpgcompanies.managebuilding.com/Resident/portal/login"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm hover:text-blue-200 transition-colors"
+              className="text-xs sm:text-sm hover:text-blue-200 transition-colors"
             >
               Resident Login
             </a>
@@ -88,7 +109,7 @@ export default function Navbar() {
               href="https://tpgcompanies.managebuilding.com/manager"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm hover:text-blue-200 transition-colors"
+              className="text-xs sm:text-sm hover:text-blue-200 transition-colors"
             >
               Owner Login
             </a>
@@ -96,12 +117,12 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Main Navigation - Dynamic positioning */}
+      {/* Main Navigation */}
       <nav 
-        className={`w-full z-[9999] transition-all duration-300 ease-in-out transform-gpu ${
+        className={`w-full z-[99] transition-all duration-300 ease-in-out transform-gpu ${
           showBackground 
-            ? 'fixed top-0' // Snaps to top when scrolled past top bar
-            : 'relative'    // Stays in normal flow otherwise
+            ? 'fixed top-0'
+            : 'relative'
         }`}
         style={{
           backgroundColor: showBackground ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.95)',
@@ -111,26 +132,26 @@ export default function Navbar() {
         aria-label="Main navigation"
       >
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between py-4">
-            {/* Logo with smoother transition */}
+          <div className="flex items-center justify-between py-2 sm:py-4">
+            {/* Logo with adjusted mobile sizes */}
             <Link href="/" className="flex-shrink-0">
               <Image 
                 src="/logo.png" 
                 alt="TPG Management" 
-                width={showBackground ? 175 : 200} 
-                height={showBackground ? 175 : 200} 
-                className="transition-all duration-300 ease-in-out transform-gpu"
+                width={showBackground ? 140 : 160} 
+                height={showBackground ? 140 : 160} 
+                className="transition-all duration-300 ease-in-out transform-gpu w-auto h-[40px] sm:h-[50px]"
                 priority
               />
             </Link>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Button - adjusted size */}
             <button 
               onClick={toggleDrawer(true)} 
-              className="xl:hidden p-2"
+              className="xl:hidden p-1.5 hover:bg-gray-100 rounded-md transition-colors"
               aria-label="Open menu"
             >
-              <Menu className="h-6 w-6 text-blue-900" />
+              <Menu className="h-5 w-5 text-blue-900" />
             </button>
 
             {/* Desktop Navigation */}
@@ -186,42 +207,59 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Conditional padding only when navbar is fixed */}
-      {showBackground && <div className="h-[88px]" />}
+      {/* Adjusted spacing for fixed navbar */}
+      {showBackground && <div className="h-[60px] sm:h-[76px]" />}
 
-      {/* Mobile Drawer */}
+      {/* Updated Drawer configuration */}
       <Drawer
         open={open}
         onClose={toggleDrawer(false)}
         anchor="right"
+        keepMounted={true}
+        disableScrollLock={false}
         PaperProps={{
           sx: {
-            width: "300px",
+            width: "280px",
             backgroundColor: "#1e3a8a",
             color: "#ffffff",
+            zIndex: 99999,
+          },
+        }}
+        sx={{
+          '& .MuiDrawer-root': {
+            position: 'fixed',
+          },
+          '& .MuiBackdrop-root': {
+            position: 'fixed',
+          },
+          '& .MuiDrawer-paper': {
+            position: 'fixed',
           },
         }}
       >
-        <div className="p-4">
+        <div className="p-4 z-[999999]">
           <button 
             onClick={toggleDrawer(false)}
-            className="mb-6 p-2 ml-auto block"
+            className="mb-4 p-1.5 ml-auto block hover:bg-blue-800 rounded-md transition-colors"
             aria-label="Close menu"
           >
-            <X className="h-6 w-6 text-white" />
+            <X className="h-5 w-5 text-white" />
           </button>
-          <div className="space-y-4">
-            {navItems.map((item) => (
+          <div className="space-y-3">
+            {drawerItems.map((item) => (
               <div key={item.label}>
                 {item.items ? (
                   <div className="space-y-2">
-                    <div className="text-lg font-medium text-white">{item.label}</div>
-                    <div className="pl-4 space-y-2">
+                    <div className="text-base font-medium text-white border-b border-blue-800 pb-1">
+                      {item.label}
+                    </div>
+                    <div className="pl-3 space-y-2">
                       {item.items.map((subItem) => (
                         <Link 
                           key={subItem.label} 
                           href={subItem.href}
-                          className="block text-gray-200 hover:text-white transition-colors"
+                          className="block text-sm text-gray-200 hover:text-white transition-colors py-1"
+                          onClick={handleLinkClick}
                         >
                           {subItem.label}
                         </Link>
@@ -231,7 +269,8 @@ export default function Navbar() {
                 ) : (
                   <Link 
                     href={item.href}
-                    className="block text-lg text-white hover:text-gray-200 transition-colors"
+                    className="block text-base text-white hover:text-gray-200 transition-colors py-1"
+                    onClick={handleLinkClick}
                     {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                   >
                     {item.label}

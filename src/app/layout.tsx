@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full scroll-smooth p-0">
+    <html lang="en" className="h-full scroll-smooth p-0 overflow-x-hidden">
       <head>
         <JsonLd />
         <link rel="canonical" href="https://www.tpgmanagement.net" />
@@ -28,7 +28,7 @@ export default function RootLayout({
       </head>
       <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_MID_GTM}`} />
       <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MID_GA}`} />
-      <body className={`${lexendDeca.className} antialiased w-screen`}>
+      <body className={`${lexendDeca.className} antialiased w-screen overflow-x-hidden min-h-screen relative`}>
         <Navbar />
         {children}
         <Footer />
