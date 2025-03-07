@@ -13,7 +13,7 @@ export default function FAQ() {
   return (
     <main className="flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4">
       <Header>Frequently Asked Questions</Header>
-      
+
       {/* FAQ Categories */}
       <div className="max-w-[1200px] w-full">
         {faqData.faqCategories.map((category, index) => (
@@ -46,12 +46,12 @@ export default function FAQ() {
           </p>
         </div>
         <EmailForm />
-        
+
         <div className="flex flex-col sm:flex-row sm:items-center items-center text-center justify-center gap-4 mt-6">
           <p>Monday-Friday 8am-4pm</p>
           <p>(732) 978-9390</p>
-          <a href="mailto:info@tpgmanagement.net" className="text-blue-950 hover:underline">
-            info@tpgmanagement.net
+          <a href="mailto:leads@tpgcompanies.net" className="text-blue-950 hover:underline">
+            leads@tpgcompanies.net
           </a>
         </div>
       </div>

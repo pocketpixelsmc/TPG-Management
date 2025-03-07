@@ -104,3 +104,7 @@ body:not(.fjsdjfsdf){
   }
 }
 
+.footer-link {
+  @apply flex items-center gap-3 text-gray-300 hover:text-blue-400 transition-colors duration-200;
+}
+

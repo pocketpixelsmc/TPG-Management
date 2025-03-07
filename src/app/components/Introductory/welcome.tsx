@@ -1,60 +1,47 @@
 "use client"
-import { Autoplay, FreeMode, Pagination, Scrollbar } from "swiper/modules"
-import { Swiper, SwiperSlide } from "swiper/react"
-import Image from "next/image"
-import "swiper/css"
-import "swiper/css/bundle"
-import Link from "next/link"
-import Button from "../ui/Button"
+import Header from "../ui/Header";
+import Button from "../ui/Button";
+import Link from "next/link";
 
 export default function Welcome() {
   return (
-    <section className="flex flex-col items-center justify-center w-full max-w-[80%] mx-auto py-12 text-blue-900 border-t border-gray-200">
-      <div className="flex flex-col xl:flex-row gap-8 xl:gap-16 w-full">
-        <div className="flex flex-col items-start justify-center xl:w-1/2">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight">
-            Reliable Property Management in New Jersey – Helping Owners Succeed and Residents Thrive
-          </h1>
-          <p className="text-lg sm:text-xl font-semibold mt-6 mb-2">Welcome to TPG Management</p>
-          <p className="text-base sm:text-lg mb-6 text-blue-950">
-            We provide premier property management services across Monmouth, Middlesex, Union, Ocean, Essex, Somerset,
-            and Hudson counties. Specializing in single-family homes, multi-family properties, apartment complexes,
-            commercial properties (retail, office, mixed-use) we handle every aspect of managing your property so you
-            can enjoy peace of mind and steady income.
-          </p>
-          <Link href="/contact" className="w-full sm:w-auto">
-            <Button>
-              Learn More About Our Services
-            </Button>
-          </Link>
-        </div>
-        <div className="w-full xl:w-1/2">
-          <Swiper
-            spaceBetween={0}
-            slidesPerView={1}
-            speed={1200}
-            pagination={{ clickable: true, dynamicBullets: true }}
-            modules={[Pagination, Autoplay, FreeMode, Scrollbar]}
-            autoplay={{ delay: 2000 }}
-            className="rounded-xl overflow-hidden aspect-w-16 aspect-h-9"
+    <section 
+      className="relative w-screen min-h-[80vh] flex flex-col items-center justify-center text-center"
+      style={{
+        backgroundImage: 'url(/introImg.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      {/* Dark overlay */}
+      <div 
+        className="absolute inset-0 bg-black/40"
+        aria-hidden="true"
+      />
+
+      {/* Content */}
+      <div className="relative z-10 ">
+        <Header 
+          variant="noBg"
+          className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-blue-950"
+        >
+          Reliable Property Management in New Jersey
+        </Header>
+
+        <p className="text-xl md:text-2xl text-black font-semibold mb-12">
+          Single-Family, Condos, Multi-Family, and Commercial Properties
+        </p>
+
+        <Link href="/contact">
+          <Button 
+            className="px-8 py-4"
           >
-            {[1, 2, 3].map((num) => (
-              <SwiperSlide key={num}>
-                <div className="relative w-full h-0 pb-[56.25%]">
-                  <Image
-                    src={`/carousel/img${num}.png`}
-                    alt={`Image ${num}`}
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute top-0 left-0 w-full h-full"
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
+            GET A FREE PROPERTY ANALYSIS
+          </Button>
+        </Link>
       </div>
     </section>
-  )
+  );
 }
 

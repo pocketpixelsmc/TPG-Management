@@ -44,7 +44,6 @@ const drawerItems = [
 ];
 
 export default function Navbar() {
-  const TOP_OFFSET = 10;
   const [showBackground, setShowBackground] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -54,14 +53,143 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setShowBackground(window.scrollY >= TOP_OFFSET);
+      // Height of the top bar to determine when to snap navbar to top
+      const topBarHeight = 40; // adjust if your top bar height is different
+      setShowBackground(window.scrollY >= topBarHeight);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <>
+    <header className="w-full" role="banner">
+      {/* Top Bar - Static position */}
+      <div className="bg-blue-900 text-white w-full">
+        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+          <a 
+            href="tel:732-978-9390" 
+            className="flex items-center gap-2 hover:text-blue-200 transition-colors"
+            aria-label="Call us at 732-978-9390"
+          >
+            <Phone className="h-4 w-4" />
+            <span className="text-sm">732-978-9390</span>
+          </a>
+          <div className="flex gap-4">
+            <a 
+              href="https://tpgcompanies.managebuilding.com/Resident/portal/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm hover:text-blue-200 transition-colors"
+            >
+              Resident Login
+            </a>
+            <span className="text-gray-400">|</span>
+            <a 
+              href="https://tpgcompanies.managebuilding.com/manager"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm hover:text-blue-200 transition-colors"
+            >
+              Owner Login
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Navigation - Dynamic positioning */}
+      <nav 
+        className={`w-full z-[9999] transition-all duration-300 ease-in-out transform-gpu ${
+          showBackground 
+            ? 'fixed top-0' // Snaps to top when scrolled past top bar
+            : 'relative'    // Stays in normal flow otherwise
+        }`}
+        style={{
+          backgroundColor: showBackground ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.95)',
+          boxShadow: showBackground ? '0 2px 4px rgba(0,0,0,0.1)' : 'none',
+        }}
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between py-4">
+            {/* Logo with smoother transition */}
+            <Link href="/" className="flex-shrink-0">
+              <Image 
+                src="/logo.png" 
+                alt="TPG Management" 
+                width={showBackground ? 175 : 200} 
+                height={showBackground ? 175 : 200} 
+                className="transition-all duration-300 ease-in-out transform-gpu"
+                priority
+              />
+            </Link>
+
+            {/* Mobile Menu Button */}
+            <button 
+              onClick={toggleDrawer(true)} 
+              className="xl:hidden p-2"
+              aria-label="Open menu"
+            >
+              <Menu className="h-6 w-6 text-blue-900" />
+            </button>
+
+            {/* Desktop Navigation */}
+            <NavigationMenu.Root className="hidden xl:block">
+              <NavigationMenu.List className="flex gap-6">
+                {navItems.map((item) => (
+                  <NavigationMenu.Item key={item.label}>
+                    {item.items ? (
+                      <>
+                        <NavigationMenu.Trigger 
+                          className="group flex items-center gap-1 text-blue-900 hover:text-blue-700 transition-colors"
+                        >
+                          {item.label}
+                          <ChevronDown 
+                            className="h-4 w-4 transition-transform duration-100 group-data-[state=open]:rotate-180" 
+                          />
+                        </NavigationMenu.Trigger>
+                        <NavigationMenu.Content 
+                          className="absolute top-full mt-1 w-48 bg-white rounded-md shadow-lg p-2 z-[9999]"
+                        >
+                          <ul 
+                            className="space-y-1"
+                            onMouseEnter={(e) => e.preventDefault()}
+                            onMouseLeave={(e) => e.preventDefault()}
+                          >
+                            {item.items.map((subItem) => (
+                              <li key={subItem.label}>
+                                <Link 
+                                  href={subItem.href}
+                                  className="block px-4 py-2 text-blue-900 hover:bg-blue-50 rounded-md transition-colors duration-100"
+                                >
+                                  {subItem.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </NavigationMenu.Content>
+                      </>
+                    ) : (
+                      <Link 
+                        href={item.href}
+                        className="text-blue-900 hover:text-blue-700 transition-colors"
+                        {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                      >
+                        {item.label}
+                      </Link>
+                    )}
+                  </NavigationMenu.Item>
+                ))}
+              </NavigationMenu.List>
+            </NavigationMenu.Root>
+          </div>
+        </div>
+      </nav>
+
+      {/* Conditional padding only when navbar is fixed */}
+      {showBackground && <div className="h-[88px]" />}
+
+      {/* Mobile Drawer */}
       <Drawer
         open={open}
         onClose={toggleDrawer(false)}
@@ -74,140 +202,46 @@ export default function Navbar() {
           },
         }}
       >
-        <motion.div
-          className="flex flex-col h-full p-6"
-          initial={{ x: 300 }}
-          animate={{ x: 0 }}
-          exit={{ x: 300 }}
-          transition={{ type: "spring", stiffness: 300, damping: 30 }}
-        >
-          <button onClick={toggleDrawer(false)} className="self-end mb-6">
-            <X className="h-6 w-6 text-white hover:text-blue-300 transition-colors duration-200" />
+        <div className="p-4">
+          <button 
+            onClick={toggleDrawer(false)}
+            className="mb-6 p-2 ml-auto block"
+            aria-label="Close menu"
+          >
+            <X className="h-6 w-6 text-white" />
           </button>
-          <div className="flex flex-col space-y-6">
-            {drawerItems.map((item, index) => (
-              <motion.div key={item.label} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * 0.1 }}>
+          <div className="space-y-4">
+            {navItems.map((item) => (
+              <div key={item.label}>
                 {item.items ? (
                   <div className="space-y-2">
-                    <span className="text-xl font-medium text-blue-300">{item.label}</span>
-                    <div className="pl-4 space-y-2 flex flex-col">
+                    <div className="text-lg font-medium text-white">{item.label}</div>
+                    <div className="pl-4 space-y-2">
                       {item.items.map((subItem) => (
-                        <Link key={subItem.label} href={subItem.href}>
-                          <span className="text-lg hover:text-blue-300 transition-colors duration-200">{subItem.label}</span>
+                        <Link 
+                          key={subItem.label} 
+                          href={subItem.href}
+                          className="block text-gray-200 hover:text-white transition-colors"
+                        >
+                          {subItem.label}
                         </Link>
                       ))}
                     </div>
                   </div>
                 ) : (
-                  <Link href={item.href} {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
-                    <span className="text-xl font-medium hover:text-blue-300 transition-colors duration-200">{item.label}</span>
+                  <Link 
+                    href={item.href}
+                    className="block text-lg text-white hover:text-gray-200 transition-colors"
+                    {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
+                    {item.label}
                   </Link>
                 )}
-              </motion.div>
+              </div>
             ))}
           </div>
-        </motion.div>
-      </Drawer>
-      <motion.div
-        className="flex flex-row justify-end px-4 py-2 items-center w-[96.5%]"
-        initial={{ opacity: 1, y: 0 }}
-        animate={{ opacity: showBackground ? 0 : 1, y: showBackground ? -30 : 0 }}
-        transition={{ duration: 0.3 }}
-      >
-        <motion.a
-          href="tel:732-978-9390"
-          className="text-center text-lg hidden xl:flex items-center gap-2 hover:text-blue-700 transition-colors duration-200 text-blue-900"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <Phone className="h-5 w-5" />
-          <span>732-978-9390</span>
-        </motion.a>
-      </motion.div>
-      <motion.nav
-        className={`text-blue-900 flex flex-col w-full text-sm top-0 z-10 transition-all duration-500`}
-        initial={{ backgroundColor: "rgba(255, 255, 255, 0)", boxShadow: "none" }}
-        animate={{
-          backgroundColor: showBackground ? "rgba(255, 255, 255, 1)" : "rgba(255, 255, 255, 0)",
-          boxShadow: showBackground ? "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)" : "none",
-        }}
-        transition={{ duration: 0.001 }}
-        style={{
-          position: showBackground ? "fixed" : "sticky",
-        }}
-      >
-        <div className={`flex flex-row px-4 py-2 items-center   ${!showBackground && "xl:max-w-[80%]"} justify-between mx-auto w-full`}>
-          <div className="flex flex-row gap-4 items-center justify-between">
-            <Link href="/">
-              <motion.div initial={{ opacity: 1 }} animate={{ opacity: showBackground ? 0.8 : 1 }} transition={{ duration: 0.5 }}>
-                <Image src="/logo.png" alt="TPG Management" width={showBackground ? 175 : 250} height={showBackground ? 175 : 250} className="hover:opacity-80 transition-all duration-500 hidden xl:block" />
-                <Image src="/logo.png" alt="TPG Management" width={showBackground ? 100 : 175} height={showBackground ? 100 : 175} className="hover:opacity-80 transition-all duration-500 xl:hidden" />
-              </motion.div>
-            </Link>
-          </div>
-          <motion.button onClick={toggleDrawer(true)} className="xl:hidden" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <Menu className="h-6 w-6 text-blue-900" />
-          </motion.button>
-          <NavigationMenu.Root className="hidden xl:flex">
-            <NavigationMenu.List className="flex space-x-4">
-              {navItems.map((item) => (
-                <NavigationMenu.Item key={item.label} className="relative">
-                  {item.items ? (
-                    <NavigationMenu.Trigger className="group inline-flex items-center justify-center rounded-md bg-transparent px-3 py-2 text-lg font-medium text-blue-900 hover:bg-blue-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                      {item.label}
-                      <ChevronDown
-                        className="relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180"
-                        aria-hidden="true"
-                      />
-                    </NavigationMenu.Trigger>
-                  ) : (
-                    <Link href={item.href} passHref legacyBehavior>
-                      <NavigationMenu.Link className="inline-flex items-center justify-center rounded-md bg-transparent px-3 py-2 text-lg font-medium text-blue-900 hover:bg-blue-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                        {item.label}
-                      </NavigationMenu.Link>
-                    </Link>
-                  )}
-                  {item.items && (
-                    <NavigationMenu.Content className="absolute left-0 top-full mt-2">
-                      <ul className="m-0 grid w-[200px] gap-3 p-4 bg-white shadow-lg rounded-md">
-                        {item.items.map((subItem) => (
-                          <li key={subItem.label}>
-                            <NavigationMenu.Link asChild>
-                              <Link
-                                href={subItem.href}
-                                className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-blue-100 hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700"
-                              >
-                                {subItem.label}
-                              </Link>
-                            </NavigationMenu.Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </NavigationMenu.Content>
-                  )}
-                </NavigationMenu.Item>
-              ))}
-              <AnimatePresence>
-                {showBackground && (
-                  <motion.a
-                    href="tel:732-978-9390"
-                    className="text-center text-lg hidden sm:flex items-center gap-2 hover:text-blue-700 transition-colors duration-200"
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: 20 }}
-                    transition={{ duration: 0.3 }}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <Phone className="h-5 w-5" />
-                    <span>732-978-9390</span>
-                  </motion.a>
-                )}
-              </AnimatePresence>
-            </NavigationMenu.List>
-          </NavigationMenu.Root>
         </div>
-      </motion.nav>
-    </>
+      </Drawer>
+    </header>
   );
 }

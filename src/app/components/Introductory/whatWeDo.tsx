@@ -1,4 +1,4 @@
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/OptimizedImage";
 import Header from "../ui/Header";
 import whatWeDoData from "@/data/whatWeDo.json";
 
@@ -10,16 +10,26 @@ type Service = {
 
 export default function WhatWeDo() {
     return (
-        <div className="flex flex-col items-center justify-center gap-4 text-center w-screen">
-            <Header variant="blue">What We Do</Header>
+        <section 
+          aria-labelledby="what-we-do-heading" 
+          className="flex flex-col items-center justify-center gap-4 text-center w-screen"
+        >
+            <Header variant="blue" id="what-we-do-heading">What We Do</Header>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-[70%]">
+            <div 
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-[70%]"
+              role="list"
+            >
                 {whatWeDoData.services.map((service: Service) => (
-                    <div key={service.title} className="flex flex-col items-center text-center">
+                    <article 
+                      key={service.title} 
+                      className="flex flex-col items-center text-center"
+                      role="listitem"
+                    >
                         <div className="relative w-full h-64 mb-6">
-                            <Image 
+                            <OptimizedImage 
                                 src={service.image} 
-                                alt={service.title} 
+                                alt={`${service.title} service illustration`}
                                 fill 
                                 className="object-cover rounded-lg" 
                                 priority 
@@ -27,9 +37,9 @@ export default function WhatWeDo() {
                         </div>
                         <h3 className="text-blue-900 text-xl font-semibold mb-2">{service.title}</h3>
                         <p className="text-blue-950">{service.description}</p>
-                    </div>
+                    </article>
                 ))}
             </div>
-        </div>
+        </section>
     );
 }

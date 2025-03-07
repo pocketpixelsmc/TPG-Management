@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Testimonial from "../components/testimonial";
 import Link from "next/link";
 import OurProcess from "../components/Pricing/ourProcess";
 import PricingGrid from "../components/Pricing/pricingGrid";
