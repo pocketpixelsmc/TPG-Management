@@ -15,11 +15,11 @@ const navItems = [
     items: [
       { href: "/services", label: "Services" },
       { href: "/pricing", label: "Pricing" },
-      { href: "/referral", label: "Referral" },
       { href: "/faq", label: "Owner FAQs" },
     ],
   },
   { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
+  { href: "/referral", label: "Referral" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact Us" },
 ];
@@ -31,11 +31,11 @@ const drawerItems = [
     items: [
       { href: "/services", label: "Services" },
       { href: "/pricing", label: "Pricing" },
-      { href: "/referral", label: "Referral" },
       { href: "/faq", label: "Owner FAQs" },
     ],
   },
   { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
+  { href: "/referral", label: "Referral" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact Us" },
   { href: "https://tpgcompanies.managebuilding.com/Resident/portal/login", label: "Resident Login", external: true },
