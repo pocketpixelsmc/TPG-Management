@@ -15,7 +15,7 @@ const headerVariants = cva("text-blue-900 font-bold leading-tight py-4 px-8 mb-4
       green: "bg-[#008000] text-white text-xl sm:text-2xl lg:text-4xl",
       noBg: "text-xl sm:text-2xl lg:text-4xl",
       subHeader: "text-lg sm:text-xl lg:text-3xl",
-      extraBig: "text-4xl sm:text-5xl lg:text-8xl",
+      extraBig: "text-4xl sm:text-5xl lg:text-7xl",
     },
   },
   defaultVariants: {

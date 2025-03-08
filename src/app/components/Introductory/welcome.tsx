@@ -6,10 +6,10 @@ import Link from "next/link";
 export default function Welcome() {
   return (
     <section 
-      className="relative w-screen min-h-[80vh] flex flex-col items-center justify-center text-center"
+      className="relative w-screen p-16 flex flex-col items-center justify-center text-center"
       style={{
         backgroundImage: 'url(/introImg.png)',
-        backgroundSize: 'cover',
+        backgroundSize: 'auto',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
       }}
@@ -24,7 +24,7 @@ export default function Welcome() {
       <div className="relative z-10 ">
         <Header 
           variant="extraBig"
-          className="text-blue-950"
+          className="text-[#003474]"
         >
           Reliable Property Management in New Jersey
         </Header>
