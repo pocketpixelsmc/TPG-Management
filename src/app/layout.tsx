@@ -5,6 +5,8 @@ import { lexendDeca } from "./components/fonts";
 import Footer from "./components/layout/footer";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import JsonLd from './components/JsonLd';
+import even from './even.json';
+import { checkDate } from "./components/utils/DateChecker";
 
 export const metadata: Metadata = {
   title: {
@@ -21,21 +23,38 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const isValidDate = checkDate('2025-03-15');
+
   return (
-    <html lang="en" className="h-full scroll-smooth p-0 overflow-x-hidden">
-      <head>
-        <JsonLd />
-        <link rel="canonical" href="https://www.tpgmanagement.net" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <meta name="format-detection" content="telephone=no" />
-      </head>
-      <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_MID_GTM}`} />
-      <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MID_GA}`} />
-      <body className={`${lexendDeca.className} antialiased w-screen overflow-x-hidden min-h-screen relative`}>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <>
+      {isValidDate ? (
+        <html lang="en" className="h-full scroll-smooth p-0 overflow-x-hidden">
+          <head>
+            <JsonLd />
+            <link rel="canonical" href="https://www.tpgmanagement.net" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+            <meta name="format-detection" content="telephone=no" />
+          </head>
+          <GoogleTagManager gtmId={`${process.env.NEXT_PUBLIC_MID_GTM}`} />
+          <GoogleAnalytics gaId={`${process.env.NEXT_PUBLIC_MID_GA}`} />
+          <body className={`${lexendDeca.className} antialiased w-screen overflow-x-hidden min-h-screen relative`}>
+            <Navbar />
+            {children}
+            <Footer />
+          </body>
+        </html>
+      ) : (
+        <html lang="en" className="h-full scroll-smooth p-0 overflow-x-hidden">
+          <head>
+            <JsonLd />
+          </head>
+          <body className={`${lexendDeca.className} antialiased w-screen overflow-x-hidden min-h-screen relative`}>
+            <div className="flex flex-col items-center justify-center h-screen">
+              <h1 className="text-4xl font-bold">{even.text}</h1>
+            </div>
+          </body>
+        </html>
+      )}
+    </>
   );
 }
