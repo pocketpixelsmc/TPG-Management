@@ -4,9 +4,9 @@ export default function ServicesSection() {
   return (
     <section 
       aria-labelledby="services-title" 
-      className="bg-gradient-to-b from-[#f8faff] to-white w-full overflow-hidden"
+      className="bg-gradient-to-b from-[#f8faff] to-white w-screen overflow-hidden"
     >
-      <Header variant="blue" id="services-title">OUR SERVICES</Header>
+      <Header variant="blue" id="services-title" className="w-screen">OUR SERVICES</Header>
       <div className="container mx-auto px-4 py-6">
         <div className="text-center mb-16">
           <p className="text-blue-950 text-xl md:text-2xl max-w-4xl mx-auto">

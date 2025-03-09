@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer 
-      className="bg-gradient-to-b from-gray-900 to-gray-800 text-gray-300 py-12 w-screen"
+      className="bg-gradient-to-b from-gray-900 to-gray-800 text-gray-300 py-12 px-4 w-screen"
       role="contentinfo"
       aria-labelledby="footer-heading"
     >
@@ -29,6 +29,15 @@ export default function Footer() {
               width={120} 
               height={120} 
               alt="National Association of Residential Property Managers Logo" 
+              className="object-contain"
+            />
+          </div>
+          <div className="bg-white/90 p-4 rounded-lg hover:bg-white transition-colors duration-200">
+            <OptimizedImage 
+              src="/equal.png" 
+              width={120} 
+              height={120} 
+              alt="National Association of Home Builders Logo" 
               className="object-contain"
             />
           </div>

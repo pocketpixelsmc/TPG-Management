@@ -35,7 +35,7 @@ export default function Welcome() {
 
         <Link href="/contact">
           <Button 
-            className="px-10 py-6 text-2xl"
+            className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4"
           >
             GET A FREE PROPERTY ANALYSIS
           </Button>

@@ -15,15 +15,15 @@ import Link from 'next/link';
 export default function ServicesHeader() {
     return (
         <div className="flex gap-6 flex-col items-center">
-            <Header>We provide full-service property management.</Header>
+            <Header variant="midBig">We provide full-service property management.</Header>
             {/* <h3 className="text-2xl text-blue-900 font-semibold text-center leading-relaxed">
         We&apos;re hands-on, so you don&apos;t have to be.
       </h3> */}
             <div className="flex flex-col lg:flex-row gap-12 w-full max-w-[1200px] justify-between px-4">
-                <div className="flex flex-col gap-8 md:pl-4">
-                    <div className="space-y-4">
-                        <h4 className="text-2xl text-blue-900 font-bold mb-3">Properties We Manage</h4>
-                        <div className="flex gap-12 text-lg text-gray-700">
+                <div className="flex flex-col md:flex-row gap-8 lg:flex-col lg:pl-4 justify-center w-full">
+                    <div className="space-y-4 flex-1">
+                        <h4 className="text-2xl text-blue-900 font-bold mb-3 text-center lg:text-left">Properties We Manage</h4>
+                        <div className="flex gap-12 text-lg text-gray-700 justify-center lg:justify-start">
                             <div className="space-y-2">
                                 <p className="hover:text-blue-950 transition-colors">Single Family</p>
                                 <p className="hover:text-blue-950 transition-colors">Multi-Family</p>
@@ -34,9 +34,9 @@ export default function ServicesHeader() {
                             </div>
                         </div>
                     </div>
-                    <div className="space-y-4">
-                        <h4 className="text-2xl text-blue-900 font-bold mb-3">Areas We Serve</h4>
-                        <div className="flex gap-12 text-lg text-gray-700">
+                    <div className="space-y-4 flex-1">
+                        <h4 className="text-2xl text-blue-900 font-bold mb-3 text-center lg:text-left">Areas We Serve</h4>
+                        <div className="flex gap-12 text-lg text-gray-700 justify-center lg:justify-start">
                             <div className="space-y-2">
                                 <p className="hover:text-blue-950 transition-colors">Hudson</p>
                                 <p className="hover:text-blue-950 transition-colors">Essex</p>
@@ -50,30 +50,25 @@ export default function ServicesHeader() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1 relative min-h-[400px]">
+                <div className="w-full lg:w-1/2 max-h-[300px] max-w-[300px] md:max-w-[600px] mx-auto lg:mx-0">
                     <Swiper
-                        modules={[Autoplay, Pagination, Navigation]}
-                        spaceBetween={30}
-                        centeredSlides={true}
-                        autoplay={{
-                            delay: 3500,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        navigation={true}
-                        className="max-w-[700px] h-[400px] rounded-xl shadow-lg"
+                        spaceBetween={0}
+                        slidesPerView={1}
+                        speed={1200}
+                        pagination={{ clickable: true, dynamicBullets: true }}
+                        modules={[Pagination, Autoplay]}
+                        autoplay={{ delay: 2000 }}
+                        className="rounded-xl overflow-hidden"
                     >
                         {[1, 2, 3].map((num) => (
                             <SwiperSlide key={num}>
-                                <div className="relative w-full h-full">
+                                <div className="relative w-full h-0 pb-[56.25%]">
                                     <Image
                                         src={`/carousel/img${num}.png`}
-                                        alt={`Property image ${num}`}
-                                        fill
-                                        className="object-cover"
-                                        priority={num === 1}
+                                        alt={`Image ${num}`}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        className="absolute top-0 left-0 w-full h-full"
                                     />
                                 </div>
                             </SwiperSlide>
@@ -81,12 +76,12 @@ export default function ServicesHeader() {
                     </Swiper>
                 </div>
             </div>
-            <div className="flex flex-row md:pr-4 mt-6 justify-center items-center gap-10">
+            <div className="flex flex-col sm:flex-row lg:pr-4 mt-6 justify-center items-center gap-4 sm:gap-10">
                 <Link href="/contact">
-                    <Button>Work with us</Button>
+                    <Button className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4">Work with us</Button>
                 </Link>
                 <Link href="/faq">
-                    <Button>Owner FAQs</Button>
+                    <Button className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4">Owner FAQs</Button>
                 </Link>
             </div>
         </div>

@@ -13,9 +13,9 @@ export default function ContactLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex flex-col items-center justify-center gap-2 mb-8 p-4 pb-0">
-      <Header variant="midBig">Reliable Property Management Starts Here</Header>
-      <Header variant="subHeader"><a href="tel:732-978-9390" className="text-blue-950 hover:text-blue-900">(732) 978-9390</a></Header>
+    <main className="flex flex-col items-center justify-center gap-2 mb-8 p-2 pb-0">
+      <Header>Reliable Property Management Starts Here</Header>
+      <Header><a href="tel:732-978-9390" className="text-blue-950 hover:text-blue-900">(732) 978-9390</a></Header>
       <EmailForm />
       <div className="m-0 mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center max-w-[1200px] gap-4">

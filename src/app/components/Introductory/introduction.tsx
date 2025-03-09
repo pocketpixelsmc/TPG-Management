@@ -9,7 +9,7 @@ export default function Introduction() {
         <div className="flex flex-col items-center justify-center gap-4">
           <WhatWeDo />
           <Link href={"/contact"}>
-            <Button>
+            <Button className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4">
               Discover Stress-Free Management Today!
             </Button>
           </Link>
