@@ -1,0 +1,47 @@
+{
+  "fees": [
+    {
+      "percentage": "6-8",
+      "title": "MONTHLY MANAGEMENT FEE",
+      "description": [
+        "1-4 units of 8% of gross rent collected",
+        "5+ units and commercial 6% of gross rent collected"
+      ]
+    },
+    {
+      "percentage": "50",
+      "title": "LEASING FEE (RESIDENT PLACEMENT)",
+      "description": [
+        "50% of First Month's Rent, taken at time of move-in"
+      ]
+    },
+    {
+      "amount": "0",
+      "title": "LEASE RENEWAL FEE",
+      "description": [
+        "$0"
+      ]
+    },
+    {
+      "amount": "0",
+      "title": "MATERIAL MARK UPS",
+      "description": [
+        "$0 - Enjoy our volume discounts from multiple material vendors with no markups!"
+      ]
+    },
+    {
+      "amount": "0",
+      "title": "ONBOARD FEES",
+      "description": [
+        "$0 - We do not charge any owner or tenant onboarding fees."
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "title": "OVERVIEW BROCHURE",
+      "id": "brochure",
+      "href": "https://drive.google.com/file/d/1kV-TCfifQGs7kJUydmzGrRyAuVQTxPOr/view?usp=sharing"
+    }
+  ]
+} 

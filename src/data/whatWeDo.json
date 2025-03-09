@@ -1,0 +1,24 @@
+{
+    "services": [
+        {
+            "title": "RESIDENT SCREENING",
+            "description": "Applicants are qualified through our rigorous screening process.",
+            "image": "/wwd/resident_screening.png"
+        },
+        {
+            "title": "RENT COLLECTION",
+            "description": "We make sure rent is collected on time, every time.",
+            "image": "/wwd/rent_collection.png"
+        },
+        {
+            "title": "MAINTENANCE",
+            "description": "With our dedicated maintenance support team, issues are addressed quickly & efficiently.",
+            "image": "/wwd/maintenance.png"
+        },
+        {
+            "title": "RESIDENT COMMUNICATION",
+            "description": "We work hard to maintain positive resident relationships and satisfaction.",
+            "image": "/wwd/resident_communication.png"
+        }
+    ]
+} 

@@ -1,0 +1,25 @@
+{
+  "steps": [
+    {
+      "step": "Step 1",
+      "icon": "/referral/send.svg",
+      "alt": "Send",
+      "title": "Send Us A Referral",
+      "description": "Fill out the form below to send us a referral. Be sure to let your client know we'll be contacting them."
+    },
+    {
+      "step": "Step 2",
+      "icon": "/referral/call.svg",
+      "alt": "Call",
+      "title": "We Call Your Client",
+      "description": "We will give your client a call and walk them through their management options."
+    },
+    {
+      "step": "Step 3",
+      "icon": "/referral/money.svg",
+      "alt": "Money",
+      "title": "We Pay You",
+      "description": "Every client who signs a contract with us will net you a referral fee of $400"
+    }
+  ]
+} 

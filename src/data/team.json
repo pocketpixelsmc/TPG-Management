@@ -1,0 +1,45 @@
+{
+    "teamMembers": [
+        {
+            "name": "Michael",
+            "image": "/team/mike.png",
+            "division": "VP of Development"
+        },
+        {
+            "name": "Alex",
+            "image": "/team/alex.png",
+            "division": "VP of Operations"
+        },
+        {
+            "name": "Julian",
+            "image": "/team/julian.png",
+            "division": "Director of Property Management"
+        },
+        {
+            "name": "Fred",
+            "image": "/team/fred.png",
+            "division": "VP of Finance"
+        },
+        {
+            "name": "Laurie",
+            "image": "/team/laurie.png",
+            "division": "VP of Accounting"
+        },
+        {
+            "name": "Karen",
+            "image": "/team/karen.png",
+            "division": "Director of Leasing"
+        },
+        {
+            "name": "Zoey",
+            "image": "/team/zoey.png",
+            "division": "Administrative Assistant"
+        },
+        {
+            "name": "Harsh",
+            "image": "/team/harsh.png",
+            "division": "Development Administrator",
+            "link": "https://www.harshsuthar.me"
+        }
+    ]
+} 

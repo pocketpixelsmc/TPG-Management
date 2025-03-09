@@ -1,0 +1,25 @@
+{
+    "subservices": [
+        {
+            "title": "Single-Family Homes and Condos",
+            "description": "Professional Property Managers that allow you to enjoy being a property owner, not a landlord.",
+            "image": "/subservice/sfh.png",
+            "alt": "Single-Family Homes",
+            "link": "/contact/sfh"
+        },
+        {
+            "title": "Multi-Family Properties & Apartment Buildings",
+            "description": "A complete team to handle the day to day operations of your multi family and apartment building real estate investments.",
+            "image": "/subservice/mfh.png",
+            "alt": "Multi-Family Houses",
+            "link": "/contact/mf"
+        },
+        {
+            "title": "Commercial Properties",
+            "description": "A management team specialized in handling Retail, Office, and Mixed Use Properties.",
+            "image": "/subservice/apt.png",
+            "alt": "Apartment Buildings",
+            "link": "/contact/co"
+        }
+    ]
+} 
