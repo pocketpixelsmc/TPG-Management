@@ -13,11 +13,9 @@ export default function ContactLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
-      <Header>Let us streamline your life.</Header>
-      <p className="text-lg text-blue-950 font-bold self-center">
-        If you are interested in our property management services, please fill out the form below or call <u><a href="tel:732-978-9390"> (732) 978-9390 </a></u>
-      </p>
+    <main className="flex flex-col items-center justify-center gap-2 mb-8 p-4 pb-0">
+      <Header variant="midBig">Reliable Property Management Starts Here</Header>
+      <Header variant="subHeader"><a href="tel:732-978-9390" className="text-blue-950 hover:text-blue-900">(732) 978-9390</a></Header>
       <EmailForm />
       <div className="m-0 mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center max-w-[1200px] gap-4">

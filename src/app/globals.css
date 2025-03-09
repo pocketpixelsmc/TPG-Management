@@ -108,3 +108,30 @@ body:not(.fjsdjfsdf){
   @apply flex items-center gap-3 text-gray-300 hover:text-blue-400 transition-colors duration-200;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(30 58 138) !important;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-pagination-bullet {
+  background: rgb(30 58 138) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgb(30 58 138) !important;
+}
+

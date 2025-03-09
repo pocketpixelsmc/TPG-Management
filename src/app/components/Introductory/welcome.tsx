@@ -21,7 +21,7 @@ export default function Welcome() {
       />
 
       {/* Content */}
-      <div className="relative z-10 ">
+      <div className="relative flex flex-col items-center justify-center z-10 p-4">
         <Header 
           variant="extraBig"
           className="text-[#003474]"

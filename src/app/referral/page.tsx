@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className=" flex flex-col items-center justify-center gap-8 mt-4 mb-8 sm:mt-16 p-4 pb-0">
+    <main className=" flex flex-col items-center justify-center gap-8 mb-8 p-4 pb-0">
       <p className="text-5xl text-blue-900 font-bold mb-3">REFER A CLIENT AND EARN $400!</p>
       <p className="text-xl text-blue-950 max-w-[838px] mb-6">
         At TPG Management, we value referrals. Know someone who could benefit from our professional property management services in New Jersey? When

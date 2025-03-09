@@ -9,9 +9,9 @@ export default function PricingGrid() {
   return (
     <div className="flex flex-wrap">
       <TopLeftSection fees={feesData.fees} />
-      <TopRightSection downloads={feesData.downloads} />
+      <TopRightSection downloads={servicesData.services} />
       <BottomLeftSection />
-      <BottomRightSection services={servicesData.services} />
+      <BottomRightSection services={feesData.downloads} />
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function ServicesSection() {
       className="bg-gradient-to-b from-[#f8faff] to-white w-full overflow-hidden"
     >
       <Header variant="blue" id="services-title">OUR SERVICES</Header>
-      <div className="container mx-auto px-4 py-16 md:py-24">
+      <div className="container mx-auto px-4 py-6">
         <div className="text-center mb-16">
           <p className="text-blue-950 text-xl md:text-2xl max-w-4xl mx-auto">
             Our full-service management covers each aspect of renting your property
@@ -15,7 +15,7 @@ export default function ServicesSection() {
         </div>
 
         <div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto"
           role="list"
         >
           {services.map((service) => (

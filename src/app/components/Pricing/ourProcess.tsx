@@ -5,7 +5,7 @@ export default function OurProcess() {
   return (
     <section 
       aria-labelledby="process-heading" 
-      className="flex flex-col items-center justify-center gap-4 text-center w-full"
+      className="flex flex-col items-center justify-center gap-4 mb-4 text-center w-full"
     >
       <Header 
         variant="blue" 

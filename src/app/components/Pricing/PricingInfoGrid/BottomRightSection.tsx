@@ -1,23 +1,21 @@
+import { FileText } from "lucide-react";
+import { Card } from "@/components/ui/card";
+
 export default function BottomRightSection({ services }: { services: any[] }) {
   return (
     <div className="w-full md:w-1/2 bg-[#f0f8ff] p-8">
-      <h1 className="text-[#1e3a8a] text-4xl font-bold mb-2">MANAGEMENT SERVICES INCLUDE</h1>
-      <div className="space-y-6">
-        {services.map((service) => (
-          <div key={service.title} className="flex items-start gap-3">
-            <div className="relative">
-              <div className="bg-[#0098da] text-white font-bold p-2 pr-6 flex items-center justify-center w-[75px] h-9 relative [clip-path:polygon(0_0,85%_0,100%_50%,85%_100%,0_100%)]">
-                <span className="text-lg flex items-start translate-x-1">
-                  <>
-                    <span className="text-xs translate-y-0.5">✓ </span>
-                  </>
-                </span>
-              </div>
-            </div>
-            <div>
-              <h3 className="font-bold text-[#1e3a8a]">{service.title}</h3>
-            </div>
-          </div>
+      <h2 className="text-[#1e3a8a] text-4xl font-bold mb-2">DOWNLOAD</h2>
+      <p className="text-[#1e3a8a] mb-8">Forms and Information</p>
+      <div className="grid grid-cols-2 gap-4">
+        {services.map((download) => (
+          <a href={download.href} target="_blank" rel="noreferrer" key={download.id}>
+            <Card
+              className="w-[200px] h-[200px] p-6 flex flex-col items-center justify-center cursor-pointer hover:bg-gray-50 transition-colors"
+            >
+              <FileText className="w-12 h-12 text-red-500 mb-2" />
+              <p className="text-center text-sm font-medium">{download.title}</p>
+            </Card>
+          </a>
         ))}
       </div>
     </div>
