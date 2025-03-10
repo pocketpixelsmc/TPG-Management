@@ -50,7 +50,7 @@ export default function ServicesHeader() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:max-w-[700px] max-h-[300px] max-w-[300px] mx-auto lg:mx-0">
+                <div className="w-full lg:max-w-[700px] max-h-[310px] max-w-[300px] mx-auto lg:mx-0">
                     <Swiper
                         spaceBetween={0}
                         slidesPerView={1}

@@ -6,6 +6,7 @@ import pmData from "@/data/pmPageFeatures.json";
 import { Metadata } from "next";
 import Button from "../components/ui/Button";
 import Welcome from "../components/Introductory/welcome";
+import ShortForm from "../components/Forms/shortForm";
 export const metadata: Metadata = {
   title: "Reliable Property Management for Multi-Family, Single-Family, and Commercial Properties in New Jersey!",
   description:
@@ -44,7 +45,7 @@ export default function Home() {
             <h1 className="text-2xl text-blue-900 font-bold">
               {pmData.contactHeading}
             </h1>
-            <EmailForm />
+            <ShortForm />
           </div>
         </div>
       </div>
