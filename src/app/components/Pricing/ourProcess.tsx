@@ -33,7 +33,7 @@ export default function OurProcess() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
             <h4 className="text-lg font-bold text-blue-900 mb-3">WE ARE OWNERS/INVESTORS</h4>
-            <p className="text-gray-700">We manage properties with an owner's mindset because we own and invest in real estate ourselves.</p>
+            <p className="text-gray-700">We manage properties with an owner&apos;s mindset because we own and invest in real estate ourselves.</p>
           </div>
           
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -43,7 +43,7 @@ export default function OurProcess() {
           
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
             <h4 className="text-lg font-bold text-blue-900 mb-3">ALIGNED MANAGEMENT FEES</h4>
-            <p className="text-gray-700">We only make money when you do—our success is directly tied to your property's performance.</p>
+            <p className="text-gray-700">We only make money when you do—our success is directly tied to your property&apos;s performance.</p>
           </div>
           
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
