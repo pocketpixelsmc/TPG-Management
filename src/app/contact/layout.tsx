@@ -19,8 +19,8 @@ export default function ContactLayout({
       <EmailForm />
       <div className="m-0 mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center items-start text-left justify-center max-w-[1200px] gap-4">
-          <p>Monday-Friday 8am-4pm, </p>
-          <p>(732) 978-9390, </p>
+          <p>Monday-Friday 9am-5pm, </p>
+          <p><a href="tel:732-978-9390" className="text-blue-950 hover:text-blue-900">(732) 978-9390</a>, </p>
           <a href="mailto:leads@tpgcompanies.net" className="text-blue-950">
             <p>leads@tpgcompanies.net</p>
           </a>

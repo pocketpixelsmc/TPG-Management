@@ -1,5 +1,7 @@
 import OptimizedImage from "@/components/ui/OptimizedImage";
 import Header from "../ui/Header";
+import WhatSeparatesCard from "./WhatSeparatesCard";
+import { whatSeparates } from "@/data/whatSeparates.json";
 
 export default function OurProcess() {
   return (
@@ -29,25 +31,16 @@ export default function OurProcess() {
       </figure>
 
       <div className="max-w-4xl mx-auto px-4">
-        <h3 className="text-xl font-semibold text-blue-900 mb-4">WHAT SEPERATES US?</h3>
-        <ul className="text-left space-y-4 text-blue-950" role="list">
-          <li className="flex items-start gap-2">
-            <span className="font-bold min-w-[100px]">WE ARE OWNERS/INVESTORS:</span>
-            <span>We manage properties with an owner’s mindset because we own and invest in real estate ourselves.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="font-bold min-w-[100px]">PROPERTY MANAGEMENT IS ALL WE DO:</span>
-            <span>No side hustles, no distractions—this is our full-time job, and we do it with precision and expertise.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="font-bold min-w-[100px]">ALIGNED MANAGEMENT FEES:</span>
-            <span>We only make money when you do—our success is directly tied to your property’s performance.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="font-bold min-w-[100px]">VOLUME/PREFERRED VENDOR PRICING:</span>
-            <span>Our size and connections mean you get priority service and discounted rates, keeping costs low and value high.</span>
-          </li>
-        </ul>
+        <h3 className="text-2xl font-semibold text-blue-900 text-center">WHAT SEPARATES US?</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {whatSeparates.map((item, index) => (
+            <WhatSeparatesCard
+              key={index}
+              title={item.title}
+              description={item.description}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
