@@ -50,7 +50,7 @@ export default function ServicesHeader() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2 max-h-[300px] max-w-[300px] md:max-w-[600px] mx-auto lg:mx-0">
+                <div className="w-full lg:max-w-[700px] max-h-[300px] max-w-[300px] mx-auto lg:mx-0">
                     <Swiper
                         spaceBetween={0}
                         slidesPerView={1}
@@ -78,10 +78,10 @@ export default function ServicesHeader() {
             </div>
             <div className="flex flex-col sm:flex-row lg:pr-4 mt-6 justify-center items-center gap-4 sm:gap-10">
                 <Link href="/contact">
-                    <Button className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4">Work with us</Button>
+                    <Button className="px-6 py-4 sm:px-8 text-lg sm:text-xl mx-4">Work with us</Button>
                 </Link>
                 <Link href="/faq">
-                    <Button className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4">Owner FAQs</Button>
+                    <Button className="px-6 py-4 sm:px-8 text-lg sm:text-xl mx-4">Owner FAQs</Button>
                 </Link>
             </div>
         </div>
