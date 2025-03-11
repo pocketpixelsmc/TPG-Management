@@ -2,8 +2,8 @@ import ShortForm from "../../Forms/shortForm";
 
 export default function BottomLeftSection() {
   return (
-    <div className="w-full md:w-1/2 p-2">
-      <h3 className="text-2xl font-bold text-blue-900 m-4">Learn more today!</h3>
+    <div className="w-full md:w-1/2 p-8">
+      <h2 className="text-[#1e3a8a] text-4xl font-bold mb-4">Learn more today!</h2>
       <ShortForm />
     </div>
   );
