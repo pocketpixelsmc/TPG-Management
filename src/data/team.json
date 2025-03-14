@@ -3,32 +3,32 @@
         {
             "name": "Michael",
             "image": "/team/mike.png",
-            "division": "VP of Development"
+            "division": "Development Team"
         },
         {
             "name": "Alex",
             "image": "/team/alex.png",
-            "division": "VP of Operations"
+            "division": "Operations Team"
         },
         {
             "name": "Julian",
             "image": "/team/julian.png",
-            "division": "Director of Property Management"
+            "division": "Operations Team"
         },
         {
             "name": "Fred",
             "image": "/team/fred.png",
-            "division": "VP of Finance"
+            "division": "Operations Team"
         },
         {
             "name": "Laurie",
             "image": "/team/laurie.png",
-            "division": "VP of Accounting"
+            "division": "Operations Team"
         },
         {
             "name": "Karen",
             "image": "/team/karen.png",
-            "division": "Director of Leasing"
+            "division": "Operations Team"
         },
         {
             "name": "Zoey",
@@ -38,8 +38,13 @@
         {
             "name": "Harsh",
             "image": "/team/harsh.png",
-            "division": "Development Administrator",
+            "division": "Development Team",
             "link": "https://www.harshsuthar.me"
+        },
+        {
+            "name": "Travis",
+            "image": "/team/travis.png",
+            "division": "Operations Team"
         }
     ]
 } 
