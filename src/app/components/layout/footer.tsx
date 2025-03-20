@@ -155,8 +155,8 @@ export default function Footer() {
             </p>
             <p>
               <span className="sr-only">Email: </span>
-              <a href="mailto:leads@tpgcompanies.net" className="hover:text-blue-400 transition-colors">
-                leads@tpgcompanies.net
+              <a href="mailto:leasing@tpgmanagement.net" className="hover:text-blue-400 transition-colors">
+                leasing@tpgmanagement.net
               </a>
             </p>
           </div>
