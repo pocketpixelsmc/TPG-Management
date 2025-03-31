@@ -12,18 +12,6 @@ export default function Footer() {
       <div className="w-full">
         <div className="grid grid-cols-[repeat(auto-fit,minmax(160px,1fr))] gap-8 mb-12 max-w-3xl mx-auto">
           <div className="bg-white/90 p-4 rounded-lg hover:bg-white transition-colors duration-200 w-[160px] h-[160px] flex items-center justify-center mx-auto">
-            <Link href="/" aria-label="Return to TPG Management homepage">
-              <OptimizedImage 
-                src="/logo.png" 
-                width={120} 
-                height={120} 
-                alt="TPG Management Logo" 
-                className="object-contain"
-                priority 
-              />
-            </Link>
-          </div>
-          <div className="bg-white/90 p-4 rounded-lg hover:bg-white transition-colors duration-200 w-[160px] h-[160px] flex items-center justify-center mx-auto">
             <OptimizedImage 
               src="/narpm.png" 
               width={120} 
