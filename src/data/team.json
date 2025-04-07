@@ -31,9 +31,9 @@
             "division": "Operations Team"
         },
         {
-            "name": "Zoey",
-            "image": "/team/zoey.png",
-            "division": "Administrative Assistant"
+            "name": "Rona",
+            "image": "/team/rona.png",
+            "division": "Operations Team"
         },
         {
             "name": "Harsh",
@@ -42,9 +42,19 @@
             "link": "https://www.harshsuthar.me"
         },
         {
-            "name": "Travis",
-            "image": "/team/travis.png",
+            "name": "Jennifer",
+            "image": "/team/jen.png",
             "division": "Operations Team"
+        },
+        {
+            "name": "Zoey",
+            "image": "/team/zoey.png",
+            "division": "Administrative Assistant"
+        },
+        {
+            "name": "Chris",
+            "image": "/team/travis.png",
+            "division": "Maintenance Team"
         }
     ]
 } 
