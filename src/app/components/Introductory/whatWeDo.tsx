@@ -1,6 +1,7 @@
 import OptimizedImage from "@/components/ui/OptimizedImage";
 import Header from "../ui/Header";
 import whatWeDoData from "@/data/whatWeDo.json";
+import H2 from "../ui/H2";
 
 type Service = {
     title: string;
@@ -14,7 +15,7 @@ export default function WhatWeDo() {
           aria-labelledby="what-we-do-heading" 
           className="flex flex-col items-center justify-center gap-4 text-center w-screen"
         >
-            <Header variant="blue" id="what-we-do-heading">What We Do</Header>
+            <H2 variant="blue" id="what-we-do-heading">What We Do</H2>
 
             <div 
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-[70%]"

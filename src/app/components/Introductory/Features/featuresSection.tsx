@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { User, Users, MessageSquareDotIcon as MessageSquareDollar } from "lucide-react";
 import Header from "../../ui/Header";
 import featuresData from "@/data/features.json";
+import H2 from "../../ui/H2";
 
 type Feature = {
     iconName: string;
@@ -19,7 +20,7 @@ export default function FeaturesSection() {
 
     return (
         <div className="py-12 px-4 md:px-6 bg-gradient-to-b from-blue-50 to-white">
-            <Header className="w-screen">What Sets Us Apart</Header>
+            <H2 className="w-screen">What Sets Us Apart</H2>
 
             <div className="max-w-6xl mx-auto p-4">
                 <div className="grid gap-8 md:gap-12">
