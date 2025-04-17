@@ -52,8 +52,13 @@
             "division": "Administrative Assistant"
         },
         {
-            "name": "Chris",
+            "name": "Sadiq",
             "image": "/team/travis.png",
+            "division": "Maintenance Team"
+        },
+        {
+            "name": "Mario",
+            "image": "/team/mario.png",
             "division": "Maintenance Team"
         }
     ]
