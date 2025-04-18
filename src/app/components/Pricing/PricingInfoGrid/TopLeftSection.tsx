@@ -1,7 +1,7 @@
 export default function TopLeftSection({ fees }: { fees: any[] }) {
   return (
     <div className="w-full md:w-1/2 bg-[#f0f8ff] p-8">
-      <h1 className="text-[#1e3a8a] text-4xl font-bold mb-2">FEES AT A GLANCE</h1>
+      <h2 className="text-[#1e3a8a] text-4xl font-bold mb-2">FEES AT A GLANCE</h2>
       <p className="text-[#1e3a8a] italic mb-8">For a complete list, download the OVERVIEW BROCHURE</p>
       <div className="space-y-6">
         {fees.map((fee) => (

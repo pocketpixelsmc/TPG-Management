@@ -1,3 +1,4 @@
+import H2 from "./ui/H2"
 import Header from "./ui/Header"
 
 export default function ServicesSection() {
@@ -6,7 +7,7 @@ export default function ServicesSection() {
       aria-labelledby="services-title" 
       className="bg-gradient-to-b from-[#f8faff] to-white w-screen overflow-hidden"
     >
-      <Header variant="blue" id="services-title" className="w-screen">OUR SERVICES</Header>
+      <H2 variant="blue" id="services-title" className="w-screen">OUR SERVICES</H2>
       <div className="container mx-auto px-4 py-6">
         <div className="text-center mb-16">
           <p className="text-blue-950 text-xl md:text-2xl max-w-4xl mx-auto">

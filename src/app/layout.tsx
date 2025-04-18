@@ -10,10 +10,10 @@ import { checkDate } from "./components/utils/DateChecker";
 
 export const metadata: Metadata = {
   title: {
-    default: 'TPG Management | Property Management in New Jersey',
+    default: 'Comprehensive Property Management Solutions in NJ | TPG Management',
     template: '%s | TPG Management'
   },
-  description: 'Professional property management services in New Jersey for single-family homes, condos, multi-family units, and commercial properties.',
+  description: 'TPG Management offers professional property management services in New Jersey for single-family homes, condos, multi-family units, and commercial properties.',
   keywords: ['property management', 'New Jersey property management', 'rental property management', 'TPG Management', 'real estate management'],
   viewport: 'width=device-width, initial-scale=1',
 };

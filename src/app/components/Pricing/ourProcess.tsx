@@ -2,6 +2,7 @@ import OptimizedImage from "@/components/ui/OptimizedImage";
 import Header from "../ui/Header";
 import WhatSeparatesCard from "./WhatSeparatesCard";
 import { whatSeparates } from "@/data/whatSeparates.json";
+import H2 from "../ui/H2";
 
 export default function OurProcess() {
   return (
@@ -9,12 +10,12 @@ export default function OurProcess() {
       aria-labelledby="process-heading" 
       className="flex flex-col items-center justify-center gap-4 mb-4 text-center w-full"
     >
-      <Header 
+      <H2
         variant="blue" 
         id="process-heading"
       >
         OUR PROCESS
-      </Header>
+      </H2>
 
       <figure className="max-w-6xl mx-auto px-4 py-12">
         <OptimizedImage 

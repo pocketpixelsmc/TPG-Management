@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 export default function TopRightSection({ downloads }: { downloads: any[] }) {
   return (
     <div className="w-full md:w-1/2 bg-blue-900 p-8">
-      <h1 className="text-white text-4xl font-bold mb-2">MANAGEMENT SERVICES INCLUDE</h1>
+      <h2 className="text-white text-4xl font-bold mb-2">MANAGEMENT SERVICES INCLUDE</h2>
       <div className="space-y-6">
         {downloads.map((service) => (
           <div key={service.title} className="flex items-start gap-3">
