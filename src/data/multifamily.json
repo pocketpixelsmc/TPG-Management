@@ -1,0 +1,20 @@
+{
+  "multifamily": [
+    {
+      "title": "Billing & Financial Support",
+      "description": "TPG Management handles all aspects of financial management, from accounts receivable and payable to detailed monthly reporting. Our advanced analytics help identify cost-saving opportunities, while our fully integrated online payment portal—used by 95% of residents—ensures timely rent collection and steady cash flow. Owners can easily access financial statements through their portal for full transparency and peace of mind."
+    },
+    {
+      "title": "Dedicated Maintenance Professionals",
+      "description": "Our in-house maintenance team is skilled, proactive, and committed to keeping your property in top condition. From plumbing, electrical, and HVAC services to cleaning and CapEx rehab projects, we provide high-quality upkeep that enhances resident satisfaction and maximizes property performance. Residents can easily submit maintenance requests through their online portal for prompt, reliable service."
+    },
+    {
+      "title": "Groundskeeping & Common Spaces",
+      "description": "TPG Management will handle and oversee all lawn care, pool maintenance, and exterior upkeep as part of your property management agreement. Enjoy turnkey passive income without the stress of managing common area maintenance."
+    },
+    {
+      "title": "Property Marketing",
+      "description": "Maximizing occupancy is key to strong returns, and our tailored marketing strategies ensure your property stands out. We combine data-driven insights with creative planning to attract high-quality residents and minimize vacancies. Our in-house team handles marketing seamlessly, helping you achieve stable, long-term occupancy."
+    }
+  ]
+} 
