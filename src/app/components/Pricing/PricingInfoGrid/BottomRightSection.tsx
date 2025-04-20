@@ -4,8 +4,8 @@ import { Card } from "@/components/ui/card";
 export default function BottomRightSection({ services }: { services: any[] }) {
   return (
     <div className="w-full md:w-1/2 bg-[#f0f8ff] p-8">
-      <h2 className="text-[#1e3a8a] text-4xl font-bold mb-2">DOWNLOAD</h2>
-      <p className="text-[#1e3a8a] mb-8">Forms and Information</p>
+      <h2 className="text-[#1e3a8a] text-4xl font-bold mb-2">Available Add-Ons</h2>
+      <p className="text-[#1e3a8a] mb-8">Optional Add-ons that we offer to enhance your protection. </p>
       <div className="grid grid-cols-2 gap-4">
         {services.map((download) => (
           <a href={download.href} target="_blank" rel="noreferrer" key={download.id}>
