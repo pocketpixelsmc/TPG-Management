@@ -74,7 +74,7 @@ export default function ValuesSection() {
           <div className="md:w-1/2">
             <h3 id="screening-heading" className="text-2xl font-bold text-blue-900 mb-4">APPLICANT SCREENING</h3>
             <p className="mb-4 text-blue-950">
-              Our rigorous screening process ensures only qualified applicants are approved, leading to reduced delinquency and increased resident longevity.
+              We use our proven 6-step screening process, which ensures only qualified applicants are approved, leading to reduced delinquency and increased resident longevity.
             </p>
             <div className="bg-white shadow-md rounded-lg p-4 border border-gray-200">
               <ul className="list-disc pl-5 space-y-2 text-blue-950" role="list">
