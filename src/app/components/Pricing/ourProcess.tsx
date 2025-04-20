@@ -21,8 +21,8 @@ export default function OurProcess() {
         <OptimizedImage 
           src="/process12.png" 
           alt="TPG Management's property management process flowchart showing steps from initial contact to ongoing management" 
-          width={970} 
-          height={300}
+          width={900} 
+          height={200}
           className="rounded-lg shadow-md"
           priority
         />
