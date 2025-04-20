@@ -29,9 +29,8 @@ export default function Welcome() {
           Reliable Property Management in New Jersey
         </Header>
 
-        <p className="text-xl md:text-2xl text-black font-semibold mb-12">
-          We create thriving communities by delivering dependable service to residents 
-          and maximizing returns for property owners. 
+        <p className="text-xl md:text-2xl text-white font-semibold mb-12">
+          Helping residents succeed and owners thrive through reliable, investor-led property management.
         </p>
 
         <Link href="/contact">
