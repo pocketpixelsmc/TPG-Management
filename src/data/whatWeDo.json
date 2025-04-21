@@ -2,17 +2,17 @@
     "services": [
         {
             "title": "RESIDENT SCREENING",
-            "description": "Applicants are qualified through our rigorous screening process.",
+            "description": "We use a proven 6-step process to screen and approve residents, ensuring each applicant meets our high standards for reliability and responsibility.",
             "image": "/wwd/resident_screening.png"
         },
         {
             "title": "RENT COLLECTION",
-            "description": "We make sure rent is collected on time, every time.",
+            "description": "We make sure rent is collected on time, every time—so you can count on consistent cash flow without the hassle.",
             "image": "/wwd/rent_collection.png"
         },
         {
             "title": "MAINTENANCE",
-            "description": "With our dedicated maintenance support team, issues are addressed quickly & efficiently.",
+            "description": "With dedicated maintenance support and an in-house maintenance technician team, we resolve issues quickly and efficiently to keep your property running smoothly.",
             "image": "/wwd/maintenance.png"
         },
         {

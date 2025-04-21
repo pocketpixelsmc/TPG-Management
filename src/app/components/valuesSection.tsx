@@ -74,7 +74,7 @@ export default function ValuesSection() {
           <div className="md:w-1/2">
             <h3 id="screening-heading" className="text-2xl font-bold text-blue-900 mb-4">APPLICANT SCREENING</h3>
             <p className="mb-4 text-blue-950">
-              Our rigorous screening process ensures only qualified applicants are approved, leading to reduced delinquency and increased resident longevity.
+              We use our proven 6-step screening process, which ensures only qualified applicants are approved, leading to reduced delinquency and increased resident longevity.
             </p>
             <div className="bg-white shadow-md rounded-lg p-4 border border-gray-200">
               <ul className="list-disc pl-5 space-y-2 text-blue-950" role="list">
@@ -105,11 +105,12 @@ export default function ValuesSection() {
           <div className="md:w-1/2">
             <h3 id="maintenance-heading" className="text-2xl font-bold text-blue-900 mb-4">MAINTENANCE RESPONSE</h3>
             <p className="mb-4 text-blue-950 max-w-[75%]">
-              Our streamlined maintenance process ensures quick response times and keeps all parties informed throughout the repair process.
+              With full-time, in-house maintenance technicians and dedicated support, we resolve issues quickly, maintain quality control, and help save owners money by avoiding third-party markups.
             </p>
             <div className="space-y-4">
               <p className="text-blue-950">Key features of our maintenance system:</p>
               <ul className="list-disc pl-5 space-y-2 text-blue-950" role="list">
+                <li>Full Time In-house Maintenance Technicians</li>
                 <li>24/7 emergency maintenance support</li>
                 <li>Online maintenance request submission</li>
                 <li>Real-time status updates</li>

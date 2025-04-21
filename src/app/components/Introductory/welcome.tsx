@@ -30,14 +30,14 @@ export default function Welcome() {
         </Header>
 
         <p className="text-xl md:text-2xl text-black font-semibold mb-12">
-          Single-Family, Condos, Multi-Family, and Commercial Properties
+          Helping residents succeed and owners thrive through reliable, investor-led property management.
         </p>
 
         <Link href="/contact">
           <Button 
             className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4"
           >
-            GET A FREE PROPERTY ANALYSIS
+            Get Started Property Owners
           </Button>
         </Link>
       </div>
