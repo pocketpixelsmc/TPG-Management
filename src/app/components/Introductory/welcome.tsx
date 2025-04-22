@@ -29,7 +29,7 @@ export default function Welcome() {
           Reliable Property Management in New Jersey
         </Header>
 
-        <p className="text-xl md:text-3xl text-black font-semibold mb-12">
+        <p className="text-xl md:text-3xl text-[#003474] font-bold mb-12">
           Built by Investors. Powered by Experience. Committed to Residents.
         </p>
 
