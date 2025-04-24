@@ -7,6 +7,7 @@ import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import JsonLd from './components/JsonLd';
 import even from './even.json';
 import { checkDate } from "./components/utils/DateChecker";
+import Scroll from "./components/Scroll";
 
 export const metadata: Metadata = {
   title: {
@@ -27,6 +28,7 @@ export default function RootLayout({
 
   return (
     <>
+      <Scroll/>
       {isValidDate ? (
         <html lang="en" className="h-full scroll-smooth p-0 overflow-x-hidden">
           <head>

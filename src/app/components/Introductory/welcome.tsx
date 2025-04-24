@@ -41,13 +41,13 @@ export default function Welcome() {
               Get Started Property Owners
             </Button>
           </Link>
-          <Link href="/multifamily">
+          <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" target="_blank">
             <Button
               className="px-4 py-2 sm:px-8 sm:py-4 text-lg mx-4"
             >
-              Search for Multifamily
+              Search Available Rentals
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
     </section>
