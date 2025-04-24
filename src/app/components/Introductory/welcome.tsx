@@ -33,13 +33,22 @@ export default function Welcome() {
           Built by Investors. Powered by Experience. Committed to Residents.
         </p>
 
-        <Link href="/contact">
-          <Button 
-            className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4"
-          >
-            Get Started Property Owners
-          </Button>
-        </Link>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/contact">
+            <Button
+              className="px-4 py-2 sm:px-8 sm:py-4 text-lg mx-4"
+            >
+              Get Started Property Owners
+            </Button>
+          </Link>
+          <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" target="_blank">
+            <Button
+              className="px-4 py-2 sm:px-8 sm:py-4 text-lg mx-4"
+            >
+              Search Available Rentals
+            </Button>
+          </a>
+        </div>
       </div>
     </section>
   );

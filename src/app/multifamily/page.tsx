@@ -4,6 +4,7 @@ import Header from "../components/ui/Header";
 import Button from "../components/ui/Button";
 import ShortEmailForm from "../components/Forms/shortForm"; // Import the form
 import multifamilyData from "../../data/multifamily.json";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: 'Multifamily and Investment Property Management',
@@ -24,30 +25,21 @@ export default function Home() {
       >
         {/* Dark overlay */}
         <div
-          className="absolute inset-0 bg-gray-200/10"
+          className="absolute inset-0 bg-gray-200/10 z-[-10]"
           aria-hidden="true"
         />
 
-        {/* Content */}
-        <div className="relative flex flex-col items-center justify-center z-10 p-4">
-          <Header
-            variant="extraBig"
-            className="text-[#003474]"
-          >
-            Reliable Property Management in New Jersey
-          </Header>
-
-          <p className="text-xl md:text-3xl text-[#003474] font-bold mb-12">
-            Built by Investors. Powered by Experience. Committed to Residents.
-          </p>
-
-          <Link href="/contact">
-            <Button
-              className="px-6 py-4 sm:px-10 sm:py-6 text-lg sm:text-2xl mx-4"
-            >
-              Get Started Property Owners
-            </Button>
-          </Link>
+        <div className="flex gap-1 flex-col items-center">
+          <Header>Multifamily Property Management</Header>
+          <h4 className="mb-4 text-blue-900 text-xl font-bold" >Dedicated Multifamily Property Management Professionals</h4>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link href="/contact">
+              <Button>CONTACT US</Button>
+            </Link>
+            <Link href="/faq">
+              <Button>Owner FAQs</Button>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -64,9 +56,18 @@ export default function Home() {
                 key={index}
                 className="bg-white shadow-md rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
               >
-                <h3 className="text-2xl font-semibold text-[#003474] mb-4">
-                  {item.title}
-                </h3>
+                <div className="flex items-center gap-4 mb-4">
+                  <Image
+                    src={item.icon}
+                    alt={item.title}
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
+                  <h3 className="text-2xl font-semibold text-[#003474]">
+                    {item.title}
+                  </h3>
+                </div>
                 <p className="text-gray-700">
                   {item.description}
                 </p>
