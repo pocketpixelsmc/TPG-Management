@@ -4,7 +4,7 @@ import Header from "../components/ui/Header";
 import Button from "../components/ui/Button";
 import ShortEmailForm from "../components/Forms/shortForm"; // Import the form
 import multifamilyData from "../../data/multifamily.json";
-import H2 from "../components/ui/H2";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: 'Multifamily and Investment Property Management',
@@ -56,9 +56,18 @@ export default function Home() {
                 key={index}
                 className="bg-white shadow-md rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
               >
-                <h3 className="text-2xl font-semibold text-[#003474] mb-4">
-                  {item.title}
-                </h3>
+                <div className="flex items-center gap-4 mb-4">
+                  <Image
+                    src={item.icon}
+                    alt={item.title}
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
+                  <h3 className="text-2xl font-semibold text-[#003474]">
+                    {item.title}
+                  </h3>
+                </div>
                 <p className="text-gray-700">
                   {item.description}
                 </p>
