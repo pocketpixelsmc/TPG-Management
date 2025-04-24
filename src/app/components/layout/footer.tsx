@@ -68,7 +68,8 @@ export default function Footer() {
                 { href: "/", icon: "about.svg", label: "Home" },
                 { href: "/about", icon: "about.svg", label: "About" },
                 { href: "/contact", icon: "contact.svg", label: "Contact Us" },
-                { href: "http://instagram.com/tpgmanage", icon: "insta.png", label: "Instagram" }, // Added Instagram link
+                { href: "https://instagram.com/tpgmanage", icon: "insta.png", label: "Instagram" }, // Added Instagram link
+                { href: "https://facebook.com/tpgmanage", icon: "fb.png", label: "Facebook" }, // Added Facebook link
                 { href: "/privacy", icon: "about.svg", label: "Privacy Policy" }, // Added Privacy Policy link
               ].map((item) => (
                 <li key={item.href}>
