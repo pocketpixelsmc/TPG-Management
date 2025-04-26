@@ -21,7 +21,7 @@
   },
   {
     "title": "Compliance",
-    "description": "Local, State, Federal, and Insurance Compliance are a vital part of management. That means registrations, town/city inspections, sending notices, court hearings, and representing you if need be.",
+    "description": "Local, State, Federal, and Insurance Compliance are a vital part of management. That means registrations, town/city inspections, sending notices, court hearings, and evictions.",
     "icon": "/services/comp.svg"
   },
   {
@@ -35,12 +35,12 @@
     "icon": "/services/manager.svg"
   },
   {
-    "title": "Property Leasing",
-    "description": "Unit Turn Cordination (repair, update, clearn), Marketing with professional photos, self-showings, virtual tours, and posting instantly on popular rental websites.",
+    "title": "Leasing & Marketing",
+    "description": "Unit Turn Cordination (repair, update, clean), Marketing with professional photos, self-showings, virtual tours, and posting instantly on popular rental websites.",
     "icon": "/services/syndication.svg"
   },
   {
-    "title": "Property Assessments/Inspections",
+    "title": "Assessments/Inspections",
     "description": "From move-in and move-out inspections to drop-in spot assessments, we make sure to always have eyes on your property and will always keep you in the know.",
     "icon": "/services/search.svg"
   },
