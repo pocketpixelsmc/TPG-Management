@@ -15,13 +15,13 @@
     "icon": "/services/price.svg"
   },
   {
-    "title": "Maintenance Management",
-    "description": "We'll handle all communication with Tenants, Vendors, and Home Warranties.",
+    "title": "24/7 Maintenance Management",
+    "description": "We'll handle all communication and cordination with Tenants, Vendors, and Home Warranties.",
     "icon": "/services/mtnc.svg"
   },
   {
     "title": "Compliance",
-    "description": "Legal notices are a vital part of management. That means sending notices, constables, and representing you if need be.",
+    "description": "Local, State, Federal, and Insurance Compliance are a vital part of management. That means registrations, town/city inspections, sending notices, court hearings, and representing you if need be.",
     "icon": "/services/comp.svg"
   },
   {
@@ -35,13 +35,18 @@
     "icon": "/services/manager.svg"
   },
   {
-    "title": "Syndication/Self-Showing",
+    "title": "Property Leasing",
     "description": "Marketing with professional photos, self-showings, virtual tours, and posting instantly on popular rental websites.",
     "icon": "/services/syndication.svg"
   },
   {
-    "title": "Assessments",
-    "description": "From move-out assessments to drop-in spot assessments, we make sure you're always in the know.",
+    "title": "Property Assessments/Inspections",
+    "description": "From move-in and move-out inspections to drop-in spot assessments, we make sure to always have eyes on your property and that you're always in the know.",
+    "icon": "/services/search.svg"
+  },
+  {
+    "title": "In-House Maintenance",
+    "description": "Our Maintenance Techs ensure faster repairs, better quality control, and lower costs for owners.",
     "icon": "/services/search.svg"
   }
 ]
