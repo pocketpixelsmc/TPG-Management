@@ -32,6 +32,11 @@ export default function Home() {
         <div className="flex gap-1 flex-col items-center">
           <Header>Multifamily Property Management</Header>
           <h4 className="mb-4 text-blue-900 text-xl font-bold" >Dedicated Multifamily Property Management Professionals</h4>
+          <p className="text-xl text-blue-950 max-w-[800px] text-center">
+Partner with TPG Management for seamless, full-service property management tailored to your needs. From leasing and billing to groundskeeping and maintenance, 
+our experienced team works alongside you to maximize your property’s success. We have the expertise, care, and personalized support to manage everything from 
+scattered-site portfolios to large luxury high-rises—helping multifamily properties of all sizes thrive!
+        </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">
               <Button>CONTACT US</Button>
