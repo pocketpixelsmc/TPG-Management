@@ -5,72 +5,67 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Drawer } from "@mui/material";
 import { X, Menu, Phone, ChevronDown } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
-import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/services", label: "Property Management" },
+  {
+    label: "Property Management",
+    dropdown: [
+      { href: "/services", label: "Services" },
+      { href: "/faq", label: "FAQ" },
+      { href: "/hoa", label: "HOA" },
+      { href: "/multifamily", label: "Multifamily" },
+    ],
+  },
   { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
   { href: "/referral", label: "Referral" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact Us" },
-];
-
-const drawerItems = [
-  { href: "/", label: "Home" },
-  { label: "Property Management", href: "/services" },
-  { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
-  { href: "/referral", label: "Referral" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact Us" },
-  { href: "https://tpgcompanies.managebuilding.com/Resident/portal/login", label: "Resident Login", external: true },
-  { href: "https://tpgcompanies.managebuilding.com/manager", label: "Owner Login", external: true },
-  { href: "tel:732-978-9390", label: "Call Us at 732-978-9390" },
 ];
 
 export default function Navbar() {
   const [showBackground, setShowBackground] = useState(false);
   const [open, setOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState<string | null>(null);
 
   const toggleDrawer = (newOpen: boolean) => () => {
     setOpen(newOpen);
   };
 
+  const toggleDropdown = (label: string) => {
+    setDropdownOpen((prev) => (prev === label ? null : label));
+  };
+
   useEffect(() => {
     const handleScroll = () => {
-      // Height of the top bar to determine when to snap navbar to top
-      const topBarHeight = 40; // adjust if your top bar height is different
+      const topBarHeight = 40; // Adjust if your top bar height is different
       setShowBackground(window.scrollY >= topBarHeight);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Add this handler for link clicks
   const handleLinkClick = () => {
     setOpen(false);
   };
 
-  // Add this effect to handle body scrolling
   useEffect(() => {
     if (open) {
-      document.body.style.overflow = 'hidden';
-      // Add padding to prevent shift (equal to scrollbar width)
-      document.body.style.paddingRight = '15px';
+      document.body.style.overflow = "hidden";
+      document.body.style.paddingRight = "15px";
     } else {
-      document.body.style.overflow = '';
-      document.body.style.paddingRight = '';
+      document.body.style.overflow = "";
+      document.body.style.paddingRight = "";
     }
     return () => {
-      document.body.style.overflow = '';
-      document.body.style.paddingRight = '';
+      document.body.style.overflow = "";
+      document.body.style.paddingRight = "";
     };
   }, [open]);
 
   return (
     <header className="w-full" role="banner">
-      {/* Top Bar - Static position */}
+      {/* Top Bar */}
       <div className="bg-blue-900 text-white w-full">
         <div className="container mx-auto px-4 py-1.5 flex justify-between items-center">
           <a
@@ -105,20 +100,19 @@ export default function Navbar() {
 
       {/* Main Navigation */}
       <nav
-        className={`w-full z-[99] transition-all duration-300 ease-in-out transform-gpu ${showBackground
-          ? 'fixed top-0'
-          : 'relative'
-          }`}
+        className={`w-full z-[99] transition-all duration-300 ease-in-out transform-gpu ${
+          showBackground ? "fixed top-0" : "relative"
+        }`}
         style={{
-          backgroundColor: showBackground ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.95)',
-          boxShadow: showBackground ? '0 2px 4px rgba(0,0,0,0.1)' : 'none',
+          backgroundColor: showBackground ? "rgba(255, 255, 255, 1)" : "rgba(255, 255, 255, 0.95)",
+          boxShadow: showBackground ? "0 2px 4px rgba(0,0,0,0.1)" : "none",
         }}
         role="navigation"
         aria-label="Main navigation"
       >
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-2 sm:py-4">
-            {/* Logo with adjusted mobile sizes */}
+            {/* Logo */}
             <Link href="/" className="flex-shrink-0">
               <Image
                 src="/logo.png"
@@ -130,7 +124,7 @@ export default function Navbar() {
               />
             </Link>
 
-            {/* Mobile Menu Button - adjusted size */}
+            {/* Mobile Menu Button */}
             <button
               onClick={toggleDrawer(true)}
               className="xl:hidden p-1.5 hover:bg-gray-100 rounded-md transition-colors"
@@ -140,29 +134,51 @@ export default function Navbar() {
             </button>
 
             {/* Desktop Navigation */}
-            <NavigationMenu.Root className="hidden xl:block">
-              <NavigationMenu.List className="flex gap-6">
-                {navItems.map((item) => (
-                  <NavigationMenu.Item key={item.label}>
-                    <Link
-                      href={item.href}
-                      className="text-blue-900 hover:text-blue-700 transition-colors"
-                      {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+            <div className="hidden xl:flex gap-6">
+              {navItems.map((item) =>
+                item.dropdown ? (
+                  <div key={item.label} className="relative">
+                    <button
+                      onClick={() => toggleDropdown(item.label)}
+                      className="flex items-center gap-1 text-blue-900 hover:text-blue-700 transition-colors"
                     >
                       {item.label}
-                    </Link>
-                  </NavigationMenu.Item>
-                ))}
-              </NavigationMenu.List>
-            </NavigationMenu.Root>
+                      <ChevronDown className="h-4 w-4" />
+                    </button>
+                    {dropdownOpen === item.label && (
+                      <div className="absolute left-0 top-full mt-2 bg-white shadow-md rounded-md px-12 py-4 z-10">
+                        <ul className="flex flex-col gap-2">
+                          {item.dropdown.map((subItem) => (
+                            <li key={subItem.label}>
+                              <Link
+                                href={subItem.href}
+                                className="text-blue-900 hover:text-blue-700 transition-colors"
+                              >
+                                {subItem.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <Link
+                    key={item.label}
+                    href={item.href}
+                    className="text-blue-900 hover:text-blue-700 transition-colors"
+                    {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
+                    {item.label}
+                  </Link>
+                )
+              )}
+            </div>
           </div>
         </div>
       </nav>
 
-      {/* Adjusted spacing for fixed navbar */}
-      {showBackground && <div className="h-[60px] sm:h-[76px]" />}
-
-      {/* Updated Drawer configuration */}
+      {/* Drawer */}
       <Drawer
         open={open}
         onClose={toggleDrawer(false)}
@@ -177,19 +193,8 @@ export default function Navbar() {
             zIndex: 99999,
           },
         }}
-        sx={{
-          '& .MuiDrawer-root': {
-            position: 'fixed',
-          },
-          '& .MuiBackdrop-root': {
-            position: 'fixed',
-          },
-          '& .MuiDrawer-paper': {
-            position: 'fixed',
-          },
-        }}
       >
-        <div className="p-4 z-[999999]">
+        <div className="p-4">
           <button
             onClick={toggleDrawer(false)}
             className="mb-4 p-1.5 ml-auto block hover:bg-blue-800 rounded-md transition-colors"
@@ -198,18 +203,37 @@ export default function Navbar() {
             <X className="h-5 w-5 text-white" />
           </button>
           <div className="space-y-3">
-            {drawerItems.map((item) => (
-              <div key={item.label}>
-                <Link
-                  href={item.href}
-                  className="block text-base text-white hover:text-gray-200 transition-colors py-1"
-                  onClick={handleLinkClick}
-                  {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                >
-                  {item.label}
-                </Link>
-              </div>
-            ))}
+            {navItems.map((item) =>
+              item.dropdown ? (
+                <div key={item.label}>
+                  <p className="text-white font-semibold">{item.label}</p>
+                  <ul className="pl-4 space-y-2">
+                    {item.dropdown.map((subItem) => (
+                      <li key={subItem.label}>
+                        <Link
+                          href={subItem.href}
+                          className="block text-white hover:text-gray-200 transition-colors"
+                          onClick={handleLinkClick}
+                        >
+                          {subItem.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : (
+                <div key={item.label}>
+                  <Link
+                    href={item.href}
+                    className="block text-base text-white hover:text-gray-200 transition-colors py-1"
+                    onClick={handleLinkClick}
+                    {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
+                    {item.label}
+                  </Link>
+                </div>
+              )
+            )}
           </div>
         </div>
       </Drawer>

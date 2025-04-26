@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Tenant Screening",
+    "description": "We find better tenants, faster, with advanced screening, background checks, and more.",
+    "icon": "/services/tenant.svg"
+  },
+  {
+    "title": "Owner Portal",
+    "description": "Available 24 hours a day, 7 days a week. You can log in anytime to view work orders, marketing updates, monthly financial reports, and more.",
+    "icon": "/services/portal.svg"
+  },
+  {
+    "title": "Rent Collection",
+    "description": "We make it easy for your tenants to pay rent, then we process the funds and deposit the money into an account of your choice.",
+    "icon": "/services/price.svg"
+  },
+  {
+    "title": "Maintenance Management",
+    "description": "We'll handle all communication with Tenants, Vendors, and Home Warranties.",
+    "icon": "/services/mtnc.svg"
+  },
+  {
+    "title": "Compliance",
+    "description": "Legal notices are a vital part of management. That means sending notices, constables, and representing you if need be.",
+    "icon": "/services/comp.svg"
+  },
+  {
+    "title": "Reporting",
+    "description": "All the accounting documentation you'll need, from statements to taxes, we got you covered.",
+    "icon": "/services/price.svg"
+  },
+  {
+    "title": "Property Manager",
+    "description": "A dedicated property manager will be assigned to you and your property, so you'll never be left wondering who to contact.",
+    "icon": "/services/manager.svg"
+  },
+  {
+    "title": "Syndication/Self-Showing",
+    "description": "Marketing with professional photos, self-showings, virtual tours, and posting instantly on popular rental websites.",
+    "icon": "/services/syndication.svg"
+  },
+  {
+    "title": "Assessments",
+    "description": "From move-out assessments to drop-in spot assessments, we make sure you're always in the know.",
+    "icon": "/services/search.svg"
+  }
+]
