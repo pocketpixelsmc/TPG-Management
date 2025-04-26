@@ -12,9 +12,10 @@ const navItems = [
     label: "Property Management",
     dropdown: [
       { href: "/services", label: "Services" },
-      { href: "/faq", label: "FAQ" },
-      { href: "/hoa", label: "HOA" },
+      { href: "/pricing", label: "Pricing" },
       { href: "/multifamily", label: "Multifamily" },
+      { href: "/hoa", label: "HOA" },
+      { href: "/faq", label: "FAQ" }
     ],
   },
   { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
