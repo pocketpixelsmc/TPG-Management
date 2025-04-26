@@ -33,10 +33,10 @@ export default function WhatWeOffer({ services }: { services: Service[] }) {
 
                 {/* Right Section */}
                 <div className="xl:col-span-3 bg-white shadow-md p-8 rounded-md">
-                    <h3 className="text-lg font-semibold text-center mb-6 text-blue-950">TPG's Management Services</h3>
-                    <div className="grid grid-cols-auto-fill-300 gap-6">
+                    <h3 className="text-lg font-semibold text-center mb-6 text-blue-950">TPG&apos;s Management Services</h3>
+                    <div className="grid grid-cols-auto-fill-300 gap-8">
                         {services.map((service, index) => (
-                            <div key={index} className="flex gap-4">
+                            <div key={index} className="flex gap-2">
                                 {/* Icon */}
                                 <Image src={`${service.icon}`} alt={service.title} width={25} height={25} className="w-10 h-10" />
                                 {/* Text */}
