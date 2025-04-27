@@ -6,7 +6,7 @@ import Header from "../components/ui/Header";
 import Button from "../components/ui/Button";
 
 export const metadata: Metadata = {
-  title: 'Multifamily and Investment Property Management',
+  title: 'Full Service Property Management Pricing',
   description: 'Transparent pricing and fee structure for our property management services. View our competitive rates and comprehensive management packages.',
 };
 
@@ -14,15 +14,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-8 mt-4 p-4 pb-0 sm:mt-16">
       <div className="flex gap-4 flex-col items-center">
-        <Header>Multifamily Property Management</Header>
-        <Header variant="subHeader">Dedicated Multifamily Management & Maintenance Professionals</Header>
+        <Header>Full Service Property Management</Header>
+        <Header variant="subHeader">Transparent pricing and fee structure for our property management services.</Header>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link href="/contact">
-            <Button>CONTACT US</Button>
-          </Link>
-          <Link href="/faq">
-            <Button>Owner FAQs</Button>
-          </Link>
         </div>
       </div>
       <PricingGrid />
