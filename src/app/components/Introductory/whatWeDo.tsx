@@ -15,7 +15,7 @@ export default function WhatWeDo() {
           aria-labelledby="what-we-do-heading" 
           className="flex flex-col items-center justify-center gap-4 text-center w-screen"
         >
-            <H2 variant="blue" id="what-we-do-heading">What We Do</H2>
+            <H2 variant="blue" id="what-we-do-heading">Management That Maximizes Your Property’s Potential</H2>
 
             <div 
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-[70%]"
