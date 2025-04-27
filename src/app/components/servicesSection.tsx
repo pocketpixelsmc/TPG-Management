@@ -10,7 +10,7 @@ export default function ServicesSection() {
       <H2 variant="blue" id="services-title" className="w-screen">OUR SERVICES</H2>
       <div className="container mx-auto px-4 py-6">
         <div className="text-center mb-16">
-          <p className="text-blue-950 text-l md:text-2xl max-w-4xl mx-auto">
+          <p className="text-blue-950 text-lg md:text-2xl max-w-4xl mx-auto">
             At TPG Management, we handle everything — from leasing and rent collection to maintenance and compliance — so you can enjoy hands-off ownership and predictable cash flow. Our proactive, in-house team treats your property like it's our own.
           </p>
         </div>
