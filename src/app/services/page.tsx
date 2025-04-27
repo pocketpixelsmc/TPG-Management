@@ -20,9 +20,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-4 p-4 pb-0">
       <ServicesHeader />
+      <WhatWeOffer services={servicesData} />
       <ServicesSection />
       <OurProcess />
-      <WhatWeOffer services={servicesData} />
       <H2 variant="blue">We Bring Value</H2>
       <p className="text-xl text-blue-950 max-w-[800px] text-center">
         At TPG Management we realize that we need to bring true value to both owners and residents.
