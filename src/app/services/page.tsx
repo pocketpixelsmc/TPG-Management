@@ -7,6 +7,9 @@ import type { Metadata } from 'next'
 import OurProcess from "../components/Pricing/ourProcess";
 import PricingGrid from "../components/Pricing/pricingGrid";
 import H2 from "../components/ui/H2";
+import WhatWeOffer from "../components/Introductory/Services/WhatWeOffer";
+import servicesData from "@/data/wwf.json";
+import ShortEmailForm from "../components/Forms/shortForm";
 export const metadata: Metadata = {
   title: 'Property Management Services| Apartment Management',
   description: 'TPG Management provides comprehensive property management services in NJ, including tenant screening, maintenance, and rent collection for all property types.',
@@ -19,7 +22,7 @@ export default function Home() {
       <ServicesHeader />
       <ServicesSection />
       <OurProcess />
-      <PricingGrid />
+      <WhatWeOffer services={servicesData} />
       <H2 variant="blue">We Bring Value</H2>
       <p className="text-xl text-blue-950 max-w-[800px] text-center">
         At TPG Management we realize that we need to bring true value to both owners and residents.

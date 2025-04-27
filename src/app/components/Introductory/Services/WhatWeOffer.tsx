@@ -11,15 +11,15 @@ type Service = {
 
 export default function WhatWeOffer({ services }: { services: Service[] }) {
     return (
-        <section className="flex flex-col items-center justify-center gap-8 text-center bg-gray-100 py-8">
+        <section className="flex flex-col items-center justify-center gap-8 text-center py-8">
             <H2 variant="blue">WHAT WE OFFER</H2>
             <div className="grid grid-col-1 xl:grid-cols-4 gap-6 w-full max-w-[75%]">
                 {/* Left Section */}
                 <div className="flex flex-col gap-6">
                     {/* White Box */}
                     <div className="bg-white shadow-md rounded-md flex flex-col items-center justify-around h-full min-h-[65%] py-6 gap-4">
-                        <h3 className="text-xl font-semibold">Property Management</h3>
-                        <p className="text-white bg-[#ffbd59] font-bold text-3xl py-8 w-full">Flat-Fee Pricing</p>
+                        <h3 className="text-xl text-blue-950 font-semibold">Property Management</h3>
+                        <p className="text-white bg-[#ffbd59] font-bold text-3xl px-8 py-8 w-full">Flat-Fee Pricing</p>
                         <Link href="/contact"><Button>Get Started</Button></Link>
                     </div>
                     {/* Dark Blue Box */}
