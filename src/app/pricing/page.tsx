@@ -6,8 +6,8 @@ import Header from "../components/ui/Header";
 import Button from "../components/ui/Button";
 
 export const metadata: Metadata = {
-  title: 'Full Service Property Management Pricing',
-  description: 'Transparent pricing and fee structure for our property management services. View our competitive rates and comprehensive management packages.',
+  title: 'Management You Can Trust. Pricing You Can Understand.',
+  description: 'Experience full-service management, responsive maintenance, and expert leasing — all at fair, predictable rates.',
 };
 
 export default function Home() {
