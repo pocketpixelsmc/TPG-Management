@@ -1,23 +1,23 @@
 {
     "services": [
         {
-            "title": "RESIDENT SCREENING",
-            "description": "We use our proven 6-step process to screen and approve residents.",
+            "title": "LEASING & MARKETING",
+            "description": "Fast tenant placement with marketing, showings, screening, and leasing.",
             "image": "/wwd/resident_screening.png"
         },
         {
             "title": "RENT COLLECTION",
-            "description": "We make sure rent is collected on time, every time—so.",
+            "description": "Seamless rent collection and real-time financial reporting.",
             "image": "/wwd/rent_collection.png"
         },
         {
             "title": "MAINTENANCE",
-            "description": "We have a dedicated maintenance support and an in-house maintenance technician team.",
+            "description": "In-house maintenance team for faster service, lower costs, and reliable repairs.",
             "image": "/wwd/maintenance.png"
         },
         {
-            "title": "RESIDENT COMMUNICATION",
-            "description": "We work hard to maintain positive resident relationships and satisfaction.",
+            "title": "COMPLIANCE & TENANT Management",
+            "description": "Regular inspections, lease enforcement, and full legal compliance to protect your property.",
             "image": "/wwd/resident_communication.png"
         }
     ]
