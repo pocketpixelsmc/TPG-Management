@@ -11,8 +11,7 @@ type Service = {
 
 export default function WhatWeOffer({ services }: { services: Service[] }) {
     return (
-        <section className="flex flex-col items-center justify-center gap-8 text-center py-8">
-            <H2 variant="blue">WHAT WE OFFER</H2>
+        <section className="flex flex-col items-center justify-center gap-8 text-center">
             <div className="grid grid-col-1 xl:grid-cols-4 gap-6 w-full max-w-[75%]">
                 {/* Left Section */}
                 <div className="flex flex-col gap-6">

@@ -17,7 +17,7 @@ export default function Testimonial() {
   const renderStars = (rating: number) => "⭐ ".repeat(rating);
 
   return (
-    <div className="flex flex-col items-center justify-center gap-4 text-blue-900 m-4">
+    <div className="flex flex-col items-center justify-center text-blue-900 m-4">
       <H2>What our customers have to say:</H2>
       <Swiper
         spaceBetween={0}

@@ -3,29 +3,31 @@ import Header from "./ui/Header"
 
 export default function ServicesSection() {
   return (
-    <section 
-      aria-labelledby="services-title" 
+    <section
+      aria-labelledby="services-title"
       className="bg-gradient-to-b from-[#f8faff] to-white w-screen overflow-hidden"
     >
       <H2 variant="blue" id="services-title" className="w-screen">OUR SERVICES</H2>
       <div className="container mx-auto px-4 py-6">
         <div className="text-center mb-16">
           <p className="text-blue-950 text-lg md:text-2xl max-w-4xl mx-auto">
-            At TPG Management, we handle everything — from leasing and rent collection to maintenance and compliance — so you can enjoy hands-off ownership and predictable cash flow. Our proactive, in-house team treats your property like it's our own.
+            At TPG Management, we make property ownership simple and profitable.
+            Our full-service management approach covers everything — from leasing and rent collection to maintenance, inspections, and compliance — so you can enjoy passive income without the daily stress.
+            As investors ourselves, we manage your property with the same care, urgency, and precision we give our own.
           </p>
         </div>
 
-        <div 
+        <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto"
           role="list"
         >
           {services.map((service) => (
-            <article 
-              key={service.title} 
+            <article
+              key={service.title}
               className="flex flex-col items-center text-center"
               role="listitem"
             >
-              <div 
+              <div
                 className="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center mb-4"
                 aria-hidden="true"
               >
