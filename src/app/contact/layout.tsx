@@ -14,7 +14,7 @@ export default function ContactLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex flex-col items-center justify-center gap-8 mb-8">
+    <main className="flex flex-col items-center justify-center gap-8 mb-8 py-4">
       <div className="flex flex-wrap flex-col xl:flex-row items-center xl:items-start justify-center ">
         <div className="flex flex-col gap-12 w-[80%] xl:w-[60%] items-start text-left">
           <h1 className="text-blue-900 font-bold leading-tight text-xl sm:text-4xl lg:text-6xl text-wrap">Get Property Management Services You Can Trust</h1>
