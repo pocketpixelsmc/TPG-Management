@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section>
       <H2 variant="blue">WHAT WE OFFER</H2>
-      <p className="text-center text-blue-950 mt-4 mb-4 max-w-2xl mx-auto">
+      <p className="text-center text-blue-950 mt-4 mb-4 max-w-6xl mx-auto">
         Whether you own a single-family home or a multi-unit portfolio, TPG Management provides complete solutions to protect your investment and grow your returns.
       </p>
       <WhatWeOffer services={servicesData} />

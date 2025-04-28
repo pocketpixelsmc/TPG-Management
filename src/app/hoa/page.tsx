@@ -70,7 +70,10 @@ export default function Home() {
           </div>
 
           {/* Short Form Section */}
-          <div className="flex items-center justify-center">
+          <div className="flex flex-col items-center justify-center mt-2">
+            <h1 className="text-blue-900 font-bold leading-tight text-xl text-wrap mb-4">
+              Get Property Management Services You Can Trust
+            </h1>
             <ShortEmailForm />
           </div>
         </div>

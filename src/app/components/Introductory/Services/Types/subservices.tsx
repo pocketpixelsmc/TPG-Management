@@ -46,7 +46,7 @@ export default function Subservices() {
                           className="mt-auto"
                           aria-label={`Contact us about ${service.title}`}
                         >
-                            <Button>Contact Us</Button>
+                            <Button>Learn More</Button>
                         </Link>
                     </article>
                 ))}
