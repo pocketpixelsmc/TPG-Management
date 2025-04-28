@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, Phone, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -142,7 +143,7 @@ export const Navbar = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-2 sm:py-4">
             <Link href="/" className="flex-shrink-0">
-              <img
+              <Image
                 src="/logo.png"
                 alt="TPG Management"
                 width={showBackground ? 140 : 160}

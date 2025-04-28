@@ -20,6 +20,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-4 p-4 pb-0">
       <ServicesHeader />
+      <H2 variant="blue">WHAT WE OFFER</H2>
       <WhatWeOffer services={servicesData} />
       <ServicesSection />
       <OurProcess />

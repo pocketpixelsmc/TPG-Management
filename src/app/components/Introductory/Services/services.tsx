@@ -6,6 +6,10 @@ import servicesData from "@/data/wwf.json";
 export default function Services() {
   return (
     <section>
+      <H2 variant="blue">WHAT WE OFFER</H2>
+      <p className="text-center text-blue-950 mt-4 mb-4 max-w-2xl mx-auto">
+        Whether you own a single-family home or a multi-unit portfolio, TPG Management provides complete solutions to protect your investment and grow your returns.
+      </p>
       <WhatWeOffer services={servicesData} />
       <H2 className="border-t border-gray-200 my-8">Solutions for all types of rental properties</H2>
       <Subservices />
