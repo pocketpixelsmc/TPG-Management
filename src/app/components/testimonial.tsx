@@ -14,35 +14,13 @@ type Testimonial = {
 };
 
 export default function Testimonial() {
-  const renderStars = (rating: number) => "⭐ ".repeat(rating);
-
   return (
-    <div className="flex flex-col items-center justify-center text-blue-900 m-4">
-      <H2>What our customers have to say:</H2>
-      <Swiper
-        spaceBetween={0}
-        slidesPerView={1}
-        speed={1200}
-        pagination={{ clickable: true, dynamicBullets: true }}
-        modules={[Pagination, Autoplay, Navigation]}
-        navigation
-        autoplay={{ delay: 2000 }}
-        className="max-w-[320px] sm:max-w-[640px] lg:max-w-[40vw] rounded-xl lg:grow text-black"
-      >
-        {testimonialsData.testimonials.map((testimonial: Testimonial, index: number) => (
-          <SwiperSlide key={index}>
-            <div className="m-0 mx-auto">
-              <div className="flex flex-col items-center justify-center gap-4 p-12">
-                <h2 className="text-xl font-bold text-blue-900">{testimonial.name}</h2>
-                <p className="text-sm">{renderStars(testimonial.rating)} {testimonial.rating}/5</p>
-                <p className="text-sm leading-6 text-blue-950">
-                  &quot;{testimonial.review}&quot;
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+    <div className="flex items-center justify-center text-blue-900 w-full">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977283.4134029956!2d-73.70113558861667!3d40.5865871235197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xad8864191c4711f3%3A0x4a165bfd0a7afdb4!2sTPG%20Management!5e0!3m2!1sen!2sin!4v1746088318386!5m2!1sen!2sin" 
+        className="w-full h-[600px] border-none"  
+        loading="lazy" 
+      ></iframe>
     </div>
   );
 }

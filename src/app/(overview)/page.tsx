@@ -15,7 +15,6 @@ export default function Home() {
       <Introduction />
       <FeaturesSection />
       <Services />
-      <Testimonial />
       <div className="bg-blue-900 py-16 text-center w-screen">
         <p className="text-white text-2xl mb-8 mx-auto px-4 w-[75%]">&quot;Property Management Made Seemless&quot;</p>
         <Link href="/contact">
