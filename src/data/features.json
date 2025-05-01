@@ -2,18 +2,24 @@
     "features": [
         {
             "iconName": "User",
-            "title": "We are owners, too.",
+            "title": "We Manage Your Property Like Investors - Because We are.",
             "description": "As real estate owners ourselves, The TPG Team understands the ins and outs of successfully managing rental properties in throughout New Jersey. We will care for yours as meticulously as we care for ours!"
         },
         {
             "iconName": "Users",
-            "title": "Our interests are aligned.",
-            "description": "Our management fees are structured to align with your success – we only make money when you make money. Your goals are our goals, and we work tirelessly to maximize your property's performance."
+            "title": "In-House Maintenance Means Faster Repairs, Lower Costs, and Happier Tenants."
+        },
+        {
+            "iconName": "Users",
+            "title": "Faster Leasing and Stronger Tenant Placement"
+        },
+        {
+            "iconName": "Users",
+            "title": "Proactive Compliance That Shields You from Risk"
         },
         {
             "iconName": "MessageSquareDollar",
-            "title": "We deliver more than just your rent check.",
-            "description": "Strong communication is the foundation of our service. We keep property owners and residents informed every step of the way. Our proactive approach ensures issues are resolved quickly and expectations are always met."
+            "title": "Full-Time Management Company - 100% Focused on Property Management — No Sales Gigs, No Divided Attention."
         }
     ]
 } 

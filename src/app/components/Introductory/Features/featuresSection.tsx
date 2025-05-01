@@ -20,7 +20,7 @@ export default function FeaturesSection() {
 
     return (
         <div className="py-12 px-4 md:px-6 bg-gradient-to-b from-blue-50 to-white">
-            <H2 className="w-screen">What Sets Us Apart</H2>
+            <H2 className="w-screen">WHY OWNERS CHOOSE TPG MANAGEMENT</H2>
 
             <div className="max-w-6xl mx-auto p-4">
                 <div className="grid gap-8 md:gap-12">
