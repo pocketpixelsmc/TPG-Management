@@ -1,13 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { User, Users, MessageSquareDotIcon as MessageSquareDollar } from "lucide-react";
-import Header from "../../ui/Header";
+import { User, Users, MessageSquareDotIcon as MessageSquareDollar, File, Shield } from "lucide-react";
 import featuresData from "@/data/features.json";
 import H2 from "../../ui/H2";
 
 type Feature = {
     iconName: string;
     title: string;
-    description: string;
 };
 
 export default function FeaturesSection() {
@@ -15,7 +13,10 @@ export default function FeaturesSection() {
     const iconComponents = {
         User: <User className="w-8 h-8 text-blue-900" />,
         Users: <Users className="w-8 h-8 text-blue-900" />,
-        MessageSquareDollar: <MessageSquareDollar className="w-8 h-8 text-blue-900" />
+        MessageSquare: <MessageSquareDollar className="w-8 h-8 text-blue-900" />,
+        File: <File className="w-8 h-8 text-blue-900" />,
+        MessageSquareDollar: <MessageSquareDollar className="w-8 h-8 text-blue-900" />,
+        Shield: <Shield className="w-8 h-8 text-blue-900" />,
     };
 
     return (
@@ -32,7 +33,6 @@ export default function FeaturesSection() {
                                 </div>
                                 <div className="space-y-2">
                                     <h3 className="text-xl font-semibold text-blue-900">{feature.title}</h3>
-                                    <p className="text-blue-950 leading-relaxed">{feature.description}</p>
                                 </div>
                             </CardContent>
                         </Card>
