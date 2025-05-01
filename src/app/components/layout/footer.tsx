@@ -165,7 +165,7 @@ export default function Footer() {
           </div>
         </address>
       </div>
-      <Testimonial />
+      {/* <Testimonial /> */}
     </footer>
   );
 }
