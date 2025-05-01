@@ -17,8 +17,8 @@ export default function Home() {
       <section
         className="relative w-screen p-16 flex flex-col items-center justify-center text-center"
         style={{
-          backgroundImage: 'url(/introImg.png)',
-          backgroundSize: 'auto',
+          backgroundImage: 'url(/hoaHeader.png)',
+          backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}

@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-2 p-4 pb-0">
       <section
-        className="relative w-screen p-16 flex flex-col items-center justify-center text-center"
+        className="relative p-16 flex flex-col items-center justify-center text-center w-screen"
         style={{
-          backgroundImage: 'url(/introImg.png)',
-          backgroundSize: 'auto',
+          backgroundImage: 'url(/multifamHeader.png)',
+          backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
