@@ -19,7 +19,7 @@ export default function Subservices() {
         >
             <h2 id="subservices-heading" className="sr-only">Property Management Services</h2>
             <div 
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center"
               role="list"
             >
                 {subservicesData.subservices.map((service: Subservice, index: number) => (
