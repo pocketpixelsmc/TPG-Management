@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center gap-2 p-4 pb-0">
+    <main className="flex flex-col items-center justify-center p-4 pb-0">
       <section
         className="relative p-16 flex flex-col items-center justify-center text-center w-screen"
         style={{
@@ -38,7 +38,7 @@ export default function Home() {
       </section>
 
       {/* Multifamily Features Section */}
-      <section className="max-w-6xl mx-auto py-12 px-4">
+      <section className="max-w-6xl mx-auto pb-12 pt-4 px-4">
         <h2 className="text-3xl font-bold text-center text-[#003474] mb-8">
           Why Choose TPG Management for Multifamily Properties?
         </h2>
