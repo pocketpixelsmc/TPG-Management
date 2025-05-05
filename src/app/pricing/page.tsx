@@ -4,6 +4,7 @@ import OurProcess from "../components/Pricing/ourProcess";
 import PricingGrid from "../components/Pricing/pricingGrid";
 import Header from "../components/ui/Header";
 import Button from "../components/ui/Button";
+import Testimonial from "../components/testimonial";
 
 export const metadata: Metadata = {
   title: 'Management You Can Trust. Pricing You Can Understand.',
@@ -26,6 +27,7 @@ export default function Home() {
         </section>
       </div>
       <PricingGrid />
+      <Testimonial />
     </main>
   );
 }
