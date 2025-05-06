@@ -18,7 +18,7 @@ export default function WhatWeOffer({ services }: { services: Service[] }) {
                     {/* White Box */}
                     <div className="bg-white shadow-md rounded-md flex flex-col items-center justify-around h-full min-h-[65%] py-6 gap-4">
                         <h3 className="text-xl text-blue-950 font-semibold">Property Management</h3>
-                        <p className="text-white bg-[#ffbd59] font-bold text-3xl px-8 py-8 w-full">Flat-Fee Pricing</p>
+                        <p className="text-white bg-[#ffbd59] font-bold text-2xl px-8 py-6 w-full">Honest Pricing,<br/>Real Support</p>
                         <Link href="/contact"><Button>Get Started</Button></Link>
                     </div>
                     {/* Dark Blue Box */}

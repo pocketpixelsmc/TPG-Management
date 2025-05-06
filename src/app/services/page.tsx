@@ -10,6 +10,7 @@ import H2 from "../components/ui/H2";
 import WhatWeOffer from "../components/Introductory/Services/WhatWeOffer";
 import servicesData from "@/data/wwf.json";
 import ShortEmailForm from "../components/Forms/shortForm";
+import Testimonial from "../components/testimonial";
 export const metadata: Metadata = {
   title: 'Property Management Services| Apartment Management',
   description: 'TPG Management provides comprehensive property management services in NJ, including tenant screening, maintenance, and rent collection for all property types.',
@@ -34,6 +35,7 @@ export default function Home() {
       </p>
       <ValuesSection />
       <RentalCTA />
+      <Testimonial />
     </main>
   );
 }

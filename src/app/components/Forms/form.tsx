@@ -47,7 +47,7 @@ export default function EmailForm() {
     return (
         <form
             onSubmit={handleSubmit}
-            className="flex flex-col items-start justify-center gap-6 p-8 bg-gradient-to-b from-slate-50 to-blue-50/50 rounded-xl h-fit w-[80%] xl:w-[30%] shadow-lg border border-blue-100"
+            className="flex flex-col items-start justify-center gap-2 p-4 bg-gradient-to-b from-slate-50 to-blue-50/50 rounded-xl h-fit w-[80%] xl:w-[30%] shadow-lg border border-blue-100"
         >
             <div className="w-full space-y-3">
                 <label htmlFor="Name" className="text-lg font-medium text-blue-900">
