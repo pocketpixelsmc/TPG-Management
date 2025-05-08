@@ -25,7 +25,7 @@ export default function Subservices() {
                 {subservicesData.subservices.map((service: Subservice, index: number) => (
                     <article 
                       key={index} 
-                      className="border-solid border-2 border-blue-900 rounded-lg grid grid-rows-3r place-items-center max-w-[300px] text-left pb-4 gap-2"
+                      className="border-none rounded-lg grid grid-rows-3r place-items-center max-w-[300px] text-left pb-4 gap-2"
                       role="listitem"
                     >
                         <figure className="self-start w-full">
