@@ -1,28 +1,227 @@
-{
-  "services": [
-    {
-      "title": "Expert Tenant Placement"
-    },
-    {
-      "title": "Lease & Rental Management"
-    },
-    {
-      "title": "Rent Collection"
-    },
-    {
-      "title": "24/7 Maintenance & Repairs"
-    },
-    {
-      "title": "Tenant Communication"
-    },
-    {
-      "title": "Property Compliance & Inspection"
-    },
-    {
-      "title": "Maximize Your Rental Income"
-    },
-    {
-      "title": "Eviction Management"
-    }
-  ]
-} 
+[
+  {
+    "title": "Leasing Fees",
+    "items": [
+      {
+        "name": "Leasing Fee",
+        "ourProcess": "50% of one month's rent. Due at lease signing",
+        "industryAverage": "From 50% of one month's rent and charged up front"
+      },
+      {
+        "name": "Monthly Management Fee",
+        "ourProcess": "From 8% only charged when we successfully collect rent",
+        "industryAverage": "Flat Fee up to 15% always charged, even when rent is not actually paid"
+      }
+    ]
+  },
+  {
+    "title": "Property Marketing",
+    "items": [
+      {
+        "name": "Custom Rental Analysis",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Make-Ready Project Management",
+        "ourProcess": "10% coordination fee",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "High-Quality Property Photos",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Premium Marketing Package",
+        "ourProcess": "$200",
+        "industryAverage": ""
+      },
+      {
+        "name": "Video Walk-Through Tour",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Live Agent Phone Service",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "12 Point Applicant Screening Process",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Pet Screening",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Lease Preparation & Signing",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Move-in Condition Documentation",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Move-in Coordination",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Utility Transfers",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Resident Welcome Gift",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      }
+    ]
+  },
+  {
+    "title": "Property Management - Full Service",
+    "items": [
+      {
+        "name": "24/7 Property Maintenance Monitoring",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Maintenance Coordination & Management",
+        "ourProcess": "10% coordination fee",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Utility Administration & Management",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Lease Enforcement",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Annual Property Inspection",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Eviction Services",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Lease Renewal Process",
+        "ourProcess": "$250",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "HOA Administration",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Security Deposit Disposition at Move Out",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Vacancy Management",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      }
+    ]
+  },
+  {
+    "title": "Financial Reporting",
+    "items": [
+      {
+        "name": "Rent Collection",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Bill Pay",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Secure Online Portal",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "Monthly Reporting",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
+      },
+      {
+        "name": "ACH Owner Payments",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Year-End Tax Reporting",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      }
+    ]
+  },
+  {
+    "title": "Guarantees",
+    "items": [
+      {
+        "name": "$1,000 Eviction Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "$1,000 Pet Damage Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Tenant Placement Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Rent Deposit Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Management Fee Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Leasing Fee Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "One Contact & Response Time Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "30 Day Contract Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      },
+      {
+        "name": "Legal Compliance Guarantee",
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": ""
+      }
+    ]
+  }
+]
