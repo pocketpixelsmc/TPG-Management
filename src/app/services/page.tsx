@@ -5,7 +5,6 @@ import ServicesHeader from "../components/Services/ServicesHeader";
 import Header from "../components/ui/Header";
 import type { Metadata } from 'next'
 import OurProcess from "../components/Pricing/ourProcess";
-import PricingGrid from "../components/Pricing/pricingGrid";
 import H2 from "../components/ui/H2";
 import WhatWeOffer from "../components/Introductory/Services/WhatWeOffer";
 import servicesData from "@/data/wwf.json";
