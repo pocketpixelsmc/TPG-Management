@@ -19,11 +19,13 @@
     "items": [
       {
         "name": "Custom Rental Analysis",
+        "info": "Custom real-time rental analysis generated for each property managed.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Make-Ready Project Management",
+        "info": "We oversee the entire make-ready for your property from rehab to final cleaning and ensure the property meets all legal habitability requirements.",
         "ourProcess": "10% coordination fee",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
@@ -34,51 +36,61 @@
       },
       {
         "name": "Premium Marketing Package",
+        "info": "A comprehensive marketing program to ensure your property is distributed to multiple marketing channels.",
         "ourProcess": "$200",
         "industryAverage": ""
       },
       {
         "name": "Video Walk-Through Tour",
+        "info": "Allows properties to be pre-advertised and toured online at anytime",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Live Agent Phone Service",
+        "info": "Our in-house team of leasing experts work to answer questions quickly, prequalify prospects, and schedule showings for your property. We don't outsource to out-of-country call centers. We use our internal leasing team",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "12 Point Applicant Screening Process",
+        "info": "INCLUDES TRANSUNION RESIDENT SCORE 3.0: Income, Employment, Credit Check, Pre-Qualifications, Eviction Check, Landlord Verification, Sex Offender Check, Public Records, Criminal Check, Bankruptcy Check, Pet Verification, Credit History. *We comply with all state laws regarding applicant screening",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Pet Screening",
+        "info": "Includes service animal and emotional support animal processing",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Lease Preparation & Signing",
+        "info": "Our lease is prepared by a trusted Florida real estate attorney and includes multiple addendum to protect you, your property, and your resident.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Move-in Condition Documentation",
+        "info": "We document the condition of the property at move-in for the protection of you and your resident",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Move-in Coordination",
+        "info": "We oversee the entire move-in process to ensure the new resident feels welcomed to their new home",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Utility Transfers",
+        "info": "We transfer all utilities into the residents name through the corresponding utility companies",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Resident Welcome Gift",
+        "info": "Because everyone likes free-stuff when they move in!",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       }
@@ -89,51 +101,61 @@
     "items": [
       {
         "name": "24/7 Property Maintenance Monitoring",
+        "info": "When emergencies happen our trained technicians are available 24/7.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Maintenance Coordination & Management",
+        "info": "We only work with pre-approved vendors and ensure they meet our expectations for speed, price, and quality of work",
         "ourProcess": "10% coordination fee",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Utility Administration & Management",
+        "info": "We manage & monitor property utilities including service and billing transfers in and out of tenants names as necessary.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Lease Enforcement",
+        "info": "If something goes wrong we are experienced in enforcing lease compliance.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Annual Property Inspection",
+        "info": "We look for lease violation issues and outstanding or preventative maintenance items. A report is provided to you including pictures.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Eviction Services",
+        "info": "Although an eviction is rare, if necessary, we oversee this legal process including the preparation and delivery of required legal notices to tenants.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Lease Renewal Process",
+        "info": "We prepare a market analysis and negotiate a lease renewal with the current resident. We take into account things like current market rate, the quality of the current resident, length of tenancy, and more. We never want to lose a great resident over a rent increase, so we balance rental income with resident retention.",
         "ourProcess": "$250",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "HOA Administration",
+        "info": "We handle all HOA contact and communication.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Security Deposit Disposition at Move Out",
+        "info": "When the resident vacates, we handle the security deposit return including withholding any necessary funds. We ensure compliance with the detailed Colorado laws that govern this legal process.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Vacancy Management",
+        "info": "Full oversight and management of property while vacant, including periodic inspections.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       }
@@ -144,31 +166,37 @@
     "items": [
       {
         "name": "Rent Collection",
+        "info": "Residents have multiple payment options including online ACH, bank draft, check, and even in-person payment drop off.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Bill Pay",
+        "info": "We make sure all utilities, services and vendor invoices are paid on your behalf. The only bills YOU need to pay are your mortgage, property tax, and insurance.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Secure Online Portal",
+        "info": "Data and documents are always available through your secure online portal.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Monthly Reporting",
+        "info": "You receive a detailed income & expense statement from us each month reflecting all financial activity including details on any expense items.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#000000' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "ACH Owner Payments",
+        "info": "We send your money directly to your bank account by the 10th day of each month.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Year-End Tax Reporting",
+        "info": "We provide you with a year end 1099 tax statement and all the necessary legal paperwork needed to file your taxes.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       }
@@ -179,46 +207,55 @@
     "items": [
       {
         "name": "$1,000 Eviction Guarantee",
+        "info": "Our tenant screening is so tight we will personally reimburse you up to $1,000 in the event of eviction expenses",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "$1,000 Pet Damage Guarantee",
+        "info": "Our pet screening process is so tight we will personally reimburse you up to $1,000 if pet damage should occur",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Tenant Placement Guarantee",
+        "info": "If we place a tenant and they break their lease during the first 12 months - we will release the property with no leasing fee charge",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Rent Deposit Guarantee",
+        "info": "We know you want your money fast! So we ACH your tenant rent into your bank account by the 10th day of each month",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Management Fee Guarantee",
+        "info": "We believe that if we can't collect the rent - then we should NOT get paid. You only pay us a management fee if we successfully collect the rent due",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Leasing Fee Guarantee",
+        "info": "You don't pay us a leasing fee until we have a signed lease AND money paid from the tenant",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "One Contact & Response Time Guarantee",
+        "info": "As an owner-client you will have one direct point of contact (your Executive Property Manager) and we promise to return all communication within 24 hours business hours",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "30 Day Contract Guarantee",
+        "info": "Long term contracts are scary, so we’ve created the only month-to-month management agreement in Florida with no termination fees or penalties - because we believe we should earn your business everyday",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       },
       {
         "name": "Legal Compliance Guarantee",
+        "info": "Our lease agreement is reviewed and approved by THS, a top Colorado landlord law firm. We operate in compliance with fair housing, Florida habitability, application screening, and right-to-cure laws.",
         "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
         "industryAverage": ""
       }
