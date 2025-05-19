@@ -34,10 +34,10 @@ export default function Home() {
         <section className="grid grid-cols-1 lg:grid-cols-3 m-0 w-full mx-2 lg:m-0 max-w-6xl">
           <div className="hidden lg:block"></div>
           <div className="bg-blue-900 text-white p-11 hidden text-center lg:flex items-center justify-center font-extrabold text-2xl">
-            Full Service Management & Leasing
+            Single-Family Management
           </div>
           <div className="bg-blue-950 text-white p-11 text-center hidden lg:flex items-center justify-center font-extrabold text-2xl">
-            Industry Averages
+            Mult-Family Management 
           </div>
           {pricingServicesData.map((service, index) => (
             <React.Fragment key={service.title}>
