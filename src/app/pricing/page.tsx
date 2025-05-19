@@ -8,6 +8,7 @@ import Testimonial from "../components/testimonial";
 import * as Tooltip from "@radix-ui/react-tooltip";
 import { FaInfoCircle } from "react-icons/fa";
 import React from "react";
+import RentalCTA from "../components/CTA/rentalCTA";
 
 export const metadata: Metadata = {
   title: 'Management You Can Trust. Pricing You Can Understand.',
@@ -58,7 +59,7 @@ export default function Home() {
                               aria-label="More info"
                               className="ml-1 text-blue-800 hover:text-blue-600 focus:outline-none"
                             >
-                              <FaInfoCircle className="w-[25px] h-[25px]"/>
+                              <FaInfoCircle className="w-[25px] h-[25px]" />
                             </button>
                           </Tooltip.Trigger>
                           <Tooltip.Portal>
@@ -89,13 +90,10 @@ export default function Home() {
               ))}
             </React.Fragment>
           ))}
-          <Link href="/contact">
-            <Button className="my-4">
-              Get Started
-            </Button>
-          </Link>
         </section>
       </Tooltip.Provider>
+      <RentalCTA />
+      <Testimonial />
     </main>
   );
 }
