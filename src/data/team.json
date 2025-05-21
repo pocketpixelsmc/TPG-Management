@@ -16,6 +16,11 @@
             "division": "Operations Team"
         },
         {
+            "name": "Brian",
+            "image": "/team/brian.png",
+            "division": "Operations Team"
+        },
+        {
             "name": "Fred",
             "image": "/team/fred.png",
             "division": "Operations Team"
