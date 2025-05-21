@@ -8,7 +8,7 @@
         {
             "name": "Alex",
             "image": "/team/alex.png",
-            "division": "Operations Team"
+            "division": "Maintenance Team"
         },
         {
             "name": "Julian",
@@ -26,9 +26,9 @@
             "division": "Operations Team"
         },
         {
-            "name": "Karen",
-            "image": "/team/karen.png",
-            "division": "Operations Team"
+            "name": "Jim",
+            "image": "/team/jim.png",
+            "division": "Mainteance Team"
         },
         {
             "name": "Rona",
@@ -39,7 +39,7 @@
             "name": "Harsh",
             "image": "/team/harsh.png",
             "division": "Development Team",
-            "link": "https://www.harshsuthar.me"
+            "link": "https://www"
         },
         {
             "name": "Jennifer",
@@ -47,9 +47,9 @@
             "division": "Operations Team"
         },
         {
-            "name": "Zoey",
-            "image": "/team/zoey.png",
-            "division": "Administrative Assistant"
+            "name": "Jan",
+            "image": "/team/jan.png",
+            "division": "Development Team"
         },
         {
             "name": "Ivan",
