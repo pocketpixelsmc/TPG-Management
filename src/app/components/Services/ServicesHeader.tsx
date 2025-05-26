@@ -29,17 +29,17 @@ export default function ServicesHeader() {
                         </div>
 
                         <div className="bg-white rounded-xl shadow-lg p-8">
-                            <h4 className="text-3xl text-blue-900 font-bold mb-6">Areas We Serve</h4>
+                            <h4 className="text-3xl text-blue-900 font-bold mb-6">Areas We Serve in New Jersey</h4>
                             <div className="grid grid-cols-2 gap-6">
                                 <div className="space-y-3">
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Hudson</p>
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Essex</p>
-                                    <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Middlesex</p>
+                                    <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Union</p>
                                 </div>
                                 <div className="space-y-3">
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Monmouth</p>
+                                    <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Middlesex</p>
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Somerset</p>
-                                    <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Union</p>
                                 </div>
                             </div>
                         </div>
@@ -90,12 +90,12 @@ export default function ServicesHeader() {
                 <div className="flex flex-wrap justify-center gap-6 mt-12">
                     <Link href="/contact">
                         <Button >
-                            Work with us
+                            GET A QUOTE
                         </Button>
                     </Link>
                     <Link href="/faq">
                         <Button >
-                            Owner FAQs
+                            OWNER FAQs
                         </Button>
                     </Link>
                 </div>
