@@ -13,6 +13,7 @@ const navItems = [
       { href: "/services", label: "Services" },
       { href: "/pricing", label: "Pricing" },
       { href: "/multifamily", label: "Multifamily" },
+      { href: "/servicearea", label: "Service Areas NJ" }
       { href: "/hoa", label: "HOA" },
       { href: "/faq", label: "FAQ" }
     ],

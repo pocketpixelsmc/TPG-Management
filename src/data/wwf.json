@@ -1,52 +1,52 @@
 [
   {
-    "title": "Tenant Screening",
-    "description": "We find better tenants, faster, with advanced screening, background checks, and more.",
-    "icon": "/services/tenant.svg"
-  },
-  {
-    "title": "Owner Portal",
-    "description": "Available 24 hours a day, 7 days a week. You can log in anytime to view work orders, marketing updates, monthly financial reports, and more.",
-    "icon": "/services/portal.svg"
-  },
-  {
-    "title": "Rent Collection",
-    "description": "We make it easy for your tenants to pay rent, then we process the funds and deposit the money into an account of your choice.",
+    "title": "Rent Collection & Enforcement",
+    "description": "We ensure rent is collected on time and follow strict escalation steps for nonpayment—including notices and legal filings if needed.",
     "icon": "/services/price.svg"
   },
   {
-    "title": "24/7 Maintenance Management",
-    "description": "We'll handle all communication and cordination with Tenants, Vendors, and Home Warranties.",
-    "icon": "/services/mtnc.svg"
-  },
-  {
-    "title": "Compliance",
-    "description": "Local, State, Federal, and Insurance Compliance are a vital part of management. That means registrations, town/city inspections, sending notices, court hearings, and evictions.",
-    "icon": "/services/comp.svg"
-  },
-  {
-    "title": "Reporting",
-    "description": "All the accounting documentation you'll need, from statements to taxes, we got you covered.",
-    "icon": "/services/price.svg"
-  },
-  {
-    "title": "Property Manager",
-    "description": "A dedicated property manager will be assigned to you and your property, so you'll never be left wondering who to contact.",
-    "icon": "/services/manager.svg"
-  },
-  {
-    "title": "Leasing & Marketing",
-    "description": "Unit Turn Cordination (repair, update, clean), Marketing with professional photos, self-showings, virtual tours, and posting instantly on popular rental websites.",
+    "title": "Leasing & Vacancy Turnovers",
+    "description": "We coordinate turnovers, repairs, cleaning, and lease-up with strong marketing to minimize downtime between tenants.",
     "icon": "/services/syndication.svg"
   },
   {
-    "title": "Assessments/Inspections",
-    "description": "From move-in and move-out inspections to drop-in spot assessments, we make sure to always have eyes on your property and will always keep you in the know.",
+    "title": "Tenant Screening",
+    "description": "We find reliable tenants fast with background, eviction, income, reference, employement, and credit checks—reducing risk of future problems.",
+    "icon": "/services/tenant.svg"
+  },
+  {
+    "title": "24/7 Maintenance",
+    "description": "We handle all tenant maintenance requests, coordinate vendors, dispatch techs, and follow through until the job is done.",
+    "icon": "/services/mtnc.svg"
+  },
+  {
+    "title": "In-House Maintenance Team",
+    "description": "Our internal team completes repairs faster, cheaper, and with better quality control than outsourced contractors.",
     "icon": "/services/search.svg"
   },
   {
-    "title": "In-House Maintenance",
-    "description": "Our Maintenance Techs ensure faster repairs, better quality control, and lower costs for owners.",
+    "title": "Compliance & Legal Handling",
+    "description": "We manage state/local compliance, registration, inspections, violations, notices, court filings, and eviction coordination.",
+    "icon": "/services/comp.svg"
+  },
+  {
+    "title": "Assigned Property Manager",
+    "description": "A single point of contact who knows your property and handles all tenant, repair, and leasing issues on your behalf.",
+    "icon": "/services/manager.svg"
+  },
+  {
+    "title": "Tenant Relations & Communication",
+    "description": "We handle all day-to-day tenant interaction professionally—keeping things smooth and protecting you from headaches.",
+    "icon": "/services/tenant.svg"
+  },
+  {
+    "title": "Routine Property Inspections",
+    "description": "We conduct move-in/move-out inspections and periodic walkthroughs to document condition and catch issues early.",
     "icon": "/services/search.svg"
+  },
+  {
+    "title": "Financial Reporting & Statements",
+    "description": "We provide full income/expense reports, monthly statements, and tax-ready documentation—available in your portal.",
+    "icon": "/services/price.svg"
   }
 ]
