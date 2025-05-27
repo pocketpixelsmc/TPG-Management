@@ -4,6 +4,7 @@ import Testimonial from "../components/testimonial";
 import { Metadata } from "next";
 import faqData from "@/data/faq.json";
 import Header from "../components/ui/Header";
+import ShortEmailForm from "../components/Forms/shortForm";
 
 export const metadata: Metadata = {
   title: 'Owner FAQs',
@@ -47,7 +48,7 @@ export default function FAQ() {
             {" "}or fill out the form below
           </p>
         </div>
-        <EmailForm />
+        <ShortEmailForm />
 
         <div className="flex flex-col sm:flex-row sm:items-center items-center text-center justify-center gap-4 mt-6">
           <p>Monday-Friday 8am-4pm</p>
