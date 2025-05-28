@@ -5,6 +5,7 @@ import Button from "../components/ui/Button";
 import ShortEmailForm from "../components/Forms/shortForm"; // Import the form
 import hoaData from "../../data/hoa.json";
 import Image from "next/image";
+import { LocateIcon } from "lucide-react";
 
 export const metadata: Metadata = {
   title: 'Property Management Areas we serve in New Jersey',
@@ -14,29 +15,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center p-4 pb-0">
-      <section
-        className="relative w-screen p-16 flex flex-col items-center justify-center text-center"
-        style={{
-          backgroundImage: 'url(/servicearea.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        {/* Dark overlay */}
-        <div
-          className="absolute inset-0 bg-gray-200/10 z-[-10]"
-          aria-hidden="true"
-        />
-
-        <div className="flex gap-1 flex-col items-center">
-          <Header>AREAS WE SERVICE IN NEW JERSEY</Header>
-          <h4 className="mb-4 text-blue-900 text-xl font-bold" >Dedicated Property Management Company serving Essex, Hudson, Union, Middlesex, Monmouth, and Somerset County</h4>
-          <div className="flex flex-col sm:flex-row gap-4">
-          </div>
-        </div>
-      </section>
-
       {/* Multifamily Features Section */}
       <section className="max-w-6xl mx-auto pb-12 pt-4 px-4">
         <h2 className="text-3xl font-bold text-center text-[#003474] mb-8">
@@ -44,31 +22,37 @@ export default function Home() {
         </h2>
         <div className="grid grid-cols-1 gap-8">
           {/* Features Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {hoaData.hoa.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white shadow-md rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
-              >
-                <div className="flex items-center gap-4 mb-4">
-                  <Image
-                    src={item.icon}
-                    alt={item.title}
-                    width={40}
-                    height={40}
-                    className="object-contain"
-                  />
-                  <h3 className="text-2xl font-semibold text-[#003474]">
-                    {item.title}
-                  </h3>
-                </div>
-                <p className="text-gray-700">
-                  {item.description}
-                </p>
-              </div>
-            ))}
-          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 mb-12">
+            {/* Essex County */}
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Essex County</h3>
+            </div>
 
+            {/* Hudson County */}
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Hudson County</h3>
+            </div>
+
+            {/* Union County */}
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Union County</h3>
+            </div>
+
+            {/* Middlesex County */}
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-yellow-600 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Middlesex County</h3>
+            </div>
+
+            {/* Monmouth County */}
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-red-600 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Monmouth County</h3>
+            </div>
+
+            {/* Somerset County */}
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-teal-600 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Somerset County</h3>
+            </div>
+          </div>
           {/* Short Form Section */}
           <div className="flex flex-col items-center justify-center mt-2">
             <h1 className="text-blue-900 font-bold leading-tight text-xl text-wrap mb-4">
