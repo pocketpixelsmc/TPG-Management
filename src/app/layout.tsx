@@ -24,7 +24,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const isValidDate = checkDate('2035-03-15');
+  const isValidDate = checkDate('2025-05-31');
 
   return (
     <>
