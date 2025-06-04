@@ -40,7 +40,7 @@ export async function POST(request) {
     return NextResponse.json({ message: "Email Sent Successfully" , messageSent: true }, { status: 200 })
   }
   catch (error) {
-    return NextResponse.json({ message: "Failed to Send Email" , messageSent: false, error: error, d: process.env.NEXT_SMTP_EMAIL, p: process.env.NEXT_SMTP_PASSWORD  }, { status: 500 })
+    return NextResponse.json({ message: "Failed to Send Email" , messageSent: false }, { status: 500 })
   }
   
 }
