@@ -110,7 +110,7 @@ export const Navbar = () => {
           </a>
           <div className="flex gap-3">
             <a
-              href="https://tpgmgmt.appfolio.com/connect/users/sign_in"
+              href="https://tpgmgmt.appfolio.com/connect/users"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs sm:text-sm hover:text-blue-200 transition-colors"
@@ -119,7 +119,7 @@ export const Navbar = () => {
             </a>
             <span className="text-gray-400">|</span>
             <a
-              href="https://tpgmgmt.appfolio.com/oportal/users/log_in"
+              href="https://tpgmgmt.appfolio.com/oportal/users"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs sm:text-sm hover:text-blue-200 transition-colors"
