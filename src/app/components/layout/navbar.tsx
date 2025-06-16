@@ -18,7 +18,15 @@ const navItems = [
       { href: "/faq", label: "FAQ" }
     ],
   },
-  { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
+  {
+    label: "Residents",
+    dropdown: [
+      { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
+      { href: "/multifamily", label: "Resident FAQs" },
+      { href: "https://tpgmgmt.appfolio.com/oportal/users/log_in", label: "Request Maintenance", external: true },
+      { href: "/vacate", label: "Notice to Vacate" }
+    ],
+  },
   { href: "/referral", label: "Referral" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact Us" },
