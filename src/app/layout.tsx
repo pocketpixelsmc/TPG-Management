@@ -24,12 +24,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const isValidDate = checkDate('2025-05-31');
 
   return (
     <>
       <Scroll/>
-      {isValidDate ? (
         <html lang="en" className="h-full scroll-smooth p-0 overflow-x-hidden">
           <head>
             <JsonLd />
@@ -45,18 +43,6 @@ export default function RootLayout({
             <Footer />
           </body>
         </html>
-      ) : (
-        <html lang="en" className="h-full scroll-smooth p-0 overflow-x-hidden">
-          <head>
-            <JsonLd />
-          </head>
-          <body className={`${lexendDeca.className} antialiased w-screen overflow-x-hidden min-h-screen relative`}>
-            <div className="flex flex-col items-center justify-center h-screen">
-              <h1 className="text-4xl font-bold">{even.text}</h1>
-            </div>
-          </body>
-        </html>
-      )}
     </>
   );
 }
