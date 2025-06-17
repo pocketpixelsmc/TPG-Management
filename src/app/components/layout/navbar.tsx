@@ -27,9 +27,9 @@ const navItems = [
       { href: "/vacate", label: "Notice to Vacate" }
     ],
   },
-  { href: "/referral", label: "Referral" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact Us" },
+  { href: "/referral", label: "Referral", external: false },
+  { href: "/about", label: "About", external: false },
+  { href: "/contact", label: "Contact Us", external: false },
 ];
 
 const dropdownVariants = {
