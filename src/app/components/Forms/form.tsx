@@ -43,7 +43,7 @@ export default function EmailForm() {
             }),
         })
         const data = await response.json();
-        if (data.messageSent) {
+        if (response.status === 200) {
             setSuccess(true);
             setError(false);
             push("/thanks")
