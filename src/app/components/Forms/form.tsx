@@ -75,7 +75,7 @@ export default function EmailForm() {
                             onChange={(e) => setOwnerType(e.target.value)}
                             className="w-4 h-4 text-blue-600 border-blue-300 focus:ring-blue-500"
                         />
-                        <span className="text-blue-900 font-medium">I'm an Owner</span>
+                        <span className="text-blue-900 font-medium">I&apos;m an Owner</span>
                     </label>
                     <label className="flex items-center gap-2 cursor-pointer">
                         <input
@@ -86,7 +86,7 @@ export default function EmailForm() {
                             onChange={(e) => setOwnerType(e.target.value)}
                             className="w-4 h-4 text-blue-600 border-blue-300 focus:ring-blue-500"
                         />
-                        <span className="text-blue-900 font-medium">I'm a Renter</span>
+                        <span className="text-blue-900 font-medium">I&apos;m a Renter</span>
                     </label>
                     <label className="flex items-center gap-2 cursor-pointer">
                         <input
@@ -97,7 +97,7 @@ export default function EmailForm() {
                             onChange={(e) => setOwnerType(e.target.value)}
                             className="w-4 h-4 text-blue-600 border-blue-300 focus:ring-blue-500"
                         />
-                        <span className="text-blue-900 font-medium">I'm a Vendor</span>
+                        <span className="text-blue-900 font-medium">I&apos;m a Vendor</span>
                     </label>
                 </div>
             </div>
