@@ -21,7 +21,7 @@ const navItems = [
   {
     label: "Residents",
     dropdown: [
-      { href: "https://tpgmgmt.appfolio.com/connect/users/sign_in", label: "Available Rentals", external: true },
+      { href: "/leasing", label: "Available Rentals", external: true },
       { href: "/multifamily", label: "Resident FAQs" },
       { href: "https://tpgmgmt.appfolio.com/oportal/users/log_in", label: "Request Maintenance", external: true },
       { href: "/vacate", label: "Notice to Vacate" },
@@ -118,14 +118,14 @@ export const Navbar = () => {
             <span className="text-xs sm:text-sm">732-978-9390</span>
           </a>
           <div className="flex gap-3">
-            <a
-              href="https://tpgmgmt.appfolio.com/oportal/users/log_in"
+            <Link
+              href="/leasing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs sm:text-sm hover:text-blue-200 transition-colors"
             >
               Available Rentals
-            </a>
+            </Link>
             <span className="text-gray-400">|</span>
             <a
               href="https://tpgmgmt.appfolio.com/oportal/users"
