@@ -21,10 +21,11 @@ const navItems = [
   {
     label: "Residents",
     dropdown: [
-      { href: "https://tpgcompanies.managebuilding.com/Resident/public/rentals", label: "Available Rentals", external: true },
+      { href: "/leasing", label: "Available Rentals", external: true },
       { href: "/multifamily", label: "Resident FAQs" },
-      { href: "https://tpgmgmt.appfolio.com/oportal/users/log_in", label: "Request Maintenance", external: true },
-      { href: "/vacate", label: "Notice to Vacate" }
+      { href: "https://tpgmgmt.appfolio.com/connect/users/sign_in", label: "Request Maintenance", external: true },
+      { href: "/vacate", label: "Notice to Vacate" },
+      { href: "/rbp", label: "Resident Benefit Package" },
     ],
   },
   { href: "/referral", label: "Referral", external: false },
@@ -118,12 +119,12 @@ export const Navbar = () => {
           </a>
           <div className="flex gap-3">
             <a
-              href="https://tpgmgmt.appfolio.com/oportal/users/log_in"
+              href="https://tpgmgmt.appfolio.com/connect/users/sign_in"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs sm:text-sm hover:text-blue-200 transition-colors"
             >
-              Resident Login
+              Residents Portal
             </a>
             <span className="text-gray-400">|</span>
             <a
