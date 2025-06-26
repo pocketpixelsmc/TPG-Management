@@ -128,7 +128,7 @@ export const Navbar = () => {
             </a>
             <span className="text-gray-400">|</span>
             <a
-              href="https://tpgmgmt.appfolio.com/oportal/users"
+              href="https://tpgmgmt.appfolio.com/oportal/users/log_in"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs sm:text-sm hover:text-blue-200 transition-colors"
