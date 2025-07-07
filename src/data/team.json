@@ -1,70 +1,75 @@
 {
-    "teamMembers": [
-        {
-            "name": "Michael",
-            "image": "/team/mike1.png",
-            "division": "Development Team"
-        },
-        {
-            "name": "Alex",
-            "image": "/team/alex.png",
-            "division": "Maintenance Team"
-        },
-        {
-            "name": "Julian",
-            "image": "/team/julian.png",
-            "division": "Operations Team"
-        },
-        {
-            "name": "Brian",
-            "image": "/team/brian.png",
-            "division": "Operations Team"
-        },
-        {
-            "name": "Fred",
-            "image": "/team/fred.png",
-            "division": "Operations Team"
-        },
-        {
-            "name": "Laurie",
-            "image": "/team/laurie.png",
-            "division": "Operations Team"
-        },
-        {
-            "name": "Jim",
-            "image": "/team/jim.png",
-            "division": "Mainteance Team"
-        },
-        {
-            "name": "Rona",
-            "image": "/team/rona.png",
-            "division": "Operations Team"
-        },
-        {
-            "name": "Harsh",
-            "image": "/team/harsh.png",
-            "division": "Development Team",
-            "link": "https://www.harshsuthar.me"
-        },
-        {
-            "name": "Jennifer",
-            "image": "/team/jen.png",
-            "division": "Operations Team"
-        },
-        {
-            "name": "Jan",
-            "image": "/team/jan.png",
-            "division": "Development Team"
-        },
-        {
-            "name": "Ivan",
-            "image": "/team/ivan.png",
-            "division": "Maintenance Team"
-        },
-        {
-            "name": "Mario",
-            "image": "/team/mario.png",
-            "division": "Maintenance Team"
-        }
-    ]
-} 
+  "teamMembers": [
+    {
+      "name": "Jennifer",
+      "image": "/team/jen.png",
+      "division": "Operations Team"
+    },
+    {
+      "name": "Anghello",
+      "image": "/team/anghello.png",
+      "division": "Mainteance Team"
+    },
+    {
+      "name": "Nell",
+      "image": "/team/nell.png",
+      "division": "Maintenance Team"
+    },
+    {
+      "name": "Fred",
+      "image": "/team/fred.png",
+      "division": "Operations Team"
+    },
+    {
+      "name": "Julian",
+      "image": "/team/julian.png",
+      "division": "Operations Team"
+    },
+    {
+      "name": "Ivan",
+      "image": "/team/ivan.png",
+      "division": "Maintenance Team"
+    },
+    {
+      "name": "Jan",
+      "image": "/team/jan.png",
+      "division": "Development Team"
+    },
+    {
+      "name": "Fernanda",
+      "image": "/team/fernanda.png",
+      "division": "Operations Team"
+    },
+    {
+      "name": "Harsh",
+      "image": "/team/harsh.png",
+      "division": "Development Team",
+      "link": "https://www.harshsuthar.me"
+    },
+    {
+      "name": "Michael",
+      "image": "/team/mike1.png",
+      "division": "Operations Team"
+    },
+    {
+      "name": "Mario",
+      "image": "/team/mario.png",
+      "division": "Maintenance Team"
+    },
+    {
+      "name": "Alex",
+      "image": "/team/alex.png",
+      "division": "Maintenance Team"
+    },
+    {
+      "name": "Rona",
+      "image": "/team/rona.png",
+      "division": "Operations Team"
+    },
+    {
+      "name": "Laurie",
+      "image": "/team/laurie.png",
+      "division": "Operations Team"
+    }
+  ]
+}
