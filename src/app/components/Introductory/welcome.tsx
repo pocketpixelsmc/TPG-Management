@@ -41,7 +41,7 @@ export default function Welcome() {
               Get Started Property Owners
             </Button>
           </Link>
-          <a href="https://tpgcompanies.managebuilding.com/Resident/public/rentals" target="_blank">
+          <a href="https://tpgmanagement.net/leasing" target="_blank">
             <Button
               className="px-4 py-2 sm:px-8 sm:py-4 text-lg mx-4"
             >
