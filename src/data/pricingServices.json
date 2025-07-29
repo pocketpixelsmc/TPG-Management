@@ -267,8 +267,8 @@
       {
         "name": "Utility Administration & Management",
         "info": "We manage & monitor property utilities including service and billing transfers in and out of tenants names as necessary.",
-        "ourProcess": "$30 per vacant transfer",
-        "industryAverage": "$25 per vacant transfer"
+        "ourProcess": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>",
+        "industryAverage": "<svg xmlns='http://www.w3.org/2000/svg' fill='#1E3A8A' viewBox='0 0 24 24' width='40' height='40'><path d='M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4z'/></svg>"
       },
       {
         "name": "Legal Compliance Guarantee",
