@@ -47,6 +47,11 @@
       "link": "https://www.harshsuthar.me"
     },
     {
+      "name": "Itzel",
+      "image": "/team/itzel.png",
+      "division": "Maintenance Team"
+    },
+    {
       "name": "Michael",
       "image": "/team/mike1.png",
       "division": "Operations Team"
@@ -70,6 +75,11 @@
       "name": "Laurie",
       "image": "/team/laurie.png",
       "division": "Operations Team"
-    }
+    },
+    {
+      "name": "Gabriel",
+      "image": "/team/gabriel.png",
+      "division": "Maintenance Team"
+    },
   ]
 }
