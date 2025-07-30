@@ -5,7 +5,7 @@ import RentalCTAAbout from "../components/CTA/rentalCTAAbout";
 import Header from "../components/ui/Header";
 
 export const metadata: Metadata = {
-  title: 'About TPG Management',
+  title: 'Professional Landlord Services in NJ',
   description: 'Learn about TPG Management, our experienced team, and our commitment to providing exceptional property management services in New Jersey.',
 };
 
