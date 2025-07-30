@@ -15,7 +15,7 @@ export default function Home() {
       <h1 className="text-3xl text-blue-900 font-bold">Property Management for Rentals in New Jersey</h1>
       <div className="flex flex-col items-start justify-center gap-4 mt-4 p-4 sm:p-16 border-gray-200 border-y-2 max-w-[500px] sm:max-w-[620px] lg:max-w-[1000px] rounded-xl">
         <p className="text-xl text-blue-950 text-left leading-loose">
-        TPG Management specializes in property management for rentals, helping landlords across New Jersey maximize their income and reduce stress. We provide full-service support for rental homes, condos, and apartments — from tenant screening and leasing to maintenance and rent collection. As one of the leading rental property management companies in NJ, we understand the unique needs of rental property owners and deliver tailored solutions. Whether you're seeking help with a single-family home or large apartment complex, our experienced property managers for rental properties ensure your investment is protected.  </p>
+        hi test  </p>
       </div>
       <RentalCTAAbout />
     </main>
