@@ -23,6 +23,7 @@ const navItems = [
     dropdown: [
       { href: "/leasing", label: "Available Rentals", external: true },
       { href: "/multifamily", label: "Resident FAQs" },
+      { href: "/movein", label: "Move-In Checklist" },
       { href: "https://tpgmgmt.appfolio.com/connect/users/sign_in", label: "Request Maintenance", external: true },
       { href: "/vacate", label: "Notice to Vacate" },
       { href: "/rbp", label: "Resident Benefit Package" },
