@@ -35,11 +35,13 @@ export default function ServicesHeader() {
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Hudson</p>
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Essex</p>
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Union</p>
+                                    <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Bergen</p>
                                 </div>
                                 <div className="space-y-3">
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Monmouth</p>
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Middlesex</p>
                                     <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Somerset</p>
+                                    <p className="text-xl text-gray-700 hover:text-blue-950 transition-colors cursor-pointer">Passaic</p>
                                 </div>
                             </div>
                         </div>
