@@ -17,15 +17,15 @@ export default function WhatWeOffer({ services }: { services: Service[] }) {
                 <div className="flex flex-col gap-6">
                     {/* White Box */}
                     <div className="bg-white shadow-md rounded-md flex flex-col items-center justify-around h-full min-h-[65%] py-6 gap-4">
-                        <h3 className="text-xl text-blue-950 font-semibold">Property Management</h3>
-                        <p className="text-white bg-[#ffbd59] font-bold text-2xl px-8 py-6 w-full">Honest Pricing,<br/>Real Support</p>
-                        <Link href="/contact"><Button>Get Started</Button></Link>
+                        <h3 className="text-xl text-blue-950 font-semibold">Full Service Property Management</h3>
+                        <p className="text-white bg-[#ffbd59] font-bold text-2xl px-8 py-6 w-full">Professional Management,<br/>Proven Results</p>
+                        <Link href="/contact"><Button>Contact Our Team</Button></Link>
                     </div>
                     {/* Dark Blue Box */}
                     <Link href="/multifamily">
                         <div className="bg-blue-800 text-white shadow-md p-6 rounded-md flex flex-col items-center h-full justify-center">
                             <p className="font-medium text-lg">Have Multiple Properties?</p>
-                            <p className="text-sm mt-2">Discounted Multi-Fam Rates Available</p>
+                            <p className="text-sm mt-2">Discounted Rates Available</p>
                         </div>
                     </Link>
                 </div>
