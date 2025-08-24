@@ -26,9 +26,9 @@
       "division": "Operations Team"
     },
     {
-      "name": "Ivan",
-      "image": "/team/ivan.png",
-      "division": "Maintenance Team"
+      "name": "Tiffany",
+      "image": "/team/tiffany.png",
+      "division": "Operations Team"
     },
     {
       "name": "Jan",
@@ -77,8 +77,8 @@
       "division": "Operations Team"
     },
     {
-      "name": "Gabriel",
-      "image": "/team/gabriel.png",
+      "name": "Maurice",
+      "image": "/team/maurice.png",
       "division": "Maintenance Team"
     }
   ]
