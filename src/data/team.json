@@ -1,11 +1,6 @@
 {
   "teamMembers": [
     {
-      "name": "Jennifer",
-      "image": "/team/jen.png",
-      "division": "Operations Team"
-    },
-    {
       "name": "Anghello",
       "image": "/team/anghello.png",
       "division": "Mainteance Team"
@@ -55,11 +50,6 @@
       "name": "Michael",
       "image": "/team/mike1.png",
       "division": "Operations Team"
-    },
-    {
-      "name": "Mario",
-      "image": "/team/mario.png",
-      "division": "Maintenance Team"
     },
     {
       "name": "Alex",
