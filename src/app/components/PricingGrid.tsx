@@ -80,7 +80,7 @@ export default function PricingGrid({ pricingServicesData } : any) {
         <div className="hidden lg:grid lg:grid-cols-3">
           <div></div>
           <div className="bg-blue-900 text-white p-11 text-center flex items-center justify-center font-extrabold text-2xl">
-            Single-Famiy Properties
+            Single-Family Properties
           </div>
           <div className="bg-blue-950 text-white p-11 text-center flex items-center justify-center font-extrabold text-2xl">
             Multi-Family Properties
