@@ -21,7 +21,7 @@ const navItems = [
   {
     label: "Residents",
     dropdown: [
-      { href: "/leasing", label: "Available Rentals", external: true },
+      { href: "https://showmojo.com/87386df015/l", label: "Available Rentals", external: true },
       { href: "/multifamily", label: "Resident FAQs" },
       { href: "/movein", label: "Move-In Checklist" },
       { href: "https://tpgmgmt.appfolio.com/connect/users/sign_in", label: "Request Maintenance", external: true },
