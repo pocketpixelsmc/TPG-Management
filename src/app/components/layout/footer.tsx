@@ -157,7 +157,7 @@ export default function Footer() {
             <h3 className="text-xl font-semibold text-white mb-6">972 Broad St, Suite 300 Newark, NJ 07102</h3>
             <h3 className="text-xl font-semibold text-white mb-6">Areas We Serve</h3>
             <ul className="flex flex-wrap justify-center gap-8" role="list">
-              {["Monmouth", "Middlesex", "Union", "Somerset", "Essex", "Hudson"].map((area) => (
+              {["Monmouth", "Middlesex", "Union", "Somerset", "Essex", "Hudson", "Bergen", "Passaic"].map((area) => (
                 <li key={area} className="text-lg font-medium">
                   {area}
                 </li>
