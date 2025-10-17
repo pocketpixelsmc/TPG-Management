@@ -152,15 +152,9 @@ export default function Footer() {
               </a>
             </p>
           </div>
-            <address className="border-t border-gray-700 pt-8 text-center not-italic">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-lg mb-8">
-            <p>
-              <span className="sr-only">Office: </span>
-              972 Broad St, Suite 300 Newark, NJ 07102
-            </p>
-          </div>
 
           <div className="mt-8">
+            <h3 className="text-xl font-semibold text-white mb-6">Areas We Serve</h3>
             <h3 className="text-xl font-semibold text-white mb-6">Areas We Serve</h3>
             <ul className="flex flex-wrap justify-center gap-8" role="list">
               {["Monmouth", "Middlesex", "Union", "Somerset", "Essex", "Hudson"].map((area) => (
