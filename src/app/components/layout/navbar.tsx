@@ -20,7 +20,7 @@ const navItems = [
       { href: "/roi", label: "ROI Calculator" },
       { href: "/rvs", label: "Rent vs Sell Calcualtor" },
       { href: "/vlc", label: "Vacancy Lost Calculator" },
-      { href: "/rvs", label: "Rent Estimate" },
+      { href: "/rvs", label: "Rent Estimate" }
     ],
   },
   {
