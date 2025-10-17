@@ -8,29 +8,42 @@ import Image from "next/image";
 const navItems = [
   { href: "/", label: "Home" },
   {
-    label: "Property Management",
+    label: "Owners",
     dropdown: [
-      { href: "/services", label: "Services" },
+      { href: "/services", label: "Property Management" },
+      { href: "/whatwedo", label: "What does a Property Management Company do?" },
+      { href: "/whyhireus", label: "Why hire us" },
       { href: "/pricing", label: "Pricing" },
       { href: "/multifamily", label: "Multifamily" },
-      { href: "/servicearea", label: "Service Areas NJ" },
-      { href: "/hoa", label: "HOA" },
-      { href: "/faq", label: "FAQ" }
+      { href: "/servicearea", label: "Areas We Serve" },
+      { href: "/faq", label: "Owner FAQs" },
+      { href: "/roi", label: "ROI Calculator" },
+      { href: "/rvs", label: "Rent vs Sell Calcualtor" },
+      { href: "/vlc", label: "Vacancy Lost Calculator" },
+      { href: "/rvs", label: "Rent Estimate" },
     ],
   },
   {
     label: "Residents",
     dropdown: [
       { href: "https://showmojo.com/87386df015/l", label: "Available Rentals", external: true },
-      { href: "/multifamily", label: "Resident FAQs" },
+      { href: "/rbp", label: "Quailifications and Resident Benefit Package" },
+      { href: "/rfaq", label: "Resident FAQs" },
       { href: "/movein", label: "Move-In Checklist" },
       { href: "https://tpgmgmt.appfolio.com/connect/users/sign_in", label: "Request Maintenance", external: true },
-      { href: "/vacate", label: "Notice to Vacate" },
-      { href: "/rbp", label: "Resident Benefit Package" },
+      { href: "/vacate", label: "Notice to Vacate" }
     ],
   },
   { href: "/referral", label: "Referral", external: false },
-  { href: "/about", label: "About", external: false },
+  {
+    label: "Company",
+    dropdown: [
+      { href: "/about", label: "About Us" },
+      { href: "/about", label: "Our Strategy" },
+      { href: "/about", label: "Our Guarantees" },
+      { href: "/about", label: "Blog" }
+    ],
+  },
   { href: "/contact", label: "Contact Us", external: false },
 ];
 
