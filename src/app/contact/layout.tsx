@@ -22,7 +22,7 @@ export default function ContactLayout({
             At TPG Management, we leverage our seasoned expertise and innovative solutions to anticipate the unique needs of every property under our care, regardless of its type. Our commitment to prioritizing service ensures that we persist until complexity transforms into simplicity.
           </p>
           <p className="text-blue-900 text-md sm:text-lg font-extrabold">
-            Complete the form to get connected with the property manageer for your needs
+            Complete the form to get connected with the property manageer for your needs. By checking this box, you agree to receive SMS updates and notifications from TPG Management. Message and data rates may apply. Reply STOP to cancel at any time. Your information will never be shared or sold.            
           </p>
         </div>
         <EmailForm />
